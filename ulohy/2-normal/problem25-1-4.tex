@@ -1,0 +1,97 @@
+\probbatch{1}
+\probno{4}
+\probname{drrrrr}
+\proborigin{Jáchym hodil do stroje kuličku.}
+\probpoints{4}
+\probsolauthors{pulmann}
+\probsolvers{27}
+\probavg{2,30}
+\probtask{%
+Mezi dvěma opačně nabitými deskami se sem a~tam odráží vodivá kulička
+zanedbatelných rozměrů. S~jakou frekvencí se pohybuje? Napětí mezi deskami
+je~$U$. Při nárazu se kulička nabije na náboj velikosti~$Q$ shodný s~polaritou desky.
+Koeficient restituce je~$k$.\\
+\emph{Bonus:} Odpovídá výkon na tomto rezistoru energetickým ztrátám při nárazech?\\
+\emph{Poznámka:} Koeficient restituce je poměr kinetických energií po nárazu a~před ním.
+}
+\probsolution{%
+Keďže sa guľôčka nabije na náboj rovnakej polarity ako doska, do ktorej narazí,
+po každom náraze je naďalej urýchlovaná elektrickým poľom. Takto ale
+nezískava energiu neustále, po zopár nárazoch sa jej pohyb stane takmer 
+periodický. Guľka totiž pri náraze stráca energiu, a~hodnota tejto energie 
+závisí od rýchlosti. Čím ide rýchlejšie, tým má väčšiu kinetickú energiu, 
+a~teda aj o~viac energie príde. Takto bude získavať energiu z~potenciálového 
+rozdielu a~zrýchlovať, až pokiaľ sa nedostane do ustáleného stavu,
+v~ktorom pri zrážke stratí rovnakú energiu, akú získa pri prechode medzi 
+doskami. Na rovnakej rýchlosti by sa ustálila aj v~prípade, ak by najprv 
+išla prirýchlo.
+ 
+Označíme si rýchlosť tesne pred dopadom~$v$ a~po odraze~$u$. Koeficient 
+reštitúcie je definovaný ako
+\eq{
+    k = \frac{\frc{1}{2} m u^2}{\frc{1}{2} m v^2} =  \frac{u^2}{v^2}\,.
+}
+ 
+Teraz vieme vypočítať ustálenú rýchlosť, napríklad tú pred dopadom
+ 
+\eq{
+    \frac{1}{2}mv^2 - \frac{1}{2}m u^2 = UQ\,.
+}
+ 
+Čo vyjadruje, že guľôčka získa na napätí rovnakú energiu, akú stratí pri 
+náraze. Rýchlosť $v$ už len vyjadríme
+\eq[m]{
+    \frac{1}{2}mv^2 (1-k) &=  UQ\\
+    v &= \sqrt{\frac{2UQ}{m(1-k)}}\,.
+}
+ 
+Ako vyzerá pohyb medzi doskami? Ak sú tieto dosky dostatočne veľké 
+v~porovnaní s~medzerou medzi nimi, tak môžeme elektrické pole považovať 
+za homogénne, a~takéto pole pôsobi na guľôčku konštantnou silou. Pohyb je 
+teda jednoducho rovnomerne zrýchlený. Ak si označíme vzdialenosť dosiek 
+$d$, a~uvedomíme si, že priemerná rýchlosť je aritmetický 
+priemer $u$ a~$v$ (je to kvôli konštantnému zrýchleniu, premyslite si!), 
+čas prechodu medzi doskami bude \eq{
+    t = \frac{d}{(u+v)/2} = \frac{2d}{u+v}\,.
+}
+ 
+Frekvencia je obrátená hodnota periódy, a~v~našom prípade perióda zahrňuje pohyb 
+tam a~spať, teda je dvojnásobok času $t$.
+\eq{
+f = \frac{1}{2t} = \frac{u+v}{4d}
+}
+ 
+Teraz už len dosadíme za rýchlosť 
+\eq{
+    f =  \frac{1+\sqrt{k}}{4d}v = \frac{1+\sqrt{k}}{4d}\sqrt{\frac{2UQ}{m(1-k)}} 
+    = \sqrt{ \frac{UQ}{8md^2}\left(\frac{1+\sqrt{k}}{1-\sqrt{k}}\right) }\,.
+}
+ 
+Tu síce vystupujú parametre, ktoré neboli v~zadaní, no jednoduchou 
+úvahou zistíme, že tam skutočne majú byť, a~nedajú sa vyjadriť. 
+Obe veličiny, hmotnosť aj vzdialenosť dosiek, vieme meniť nezávisle od 
+zvyšných zadaných parametrov, takže vieme vyrobiť dve situácie, 
+ktoré sa líšia len napr. hmotnosťou guľôčky, ktorá teda nemôže byť 
+kombináciou už zadaných veličín ako napätie, prenášaný náboj či 
+koeficient reštitúcie.
+ 
+V~bonuse určite zanedbáme všetky straty energie okrem tých, ktoré 
+nastávajú pri zrážke, kvôli koeficientu reštitúcie. Tu potom jasne 
+vidíme, že výkon, ktorý dodáva zdroj poskytujúci napätie $U$, sa 
+mení len na stratový výkon pri nárazoch. Presvedčiť sa o~tom 
+dá aj priamo počítaním týchto dvoch výkonov, všetko potrebné už 
+máme vyjadrené. Stačí len náboj prenesený za čas $t$ (takto totiž 
+vyzerá definícia prúdu) vynásobiť napätím $U$, a~tento výkon porovnať 
+so stratou kinetickej energie pri jednom náraze delenou časom $t$, 
+aby sme opäť dostali výkon (čo, ako si môžeme všimnúť, je nakoniec 
+len rovnica vyjadrujúca rovnosť získanej a~stratenej energie, z~ktorej 
+sme vychádzali na začiatku).
+
+Vidíme teda, že ak si všímame len vonkajší výkon a~prúd, správa sa 
+takýto rezistor ako skutočný odpor. Skôr ako však bežíme na patentový 
+úrad, mali by sme si so sklamaním všimnúť, že jeho voltampérová 
+charakteristika nie je priamka. Prúd $I=Q/t=Qf$ závisí od napätia 
+nie lineárne, ako by sa na správny rezistor patrilo, ale komplikovanejšie, 
+kvôli čomu klesá odpor s~druhou odmocninou napätia. Analógia so skutočným 
+rezistorom je teda možná len čiastočne.
+}

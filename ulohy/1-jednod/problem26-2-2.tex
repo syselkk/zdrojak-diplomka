@@ -1,0 +1,47 @@
+\probbatch{2}
+\probno{2}
+\probname{hollow Earth}
+\proborigin{Karel neustále vymýšlí nerealistické myšlenkové experimenty}
+\probpoints{2}
+\probauthors{kolar}
+\probsolauthors{barta}
+\probsolvers{73}
+\probavg{1,81}
+\probtask{%
+Kdyby se všechna hmota Země vzala a~přemodelovala se na kulovou
+slupku o~tloušťce~$d = "1 km"$ (se stejnou hustotou), jaký by tato nová
+\uv{Země} měla vnější poloměr?
+Jaké by bylo gravitační zrychlení na jejím vnějším povrchu?}
+\probsolution{%
+Uvažujme poloměr Země~$R\_Z="6\,378 km"$. Objem koule s~tímto poloměrem je
+\eq{
+	V\_Z=\frac{4}{3}\pi R\_Z^3\,.
+}
+Objem kulové slupky o~vnějším poloměru~$R\_S$ a~tloušťce~$d$ lze přesně vyjádřit
+jako
+\eq{
+	V\_S=\frac{4}{3}\pi\left[R\_S^3-(R\_S-d)^3\right]
+	=\frac{4}{3}\pi\(3R\_S^2d-3R\_Sd^2+d^3\)\,.
+}
+Pro~$d\ll R\_S$ lze zanedbat členy~$d$ v~druhé a~vyšší mocnině. Požadujeme, aby se
+objem slupky a~objem Země rovnaly. Dostáváme tedy rovnost
+\eq[m]{
+	R\_Z^3&\approx3R\_S^2d\,,\\
+	R\_S&\approx\sqrt{\frac{R\_Z^3}{3d}}\doteq"2.9e5 km"\,.
+}
+Jelikož Země bude stále sféricky symetrická, bude tvořit sféricky symetrické,
+tedy centrální, silové pole. V~takovémto poli je zrychlení nepřímo úměrné druhé
+mocnině vzdálenosti od středu symetrie, tedy od středu koule.\footnote{A to díky
+tomu, že tok gravitačního pole libovolnou uzavřenou plochou splňuje podmínku, které
+říkáme \textit{Gaussova věta}.} Ta je v~našem
+případě~$R\_S$. Pokud si uvědomíme, že zrychlení na povrchu Země je nyní
+\eq{
+	g=G\frac{M\_Z}{R\_Z^2}\,,
+}
+můžeme pomocí tohoto vyjádřit i~nové gravitační zrychlení
+\eq[m]{
+	g'&=G\frac{M\_Z}{R\_S^2}\,,\\
+	g'&=g\frac{R\_Z^2}{R\_S^2}\approx 3G\frac{d}{R\_Z} \doteq"4.6e-3 m.s^{-2}"\,.
+}
+Zrychlení na povrchu takovéto Země by tedy bylo asi~$2\,000$krát~slabší než na
+naší Zemi.}%

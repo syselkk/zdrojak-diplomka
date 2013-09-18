@@ -1,0 +1,41 @@
+\probbatch{1}
+\probno{1}
+\probname{tlustý papír}
+\proborigin{Karel žere papír.}
+\probpoints{2}
+\probauthors{kolar}
+\probsolauthors{polednikova}
+\probsolvers{140}
+\probavg{1,71}
+\probtask{%
+Odhadněte tloušťku papíru~A4, pokud znáte jeho plošné rozměry, gramáž
+a~hustotu (jak obecně, tak číselně). Potřebné údaje si vyhledejte (či
+správně odhadněte) pro běžný kancelářský papír.}
+\probsolution{%
+Abychom spočítali tloušťku papíru, budeme se na něj muset podívat na jako opravdu tenký
+kvádr. Tloušťku označíme~$c$ a~ostatní dva rozměry, tedy délku a~šířku, $a$~a~$b$.
+Jde o~kvádr, takže umíme jednoduše vyjádřit jeho objem
+\eq{
+	V= abc\,.
+}
+Objem samotný neznáme, ale zadání nám napovídá, že můžeme použít ještě gramáž,
+tedy plošnou hustotu (v~jednotkách~$\jd{g.m^{-2}}$) a~hustotu. Pro objem platí
+\eq{
+	V= \frac{m}{\rho}\,.
+}
+a~pro plošnou hustotu platí
+\eq{
+	\sigma = \frac{m}{S} = \frac{m}{ab}\,.
+}
+
+Vztahy dáme do rovnosti a~upravíme do finálního obecného vztahu pro~$c$
+\eq{
+	\sigma = \frac{m}{ab} = \frac{V\rho}{ab} = \frac{abc\rho}{ab} \ztoho c =
+	\frac{\sigma}{\rho} \,.
+}
+
+S~číselnými hodnotami dopadneme následovně: gramáž může být různá, kancelářský
+papír má často~$"80 g.m^{-2}"$. Hustotu běžného kancelářského papíru zjistíme třeba
+na internetu\footnote{\url{http://wiki.answers.com/Q/What_is_the_density_of_paper}}, zde
+použitá hodnota je~$"0.86 g.cm^{-3}"$. Rozměry papíru nakonec ani nebudeme
+potřebovat. Po dosazení nám výsledná tloušťka vyjde~$"1e-4 m"$.}

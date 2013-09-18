@@ -1,0 +1,317 @@
+%%% Hlavní soubor. Zde se definují základní parametry a odkazuje se na ostatní èásti. %%%
+
+%% Verze pro jednostranný tisk:
+% Okraje: levý 40mm, pravý 25mm, horní a dolní 25mm
+% (ale pozor, LaTeX si sám pøidává 1in)
+\documentclass[12pt,a4paper]{report}
+\setlength\textwidth{145mm}
+\setlength\textheight{247mm}
+\setlength\oddsidemargin{15mm}
+\setlength\evensidemargin{15mm}
+\setlength\topmargin{0mm}
+\setlength\headsep{0mm}
+\setlength\headheight{0mm}
+% \openright zaøídí, aby následující text zaèínal na pravé stranì knihy
+\let\openright=\clearpage
+
+%% Pokud tiskneme oboustrannì:
+% \documentclass[12pt,a4paper,twoside,openright]{report}
+% \setlength\textwidth{145mm}
+% \setlength\textheight{247mm}
+% \setlength\oddsidemargin{15mm}
+% \setlength\evensidemargin{0mm}
+% \setlength\topmargin{0mm}
+% \setlength\headsep{0mm}
+% \setlength\headheight{0mm}
+% \let\openright=\cleardoublepage
+
+%% Pokud používáte csLaTeX (doporuèeno):
+%\usepackage{czech}
+%% Pokud nikoliv:
+\usepackage[czech]{babel}
+%\usepackage[T1]{fontenc}
+
+%% Použité kódování znakù: obvykle latin2, cp1250 nebo utf8:
+\usepackage[cp1250]{inputenc}
+
+%% Ostatní balíèky
+\usepackage{graphicx}   % obrázky
+\usepackage[nointegrals]{wasysym}   % obrázky
+\usepackage{marvosym}   % nìkteré speciální znaky/obrázky
+%\usepackage{amsthm}     % nekompatibilní s FYKOSími makry
+\usepackage{fkssugar}   % FYKOSí komfortní makra
+%\usepackage{cite}       % nìco s citováním
+\usepackage{float}      % obrana proti pøíliš plovoucím objektùm, jako volitelný parametr dávat [H]
+
+%% Balíèek hyperref, kterým jdou vyrábìt klikací odkazy v PDF,
+%% ale hlavnì ho používáme k uložení metadat do PDF (vèetnì obsahu).
+%% POZOR, nezapomeòte vyplnit jméno práce a autora.
+\usepackage{hyperref}
+%\usepackage[ps2pdf,unicode]{hyperref}   % Musí být za všemi ostatními balíèky
+\hypersetup{pdftitle=Fyzikální korespondenèní semináø na MFF UK – reflexe a rozvoj}
+\hypersetup{pdfauthor=Bc. Karel Koláø}
+
+%%% Osobní makra - Karel Koláø
+% zatím nejsou 
+
+%%% Drobné úpravy stylu
+
+% Tato makra pøesvìdèují mírnì ošklivým trikem LaTeX, aby hlavièky kapitol
+% sázel pøíèetnìji a nevynechával nad nimi spoustu místa. Smìle ignorujte.
+\makeatletter
+\def\@makechapterhead#1{
+  {\parindent \z@ \raggedright \normalfont
+   \Huge\bfseries \thechapter. #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\def\@makeschapterhead#1{
+  {\parindent \z@ \raggedright \normalfont
+   \Huge\bfseries #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\makeatother
+
+% Toto makro definuje kapitolu, která není oèíslovaná, ale je uvedena v obsahu.
+\def\chapwithtoc#1{
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+}
+
+\begin{document}
+
+% Trochu volnìjší nastavení dìlení slov, než je default.
+\lefthyphenmin=2
+\righthyphenmin=2
+
+%%% Titulní strana práce
+
+\pagestyle{empty}
+\begin{center}
+
+\large
+
+Univerzita Karlova v Praze
+
+\medskip
+
+Matematicko-fyzikální fakulta
+
+\vfill
+
+{\bf\Large DIPLOMOVÁ PRÁCE}
+
+\vfill
+
+\centerline{\mbox{\includegraphics[width=60mm]{obr/logo.jpg}}}
+
+\vfill
+\vspace{5mm}
+
+{\LARGE Bc. Karel Koláø}
+
+\vspace{15mm}
+
+% Název práce pøesnì podle zadání
+{\LARGE\bfseries Fyzikální korespondenèní semináø na MFF UK – reflexe a rozvoj}
+
+\vfill
+
+% Název katedry nebo ústavu, kde byla práce oficiálnì zadána
+% (dle Organizaèní struktury MFF UK)
+Katedra didaktiky fyziky
+
+\vfill
+
+\begin{tabular}{rl}
+
+Vedoucí diplomové práce: & RNDr. Vojtìch Žák, Ph.D. \\
+\noalign{\vspace{2mm}}
+Studijní program: & Fyzika \\
+\noalign{\vspace{2mm}}
+Studijní obor: & Uèitelství fyziky-matematiky pro SŠ \\
+\end{tabular}
+
+\vfill
+
+% Zde doplòte rok
+Praha 2014
+
+\end{center}
+
+\newpage
+
+%%% Následuje vevázaný list -- kopie podepsaného "Zadání diplomové práce".
+%%% Toto zadání NENÍ souèástí elektronické verze práce, nescanovat.
+
+%%% Na tomto místì mohou být napsána pøípadná podìkování (vedoucímu práce,
+%%% konzultantovi, tomu, kdo zapùjèil software, literaturu apod.)
+
+\openright
+
+\noindent
+
+%% TODO viz výše
+
+\newpage
+
+%%% Strana s èestným prohlášením k diplomové práci
+
+\vglue 0pt plus 1fill
+
+\noindent
+Prohlašuji, že jsem tuto diplomovou práci vypracoval samostatnì a~výhradnì
+s~použitím citovaných pramenù, literatury a~dalších odborných zdrojù.
+
+\medskip\noindent
+Beru na~vìdomí, že se na moji práci vztahují práva a~povinnosti vyplývající
+ze zákona è. 121/2000 Sb., autorského zákona v~platném znìní, zejména skuteènost,
+že Univerzita Karlova v Praze má právo na~uzavøení licenèní smlouvy o~užití této
+práce jako školního díla podle §60 odst. 1 autorského zákona.
+
+\vspace{10mm}
+
+\hbox{\hbox to 0.5\hsize{%
+V Praze dne % TODO 23.~5.~2012
+\hss}\hbox to 0.5\hsize{%
+Podpis autora
+\hss}}
+
+\vspace{20mm}
+\newpage
+
+%%% Povinná informaèní strana diplomové práce
+
+\vbox to 0.5\vsize{
+\setlength\parindent{0mm}
+\setlength\parskip{5mm}
+
+Název práce:
+Fyzikální korespondenèní semináø na MFF UK – reflexe a rozvoj
+% pøesnì dle zadání
+
+Autor:
+Bc. Karel Koláø
+
+Ústav:  % Pøípadnì Ústav:
+Katedra didaktiky fyziky
+% dle Organizaèní struktury MFF UK
+
+Vedoucí diplomové práce:
+RNDr. Vojtìch Žák, Ph.D.
+% dle Organizaèní struktury MFF UK, pøípadnì plný název pracovištì mimo MFF UK
+
+Abstrakt: TODO
+% abstrakt v rozsahu 80-200 slov; nejedná se však o opis zadání diplomové práce
+
+Klíèová slova: korespondenèní semináø, pedagogický výzkum, neformální vzdìlávání, fyzika
+% 3 až 5 klíèových slov
+
+\vss}\nobreak\vbox to 0.49\vsize{
+\setlength\parindent{0mm}
+\setlength\parskip{5mm}
+
+Title:
+Correspondence physics competition of MFF UK – its feedback and development
+% pøesný pøeklad názvu práce v angliètinì
+
+Author:
+Bc. Karel Koláø
+
+Department:
+Department of Physics Education
+% dle Organizaèní struktury MFF UK v angliètinì
+
+Supervisor:
+RNDr. Vojtìch Žák, Ph.D.
+% dle Organizaèní struktury MFF UK, pøípadnì plný název pracovištì
+% mimo MFF UK v angliètinì
+
+Abstract: 
+TODO
+% abstrakt v rozsahu 80-200 slov v angliètinì; nejedná se však o pøeklad
+% zadání diplomové práce
+
+Keywords: correspondence competition, pedagogical research, informal education, physics
+% 3 až 5 klíèových slov v angliètinì
+
+\vss}
+
+\newpage
+
+%%% Strana s automaticky generovaným obsahem diplomové práce. U matematických
+%%% prací je pøípustné, aby seznam tabulek a zkratek, existují-li, byl umístìn
+%%% na zaèátku práce, místo na jejím konci.
+
+\openright
+\pagestyle{plain}
+\setcounter{page}{1}
+\tableofcontents
+
+%%% Jednotlivé kapitoly práce jsou pro pøehlednost uloženy v samostatných souborech
+\include{uvod}
+
+\chapter{O Fyzikálním korespondenèním semináøi}
+\input{kap01} % Úvod - o FYKOSu
+\input{kap02} % Cíle FYKOSu a základní fakta o FYKOSu
+\input{kap03} % Korespondenèní èást
+\input{kap04} % Soustøedìní
+\input{kap06} % Výfuk
+\input{kap05} % Exkurze, poznávací zájezdy
+\input{kap11} % Soutìže FYKOSí Fyziklání a Fol
+\input{kap07} % Historie FYKOSu
+
+\chapter{Metody a cíle CZV}
+\input{kap12} % Cíle
+\input{kap13} % Metody
+
+\chapter{Realizace a výsledky CZV}
+\input{kap14} % Rozhovory
+\input{kap15} % Dotazník
+
+\chapter{Další soutìže a akce mimo FYKOS v ÈR a SR}
+\input{kap08} % Úvod - další soutìže
+\input{kap09} % Soutìže a akce organizované MFF UK
+\input{kap10} % Další soutìže
+
+\chapter{Navržená a realizovaná vylepšení FYKOSu}
+\input{kap16} % Vylepšení stránek
+
+
+\include{zaver}
+
+
+%%% Seznam použité literatury
+\include{literatura}
+%\def\bibname{Seznam použité literatury}
+%%% Teoreticky by bylo lepší dìlat seznam literatury pøes BibTeX, kdyby 
+%%% se mi ho podaøilo zprovoznit tak, že by fungoval podle normy ISO, což
+%%% ale vypadá docela nerealisticky, protože žádný z anglických stylù na to 
+%%% nesedí a i existující èeská verze na internetu se tváøí nedokonale a mírnì
+%%% common-Windows-user-unfriendly
+%\bibliographystyle{plain}  % srovnáno abecednì
+%\bibliographystyle{unsrt}  % srovnáno podle poøadí citace
+%\bibliographystyle{abbrv}  % nìjaký názvy, jména to zkracuje
+%\bibliographystyle{alpha}  % místo èísel zkratky s letopoètem
+%\bibliography{prace}
+%\addcontentsline{toc}{chapter}{\bibname} % tohle by se pøípadnì mìlo spíš vrazit dovnitø prace.bbl
+
+%%% Tabulky v diplomové práci, existují-li.
+%\chapwithtoc{Seznam tabulek}
+
+%%% Použité zkratky v diplomové práci, existují-li, vèetnì jejich vysvìtlení.
+
+\include{zkratky}
+% \include{znacky}
+
+%%% Pøílohy k diplomové práci, existují-li (rùzné dodatky jako výpisy programù,
+%%% diagramy apod.). Každá pøíloha musí být alespoò jednou odkazována z vlastního
+%%% textu práce. Pøílohy se èíslují.
+% \chapwithtoc{Pøílohy}
+
+\include{prilohy}
+
+%\include{odpad}
+\openright
+\end{document}

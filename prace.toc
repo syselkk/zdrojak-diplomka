@@ -1,0 +1,82 @@
+\select@language {czech}
+\contentsline {chapter}{\numberline {1}\'Uvod}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}O Fyzik\'aln\IeC {\'\i }m koresponden\v cn\IeC {\'\i }m semin\'a\v ri}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}\'Uvod}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}C\IeC {\'\i }le FYKOSu a z\'akladn\IeC {\'\i } fakta o FYKOSu}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}V\'yznam slova FYKOS}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Po\v radatel}{4}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}C\IeC {\'\i }le FYKOSu}{5}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Organizace semin\'a\v re}{6}{subsection.2.2.4}
+\contentsline {subsubsection}{Organiz\'ato\v ri semin\'a\v re}{6}{section*.2}
+\contentsline {subsubsection}{\'U\v castn\IeC {\'\i }ci semin\'a\v re}{6}{section*.3}
+\contentsline {subsection}{\numberline {2.2.5}Pou\v z\IeC {\'\i }van\'a technika pro organizaci}{7}{subsection.2.2.5}
+\contentsline {subsubsection}{\'Uvod k technice}{7}{section*.4}
+\contentsline {subsubsection}{Organiz\'atorsk\'a wiki}{7}{section*.5}
+\contentsline {subsubsection}{Organiz\'atorsk\'a konference, emaily}{7}{section*.6}
+\contentsline {section}{\numberline {2.3}Koresponden\v cn\IeC {\'\i } \v c\'ast}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}\'Uvod}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Kategorie}{8}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Pr\r ub\v eh s\'eri\IeC {\'\i } semin\'a\v re}{8}{subsection.2.3.3}
+\contentsline {subsubsection}{Z hlediska \'u\v castn\IeC {\'\i }ka}{8}{section*.7}
+\contentsline {subsubsection}{Z hlediska organiz\'atora}{8}{section*.8}
+\contentsline {subsection}{\numberline {2.3.4}Typy \'uloh}{9}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Hodnocen\IeC {\'\i } \'uloh}{9}{subsection.2.3.5}
+\contentsline {subsubsection}{Bodov\'e zv\'yhodn\v en\IeC {\'\i }}{10}{section*.9}
+\contentsline {subsection}{\numberline {2.3.6}Ro\v cenka}{10}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}P\v r\IeC {\'\i }nosy pro \'u\v castn\IeC {\'\i }ky a odm\v eny}{10}{subsection.2.3.7}
+\contentsline {subsubsection}{P\v r\IeC {\'\i }nosy}{10}{section*.10}
+\contentsline {subsubsection}{Odm\v eny}{10}{section*.11}
+\contentsline {subsection}{\numberline {2.3.8}Statistiky po\v ctu \'u\v castn\IeC {\'\i }k\r u}{11}{subsection.2.3.8}
+\contentsline {section}{\numberline {2.4}Soust\v red\v en\IeC {\'\i }}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}V\'ypo\v cty fyzik\'aln\IeC {\'\i }ch \'ukol\r u}{11}{section.2.5}
+\contentsline {section}{\numberline {2.6}Exkurze, pozn\'avac\IeC {\'\i } z\'ajezdy}{11}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Den s experiment\'aln\IeC {\'\i } fyzikou}{11}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}T\'yden s aplikovanou fyzikou}{11}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Jednor\'azov\'e sout\v e\v ze}{11}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}FYKOS\IeC {\'\i } Fyzikl\'an\IeC {\'\i }}{11}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Fyzikl\'an\IeC {\'\i } online}{11}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}MFn\'aboj}{11}{subsection.2.7.3}
+\contentsline {section}{\numberline {2.8}Historie Fyzik\'aln\IeC {\'\i }ho koresponden\v cn\IeC {\'\i }ho semin\'a\v re}{11}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Vznik Fyzik\'aln\IeC {\'\i }ho koresponden\v cn\IeC {\'\i }ho semin\'a\v re}{11}{subsection.2.8.1}
+\contentsline {chapter}{\numberline {3}Metody a c\IeC {\'\i }le CZV}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}C\IeC {\'\i }le c\IeC {\'\i }len\'e zp\v etn\'e vazby FYKOSu}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}Pou\v zit\'e metody c\IeC {\'\i }len\'e zp\v etn\'e vazby}{12}{section.3.2}
+\contentsline {chapter}{\numberline {4}Realizace a v\'ysledky CZV}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Rozhovory}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Dotazn\IeC {\'\i }k}{13}{section.4.2}
+\contentsline {chapter}{\numberline {5}Dal\v s\IeC {\'\i } sout\v e\v ze a akce mimo FYKOS v \v CR a SR}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}\'Uvod}{14}{section.5.1}
+\contentsline {section}{\numberline {5.2}Sout\v e\v ze a akce organizovan\'e MFF UK}{14}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Matematick\'y koresponden\v cn\IeC {\'\i } semin\'a\v r}{14}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Koresponden\v cn\IeC {\'\i } semin\'a\v r z programov\'an\IeC {\'\i }}{14}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Fyzik\'aln\IeC {\'\i } krou\v zek}{14}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Dal\v s\IeC {\'\i } sout\v e\v ze}{14}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Fyzik\'aln\IeC {\'\i } olympi\'ada}{14}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Astronomick\'a olympi\'ada}{14}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Turnaj mlad\'ych fyzik\r u}{14}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Fyzik\'aln\'y kore\v sponden\v cn\'y semin\'ar}{14}{subsection.5.3.4}
+\contentsline {chapter}{\numberline {6}Navr\v zen\'a a realizovan\'a vylep\v sen\IeC {\'\i } FYKOSu}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}XXXXX}{15}{section.6.1}
+\contentsline {chapter}{\numberline {7}Z\'av\v er}{16}{chapter.7}
+\contentsline {chapter}{\numberline {8}Literatura}{17}{chapter.8}
+\contentsline {chapter}{Seznam zkratek}{18}{chapter*.12}
+\contentsline {chapter}{P\v r\IeC {\'\i }lohy}{20}{chapter*.13}
+\contentsline {section}{\numberline {8.1}Statut koresponden\v cn\IeC {\'\i }ch semin\'a\v r\r u MFF UK}{20}{section.8.1}
+\contentsline {section}{\numberline {8.2}Uk\'azky \'uloh ze s\'eri\IeC {\'\i } FYKOSu}{21}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Jednoduch\'a -- 24-IV-1 a) -- napnut\'a struna}{21}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Jednoduch\'a -- 26-I-1 -- tlust\'y pap\IeC {\'\i }r}{21}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Jednoduch\'a -- 26-II-2 -- hollow Earth}{21}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Norm\'aln\IeC {\'\i } -- 24-IV-4 -- kone\v cn\'e \v re\v sen\IeC {\'\i } ot\'azky glob\'aln\IeC {\'\i }ho oteplov\'an\IeC {\'\i }}{21}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}Norm\'aln\IeC {\'\i } -- 25-I-4 -- drrrrr}{21}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.6}Norm\'aln\IeC {\'\i } -- 25-VI-5 -- b\v eh na p\v redn\'a\v sku z eugeniky}{21}{subsection.8.2.6}
+\contentsline {subsection}{\numberline {8.2.7}Probl\'emov\'a -- 25-V-P -- sv\v eteln\'y me\v c}{21}{subsection.8.2.7}
+\contentsline {subsection}{\numberline {8.2.8}Probl\'emov\'a -- 26-II-P -- gravitace si \v z\'ad\'a v\v et\v s\IeC {\'\i } slovo}{21}{subsection.8.2.8}
+\contentsline {subsection}{\numberline {8.2.9}Experiment\'aln\IeC {\'\i } -- 24-V-E -- strunatci}{21}{subsection.8.2.9}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{21}{section*.14}
+\contentsline {subsubsection}{Teorie}{21}{section*.15}
+\contentsline {subsubsection}{Postup m\v e\v ren\IeC {\'\i }}{22}{section*.16}
+\contentsline {subsubsection}{V\'ysledky}{22}{section*.17}
+\contentsline {subsubsection}{Diskuze}{23}{section*.18}
+\contentsline {subsubsection}{Z\'av\v er}{25}{section*.19}
+\contentsline {subsection}{\numberline {8.2.10}Experiment\'aln\IeC {\'\i } -- 25-I-E -- brumlovo tajemstv\IeC {\'\i }}{25}{subsection.8.2.10}
+\contentsline {subsection}{\numberline {8.2.11}Experiment\'aln\IeC {\'\i } -- 25-II-E -- \v co\v ckov\'an\IeC {\'\i }}{25}{subsection.8.2.11}

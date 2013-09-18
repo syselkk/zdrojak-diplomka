@@ -1,0 +1,53 @@
+\probbatch{1}
+\probno{4}
+\probname{crash testy}
+\proborigin{Analphabeth Petr s~ryšavými vlasy}
+\probpoints{4}
+\probauthors{rysavy}
+\probsolauthors{sykoraj}
+\probsolvers{101}
+\probavg{3,33}
+\probtask{%
+Mějme dvě auta o~stejné hmotnosti jedoucí proti sobě rychlostí~$v_0$.
+V~jaké vzdálenosti musí začít brzdit, aby nedošlo ke srážce? Uvažujte
+dva případy, kdy auta jedou proti sobě na rovině a~kdy auta jedou po silnici
+se sklonem~$\alpha$. Víte, že oba řidiči začnou brzdit v~týž okamžik
+a~velikost brzdné síly každého auta je~$f \cdot N$, kde $N$~je složka
+tíhy automobilu kolmá na silnici.}
+\probsolution{%
+První případ je pouze speciálním případem případu druhého, a~to pro~$\alpha=0$.
+Můžeme se tedy rovnou pustit do obecného řešení. Předpokládejme, že jakmile auto
+zastaví, už zůstane stát. Spočítejme, jak daleko od sebe by auta musela začít
+brzdit, aby zastavila těsně u~sebe. Hledaná vzdálenost tedy bude součtem
+brzdných drah.
+
+Rozkladem tíhové síly o~velikosti~$G=mg$ na složku normálovou k~povrchu a~složku
+tečnou k~pohybu zjistíme, že~$N=mg\cos\alpha$. Brzdná síla je
+tedy~$fmg\cos\alpha$. Nezapomínejme však, že jede-li auto po nakloněné rovině,
+je navíc zrychlováno či zpomalováno tečnou složkou tíhy. Celková síla působící
+na vozidlo ve směru pohybu je tedy~$fmg\cos\alpha\pm mg\sin\alpha$. Znaménko
+ve výrazu určuje směr sklonu silnice a~právě v~něm se budou lišit zkoumaná dvě
+auta. A~zrychlení pak bude~$a=fg\cos\alpha\pm g\sin\alpha$.
+
+Pro rovnoměrně zpomalený pohyb zakončený stáním platí vzorec pro výpočet ujeté
+vzdálenosti
+\eq{
+	s=\frac{1}{2}at^2\,,
+}
+kde $t$~je čas potřebný k~zastavení. Zároveň~$t=v_0/a$. Můžeme tedy upravit na
+\eq{
+	s=\frac{v_0^2}{2 a}=\frac{v_0^2}{2 g(f\cos\alpha\pm \sin\alpha)}\,.
+}
+Po sečtení pro obě auta dostáváme celkovou vzdálenost
+\eq{
+	S=\frac{v_0^2}{2 g}\(\frac{1}{f\cos\alpha+\sin\alpha}
+		+\frac{1}{f\cos\alpha-\sin\alpha}\)\,,
+}
+což lze upravit na
+\eq{
+	S=\frac{v_0^2}{g}\frac{f\cos\alpha}{(f^2+1)\cos^2\alpha-1}\,.
+}
+Dosazením~$\alpha=0$ zjistíme, že na rovině je to
+\eq{
+	S=\frac{v_0^2}{gf}\,.
+}}

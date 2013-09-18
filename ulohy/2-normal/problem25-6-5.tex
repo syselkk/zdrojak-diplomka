@@ -1,0 +1,76 @@
+\probbatch{6}
+\probno{5}
+\probname{běh na přednášku z~eugeniky}
+\proborigin{Karel civěl na internet.}
+\probpoints{4}
+\probsolauthors{hermann}
+\probsolvers{24}
+\probavg{2,88}
+\probtask{%
+Aleš sedí pod kopcem u~stanu a~surfuje na internetu na svém tabletu, když tu si
+náhle všimne, kolik je hodin, a~uvědomí si, že vlastně chtěl jít na přednášku.
+Už je tak pozdě, že bude muset celou cestu běžet a~nebude moct zastavit, ani aby se
+vydýchal. Proto se samozřejmě okamžitě rozběhne svou maximální běžeckou rychlostí~$v$
+do kopce, který má rovnoměrné stoupání~$\alpha$. Po chvíli (čas~$T$) si ale
+uvědomí, že má v~kapse cihlu a~že tu cihlu chtěl nechat u~stanu. Aleš od sebe
+umí cihlu hodit jedině rychlostí~$w$. Pod jakým úhlem má cihlu v~tom okamžiku
+vyhodit, aby dopadla na kamaráda, co si právě sedl na jeho místo? Může se stát,
+že nedohodí? Aleš je hodně rychlý, a~proto neuvažujte jeho reakční dobu
+a~ani dobu, kterou vám zabere řešení úlohy.
+}
+\probsolution{%
+\ifyearbook%
+\illtoptrue%
+\illfig{problem6-5-nakres.eps}{}{R25S6U5_nakres}{}%
+\illtopfalse%
+\else\fi
+\noindent Na začátku sedí Aleš v~počátku souřadného systému. Cihlu odhazuje 
+v~bodě $(x_0,y_0)=vT(-\cos\alpha,\sin\alpha)$. Alešova rychlost je $v(-\cos\alpha,\sin\alpha)$ 
+a~v~jeho souřadném systému bude odhazovat cihlu rychlostí $w(\cos\beta,\sin\beta)$. V~nehybném 
+souřadném systému bude tedy odhazovat rychlostí
+\eq{
+    (w'_x,w'_y)=(w\cos\beta-v\cos\alpha,w\sin\beta+v\sin\alpha)\,.
+}
+
+Trajektorie cihly bude
+\eq{
+    (x,y)(t)=\big(x_0+w'_xt,y_0+w'_yt-\frac12gt^2\big)\,.
+}
+Naším úkolem je vyřešit soustavu rovnic $(x,y)(t;\alpha,\beta,T,v,w)=0$ pro neznámé $t$ a~$\beta$, 
+zatímco $\alpha$, $T$, $v$ a~$w$ jsou parametry.
+
+Z~kvadratické rovnice $y(t)=0$ dostaneme
+\eq{
+    t=\frac{w'_y}g+\sqrt{\( \frac{w'_y} g \)^2+\frac{2y_0}g}\,.
+}
+Dosazením do $x(t)=0$ a~rozepsáním $w'_x$ a~$w'_y$ dojdeme
+k~\eq[m]{
+    -vT\cos\alpha+(w&\cos\beta-v\cos\alpha) \left[ \frac{w\sin\beta+v\sin\alpha}g + 
+    \vphantom{\sqrt{\(\frac{w\sin\beta+v\sin\alpha}g\)^2}} \right.\\ % kvůli výšce levé závorky
+    & \left. + \sqrt{\(\frac{w\sin\beta+v\sin\alpha}g\)^2+\frac{2vT\sin\alpha}g} \right] = 0\,.
+		\lbl{R25S6U5_rovnice}
+}
+Několika algebraickými úpravami a~schováním $v$, $w$, $g$ a~$T$ do bezrozměrných $Q=w/v$ a~$A=gT/v$ 
+dostaneme
+\eq{
+    A(1+\cos2\alpha)+4Q\sin(\alpha+\beta)(\cos\alpha-Q\cos\beta)=0\,.
+}
+Tato rovnice bohužel vede na kvadratickou rovnici v~$\sin\beta$ (nebo $\cos\beta$), jejíž monstrózní 
+řešení nám neřekne zhola nic, a~proto se uchýlíme k~numerickému řešení.
+
+Pro tyto účely je dobré se vrátit k~rovnici~\eqref{R25S6U5_rovnice}, do které jsme ještě nezanesli 
+neekvivalentními úpravami nesprávná řešení. Po chvíli hraní s~touto rovnicí v~počítači dojdeme k~závěru, 
+že dle očekávání má Aleš buď smůlu a~nedohodí, a~nebo má na výběr ze dvou různých úhlů $\beta$. Taktéž se 
+ukazuje, že pro numerické účely bude vhodnější nehledat $\beta$ v~závislosti na $\alpha$ (0 nebo 2~řešení), 
+ale raději $\alpha$ v~závislosti na $\beta$ (0 nebo 1~řešení). Výsledné grafy (už zase jako $\beta(\alpha)$) 
+jsou na obrázku~\ref{R25S6U5_reseni}.
+
+\fullfig{problem6-5-reseni.eps}{Numerické řešení pro $A="0.2";"1";"5"$ (zleva doprava) 
+a~$Q="0.2";"0.7";"1.3";"1.7";"2.5";"10"$ (od černé k~šedé). Na ose~$x$ je úhel~$\alpha$; 
+na ose~$y$ úhel~$\beta$.}{R25S6U5_reseni}
+
+Numerické řešení potvrzuje intuici. Pro některé kombinace $A$ a~$Q$ lze dohodit pod kopec až pro 
+úhly $\alpha\geq\alpha\_{min}$, přičemž pro $\alpha=\alpha\_{min}$ existuje jeden kýžený úhel 
+$\beta=\beta\_{min}$, zatímco pro $\alpha>\alpha\_{min}$ existují dva úhly $\beta_1<\beta\_{min}<\beta_2$. 
+Čím větší $Q$ (větší $w$), tím menší $\alpha\_{min}$. Čím větší~$A$ (delší~$T$), tím větší~$\alpha\_{min}$.
+}

@@ -1,0 +1,131 @@
+\reseni{rozcvièka}
+\roster
+\item {\sl napnutá struna}
+ 
+Frekvence kmitù napjaté struny závisí na její délce~$l$, síle~$F$,
+kterou je struna napjatá, a~na délkové hustotì~$\rho_l$. 
+Urèete z~tìchto údajù vzoreèek pro frekvenci struny pomocí 
+rozmìrové analýzy.
+ 
+ 
+\item {\sl dolù}
+ 
+Mìjme èinku, její¾ záva¾í mají tvar diskù, které jsou blízko 
+u~sebe. Tyèku omotáme jednou provázkem a~èinku spustíme. Jak 
+rychle padá, pokud se nesmýká? Disky mají hmotnost~$m$ 
+a~polomìr~$R$, tyèka je nehmotná s~polomìrem~$r$.
+\endroster
+\puvod{Karel a Jakub}
+\koneczadani
+ 
+ 
+\section{Napnutá struna}
+Rozmìrová analýza je velmi silný nástroj pro odhadnutí chování
+nìjakého systému, pokud víme, pouze na èem by zkoumaná velièina
+mohla záviset. 
+
+\vfill\eject 
+Rozmìrová analýza je také velmi dobrou kontrolou 
+správnosti výsledku. Známe-li toti¾ jednotku, která nám má vyjít
+a dosadíme-li do vzorce ty, které v~nìm vystupují, musí být 
+výsledkem ona oèekávaná jednotka. Kdy¾ není, urèitì jsme udìlali 
+chybu.
+ 
+Nyní se ale ji¾ zamìøme na ná¹ problém. Ze zadání víme, ¾e 
+frekvence by mìla záviset na~délce~$l$, síle~$F$ 
+a~hustotì~$\rho_l$. Proto mù¾eme psát
+$$
+	f = l^\alpha F^\beta \rho_l^\gamma\,.\label{R24S4U1_freq}
+$$
+Budeme hledat koeficienty~$\alpha$, $\beta$ a~$\gamma$ tak,
+aby rozmìr levé i~pravé strany byl tý¾. Pokud bychom 
+na¹li více mo¾ností, mù¾e být frekvence rovna libovolné lineární 
+kombinaci výrazù~\ref{R24S4U1_freq}. 
+ 
+\obr r(0)[MP(),reseni4-1-jojo.1,R24S4U1_obrB]{Èinka na provázku}{}
+Najdìme nejprve rozklad velièin ze zadání do jednotek SI:
+$$\vicradkuzar
+	[l]    &= \jd{m}\,,\cr
+	[F]    &= \jd{kg.m.s^{-2}}\,,\cr
+	[\rho] &= \jd{kg.m^{-1}}\,,\cr
+	[f]    &= \jd{s^{-1}}\,.
+$$
+Aby se rovnaly rozmìry velièin na levé a~pravé stranì 
+výrazu~\ref{R24S4U1_freq}, musí se rovnat mocniny u~v¹ech
+rùzných velièin z~SI. Proto dostáváme soustavu rovnic:
+% chtìl bych, aby byla oznaèena øádka, èemu odpovídá (kg,m,s)
+% ale takhle to nejde
+%$$\vicradkuzar
+	%\jd{kg}:\quad  0&= \beta+ \gamma\,,\cr
+	%\jd{m}: \quad  0&= \alpha+\beta-\gamma\,,\cr
+	%\jd{s}: \quad -1&= -2\beta\,.\cr
+%$$
+%proè je zde taková mezera, ¾e se musí pou¾ít záporný tabskip
+$$\setbox0\vbox{%\nointerlineskip 
+ \halign{\hfil # & \tabskip=-3pt \hfil # &#\hfil\cr %tady se definují sloupce
+kg:               &  $0 =$       &    $\beta+ \gamma\,,$   \cr 
+m:               &  $0 =$       &    $\alpha+\beta-\gamma\,,$   \cr 
+s:               &  $-1 =$       &    $-2\beta\,.$   \cr 
+}} 
+\dimen0\wd0% 
+\vbox{
+\medskip 
+\box0}% 
+$$
+
+Vyøe¹ením soustavy dostáváme~$\alpha = -1$, $\beta = 1/2$ 
+a~$\gamma = -1/2$. Proto mù¾eme napsat výsledek
+$$
+	f = \frac{C_0}{l}\sqrt{\frac{F}{\rho_l}}\,.
+$$
+Hodnotu konstanty~$C_0$ nám v¹ak rozmìrová analýza neumo¾òuje 
+zjistit, závisí toti¾ na tom, kolikátá 
+harmonická frekvence je na strunì naladìna.
+ 
+\section{Dolù}
+Zvolíme zde jiný, v¹ak pro mnohé úlohy velmi silný, nástroj. Tím
+bude zákon zachování energie. 
+% obrázek situace 
+%\vfill\eject
+
+Celá situace je vyobrazena na obrázku~\ref{R24S4U1_obrB}.
+Proto¾e nedochází bìhem pohybu k~disipaci energie\footnote{%
+Docházelo by k~nìmu, pokud by bylo vlákno hmotné.}, ve¹kerá 
+potenciální energie se zmìní na energii kinetickou. 
+ 
+Ze zadání víme, ¾e hmotnost celé soustavy je~$2m$, dále
+uva¾ujme, ¾e tì¾i¹tì se posune dolù o~$h$. Celková zmìna
+potenciální energie je proto
+$$
+	E\_p = -2mgh\,.\label{R24S4U1_potE}
+$$
+Znaménko minus je zde proto, ¾e se potenciální energie zmen¹í.
+Nyní je¹tì vyèísleme energii kinetickou. Ta má dvì
+slo¾ky:~translaèní~a~rotaèní. Uva¾ujme nyní, ¾e se tì¾i¹tì pohybuje
+rychlostí~$v$ smìrem dolù. Úhlová rychlost otáèení joja okolo
+tì¾i¹tì je potom~$\omega = v/r$. Proto¾e se jojo skládá ze 
+dvou diskù ka¾dého o~hmotnosti~$m$ a~polomìru~$R$, platí 
+pro jeho moment setrvaènosti $J = 2\cdot \tfrac1{2}mR^2$, konstanta~$1/2$ 
+souvisí s~tvarem diskù a mù¾eme ji nalézt napø.~v~tabulkách
+nebo na~internetu\footnote{\tt http://cs.wikipedia.org/wiki/Moment\underscore{}setrvaènosti}.
+% odkaz na: http://cs.wikipedia.org/wiki/Moment_setrvaènosti}
+Celková kinetická energie je rovna souètu translaèní a~rotaèní 
+energie.
+$$
+	E\_k = E\_t + E\_r = 
+		\tfrac12 2m v^2 + \tfrac12 J \omega^2 = 
+		\(1+\frac{R^2}{2r^2}\)mv^2\,.\label{R24S4U1_kinE}
+$$
+Jak jsme ji¾ uvedli vý¹e, energie se neztrácí, proto je celková
+zmìna energie nulová, tj.~$E\_k+E\_p = 0$. Z~rovnic~\ref{R24S4U1_potE}
+a~\ref{R24S4U1_kinE} vyjádøíme rychlost pohybu
+$$
+	v = \sqrt{\frac{2hg}{1+\frc{R^2}{2r^2}}}\,.
+$$
+Srovnáme-li tuto rovnici s~rovnicí pro rovnomìrnì zrychlený pohyb
+$v=\sqrt{2ha}$, mù¾eme urèit zrychlení pohybu
+$$
+	a = \frac{g}{1+\frc{R^2}{2r^2}}\,.
+$$
+\LEDVINA
+

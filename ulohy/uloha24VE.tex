@@ -1,0 +1,191 @@
+\subsubsection{Zadání}
+Vytvoøte si zaøízení, na kterém bude moci být upevnìna struna 
+(èi gumièka) s~promìnlivou délkou tak, že bude napínána stále 
+stejnou silou. Prozkoumejte, jak se mìní hlavní frekvence 
+vydávané strunou (èi gumièkou) v~závislosti na délce struny. 
+Na zpracování zvuku mùžete použít napøíklad program Audacity. 
+
+\begin{flushright}
+\textit{Pùvod zadání: Karel chtìl zadat nìco z~akustiky\\
+Autor øešení: Karel Koláø}
+\end{flushright}
+
+\subsubsection{Teorie}
+Pøíèné vlny se šíøí v~napjaté strunì pøibližnì rychlostí
+$$
+	v = \sqrt{ \frac{\sigma}{\rho} }\,,
+$$
+kde $\sigma$ je napìtí ve strunì a~$\rho$ je hustota materiálu 
+struny. Vzhledem k~tomu, že napjatá gumièka je podobná strunì, 
+mùžeme aplikovat tento vzoreèek i~na náš experiment.
+
+Jsou dvì možnosti, jak podle zadání zatížit gumièku. Buï tak, že 
+máme zatíženou stále stejnou délku pružiny, ale mìníme délku, 
+na které pružina vibruje (napø. pomocí kladky), nebo zatìžujeme 
+pouze délku, na které pružina vibruje, a~jenom nezbytnì krátký 
+úsek pro zavìšení pøes kladku. V~obou pøípadech by ovšem, pøi 
+použití stejné hmotnosti závaží, mìlo být napìtí v~gumièce 
+stejné, protože to závisí pouze na hmotnosti a~na prùøezu 
+gumièky, který považujeme za konstantní. 
+Oznaème délku mezi upevnìním gumièky a~vrchem
+kladky, pøes kterou je zavìšené závaží, jako $l$.
+
+Frekvence $f_k$, které se brnknutím na gumièku vybudí, budou 
+odpovídat vlnovým délkám~$\lambda_k$ a~rychlosti šíøení vln
+v~materiálu vztahem
+$$ 
+      f_k = \frac{v}{\lambda_k}\,,
+$$
+kde $f_k$ oznaèuje $k$-tou harmonickou frekvenci. Vlnové délky 
+vypoèteme z~pøed\-po\-kla\-du, že na okrajích, kde je gumièka upevnìná,
+bude nulová výchylka v~každém èase a~bude tam tedy uzel. Z~toho
+vyplývá, že se do kmitající délky pružiny $l$ musí vejít 
+celoèíselný poèet pùlvln.
+$$
+l = k \frac{\lambda_k}{2} .
+$$
+Z~toho pak pro frekvence vyplývá celkový vztah
+$$
+f_k =  \sqrt{\frac{\sigma}{\rho}}  \frac{1}{\lambda_k} = 
+\sqrt{\frac{\sigma}{\rho}} \frac{k}{2 l} = v \frac{k}{2 l} ,
+$$
+kde $v/2$ je konstanta, kterou budeme fitovat ve 
+zpracování mìøení.
+
+
+\subsubsection{Postup mìøení}
+Pøi mìøení byla využita kladka, jak již bylo zmínìno v~teorii. 
+Pro co nejlepší urèení délky gumièky byla použita co nejmenší 
+kladka s~polomìrem $"1,0 cm"$. Pro všechna mìøení byla použita
+jedna obyèejná kanceláøská gumièka. Závaží, kterým byla zatížena, 
+mìlo hmotnost $m = "200 g"$. Nejprve byla gumièka na jedné stranì
+upevnìna a na druhé stranì bylo pøes kladku zavìšeno volnì 
+závaží. Pak byla kladka zafixována, aby se v~prùbìhu kmitù 
+gumièky pøíliš nepohybovala. Mìøení délky probíhala pomocí 
+obyèejného pravítka s~dílky po $"1 mm"$, ale vzhledem k~tomu, že 
+místo upevnìní gumièky a místo vrchu kladky není zcela pøesnì
+urèující èásti pružiny, na které pružiny kmitá, bereme chybu 
+mìøení jako $"0,5 cm"$.
+
+Zvuk gumièky byl mìøen pomocí mikrofonu pøipojeného na poèítaè
+a~zvuk byl zaznamenáván pomocí programu Audacity, kde posléze
+probíhala spektrální analýza zvuku. Vždy bylo namìøeno více 
+brnknutí, z~nichž pak 3 byla analyzována. Zaznamenány byly
+první nejvýraznìjší frekvence vyšší než cca $"100 Hz"$, protože 
+mikrofony v~oblasti nízkých frekvencí nejsou pøíliš pøesné 
+a~hlavnì protože okolo $"50 Hz"$ se objevoval zvuk, který
+jednak nezávisel na délce $l$, navíc se vždy objevoval 
+i~v~oblastech záznamu zvuku, kde nebylo na gumièku brnkáno, 
+a~nejpádnìjším argumentem je, že právì tato frekvence je 
+v~elektrické síti a proto se mám mùže objevit  
+pravdìpodobnì jako šum.
+
+Na obrázku~\ref{R24S5U6_spec}
+mùžete vidìt ukázku spektrální analýzy zvuku v~Audacity.
+Zvolili jsme velikost okna $8192$ vzorkù, protože pøi nižších hodnotách jsme
+nedosahovali dostateèného frekvenèního rozlišení (nakonec bylo zhruba~$"2 Hz"$).
+Logaritmickou stupnici jsme použili z~dùvodu jednoduššího odeèítání hodnot.
+
+Pøi každém nastavení délky byly
+vybrány tøi brnknutí a~z~odeètených hodnot frekvencí, které si 
+odpovídaly, byl vypoèten aritmetický prùmìr.
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=120mm]{ulohy/reseni24-5-6/24-V-E-1.jpg}
+\caption{Ukázka spektrální analýzy zvuku pro nastavení $l = "24 cm"$ pøi délce gumièky $"41 cm"$} \label{R24S5U6_spec}
+\end{center}
+\end{figure}
+
+\subsubsection{Výsledky}
+Namìøená data pro gumièku, kde bylo zavìšeno závaží ve 
+vzdálenosti $"41 cm"$ od upevnìní, jsou v~grafu~\ref{R24S5U6_obr1} 
+a data pro závaží upevnìné za kladkou jsou v~grafu~\ref{R24S5U6_obr2}.
+V~obou grafech jsou nafitované frekvence pøes parametr
+rychlosti, který považujeme za neznámý. Vìtšinou bylo 
+mìøeno prvních 5 frekvencí, které byly pøibližnì
+celoèíselným násobkem první frekvence (resp. 1, 2, 3, 4 
+a~5násobkem), z~èehož mùžeme usuzovat, že se opravdu jedná o~prvních
+pìt harmonických frekvencí vydávaných gumièkou. Všechny 
+nafitované závislosti odpovídají (podle výpoètu metodou 
+nejmenších ètvercù v~Gnuplotu) s~odchylkou menší než $2\%$
+nepøímo úmìrné závislosti frekvence na délce $l$.
+
+
+$$\setbox0\vbox{\nointerlineskip 
+ \halign{\strut \vrule \ \hfil # \vrule & \ \hfil # \vrule & \ \hfil # \vrule\cr
+\noalign{\hrule}
+    harmonická & \popi{v_k}{m s^{-1}} &  \popi{v_n}{m s^{-1}} \cr
+\noalign{\hrule}
+    1.    & $"50,9"$ & $"49,3"$    \cr
+    2.    & $"50,8"$ & $"49,4"$     \cr
+    3.    & $"50,8"$ & $"49,4"$     \cr
+    4.    & $"50,8"$ & $"49,0"$     \cr
+    5.    & $"50,9"$ & $"49,2"$     \cr
+\noalign{\hrule} 
+}} 
+\dimen0\wd0% 
+\vbox{\vbox{\hfil
+Tabulka nafitovaných hodnot rychlostí šíøení zvukových vln v~gumièce\hfil}% 
+\medskip 
+\hfil\box0\hfil}%
+$$
+
+V~tabulce mùžete vidìt hodnoty nafitovaných rychlostí. Jako
+$v_k$ je oznaèen tento parametr u~mìøení s~konstantní délkou
+napnuté gumièky, kdežto $v_n$ je pro nekonstantní délku gumièky.
+Je vidìt, že u~fitù v~rámci jednoho grafu vychází prakticky 
+stejná hodnota a pokud srovnáme obì dvì metody, tak se hodnoty
+liší jenom zhruba o~$3\%$, což potvrzuje teorii, že by mìly
+být frekvenèní závislosti stejné u~obou metod.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=140mm]{ulohy/reseni24-5-6/24-V-E-2.jpg}
+\caption{Graf závislosti frekvencí vydávaných gumièkou konstantní délky v~závislosti na vzdálenosti $l$} \label{R24S5U6_obr1}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=140mm]{ulohy/reseni24-5-6/24-V-E-3.jpg}
+\caption{Graf závislosti frekvencí vydávaných gumièkou 
+s~upravovanou délkou (závaží upevnìno tìsnì za kladkou)} \label{R24S5U6_obr2}
+\end{center}
+\end{figure}
+
+\subsubsection{Diskuze}
+Mìøení mohlo jednak ovlivnit nepøesné urèení délky gumièky, ve
+které vznikal zvuk, protože kvùli použití kladky nebylo pøesnì 
+definované místo upevnìní.
+
+Další možná chyba mohla vzniknout už kvùli zpùsobu záznamu zvuku,
+protože mikrofon je smìrový a zaznamenával tak více zvuk 
+z~urèité oblasti gumièky. Další vliv mikrofonu je takový, že je 
+potøeba, aby v~místì detekce zvuku byla kmitna nebo alespoò aby
+se nenacházel v~oblasti uzlu, protože v~uzlu není mikrofon 
+schopný mìøit (takøíkajíc -- nic neslyší). Podobný vliv by mohlo
+mít i~to, na kterém místì byla gumièka rozkmitaná, protože by se
+mohlo stát, že nìkteré frekvence by byly utlumené, ale protože 
+byla rozkmitávaná prsty, tak prakticky vždy se vybudily všechny 
+frekvence.
+
+Je také možné, že síla nebyla pøesnì urèená závažím, vzhledem
+k~tomu, že gumièka byla po zatížení zafixována upevnìním kladky, 
+ale na druhou stranu by nejspíše chyba byla vìtší, pokud by 
+kladka byla volná a mohla by sama kmitat. Pak bychom nejspíše 
+generovali i~jiné zvukové frekvence a~ty, které jsme chtìli
+pozorovat, by byly posunuté/rozmazané.
+
+Vzhledem k~tomu, že gumièka byla relativnì dost zatížena, mìøení
+mohlo být ovlivnìno i~trvalou zmìnou jejích fyzikálních vlastností
+v~prùbìhu mìøení.
+
+\subsubsection{Závìr}
+Ovìøili jsme, že frekvence vydávané gumièkou jsou nepøímo 
+úmìrné délce gumièky mezi upevnìním a kladkou. Také jsme 
+pozorovali prvních 5 harmonických frekvencí 
+a~z~nafitovaných hodnot jsme
+pøibližnì urèili rychlost šíøení pøíèných vln v~gumièce.
+
