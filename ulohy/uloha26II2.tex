@@ -1,0 +1,45 @@
+\subsubsection{Zadání}
+Kdyby se všechna hmota Zemì vzala a~pøemodelovala se na kulovou
+slupku o~tloušce~$d = "1 km"$ (se stejnou hustotou), jakı by tato nová
+\uv{Zemì} mìla vnìjší polomìr?
+Jaké by bylo gravitaèní zrychlení na jejím vnìjším povrchu?
+
+\begin{flushright}
+\textit{Pùvod zadání: Karel neustále vymıšlí nerealistické myšlenkové experimenty.\\
+Autor øešení: Tomáš Bárta}
+%\\Statistiky: max 2$\,$body; prùmìr $"1.81"$; øešilo 73 úèastníkù
+\end{flushright}
+ 
+\subsubsection{Øešení}
+Uvaujme polomìr Zemì~$R\_Z="6\,378 km"$. Objem koule s~tímto polomìrem je
+\eq{
+	V\_Z=\frac{4}{3}\pi R\_Z^3\,.
+}
+Objem kulové slupky o~vnìjším polomìru~$R\_S$ a~tloušce~$d$ lze pøesnì vyjádøit
+jako
+\eq{
+	V\_S=\frac{4}{3}\pi\left[R\_S^3-(R\_S-d)^3\right]
+	=\frac{4}{3}\pi\(3R\_S^2d-3R\_Sd^2+d^3\)\,.
+}
+Pro~$d\ll R\_S$ lze zanedbat èleny~$d$ v~druhé a~vyšší mocninì. Poadujeme, aby se
+objem slupky a~objem Zemì rovnaly. Dostáváme tedy rovnost
+\eq[m]{
+	R\_Z^3&\approx3R\_S^2d\,,\\
+	R\_S&\approx\sqrt{\frac{R\_Z^3}{3d}}\doteq"2.9e5 km"\,.
+}
+Jeliko Zemì bude stále sféricky symetrická, bude tvoøit sféricky symetrické,
+tedy centrální, silové pole. V~takovémto poli je zrychlení nepøímo úmìrné druhé
+mocninì vzdálenosti od støedu symetrie, tedy od støedu koule.\footnote{A to díky
+tomu, e tok gravitaèního pole libovolnou uzavøenou plochou splòuje podmínku, které
+øíkáme \textit{Gaussova vìta}.} Ta je v~našem
+pøípadì~$R\_S$. Pokud si uvìdomíme, e zrychlení na povrchu Zemì je nyní
+\eq{
+	g=G\frac{M\_Z}{R\_Z^2}\,,
+}
+mùeme pomocí tohoto vyjádøit i~nové gravitaèní zrychlení
+\eq[m]{
+	g'&=G\frac{M\_Z}{R\_S^2}\,,\\
+	g'&=g\frac{R\_Z^2}{R\_S^2}\approx 3G\frac{d}{R\_Z} \doteq"4.6e-3 m.s^{-2}"\,.
+}
+Zrychlení na povrchu takovéto Zemì by tedy bylo asi~$2\,000$krát~slabší ne na
+naší Zemi.

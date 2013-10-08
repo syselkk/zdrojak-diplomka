@@ -1,0 +1,193 @@
+\probbatch{2}
+\probno{6}
+\probname{gravitace si žádá větší slovo}
+\proborigin{Karel zase v~zajetí astrofyziky.}
+\probpoints{5}
+\probauthors{kolar}
+\probsolauthors{kocak}
+\probsolvers{54}
+\probavg{1,91}
+\probtask{%
+Co kdyby se \uv{přes noc} změnila hodnota gravitační konstanty na
+dvojnásobek a~přitom by zůstaly zachovány ostatní fyzikální
+konstanty na původních hodnotách? A~co kdyby se zvětšila stokrát?
+Rozepište se o~různých aspektech~--~zejména o~životě na Zemi
+a~drahách vesmírných objektů.}
+\probsolution{%
+Základnom riešenia bolo uvedomiť si, kde všade (v~ktorých javoch) sa objavuje
+gravitačná konštanta~$G$, či už priamo alebo nepriamo. Napríklad v~gravitačnom
+zákone sa vyskytuje priamo, kde
+\eq{ |\vect F_G| = G \frac{M_1 M_2}{r_{21}^2} }
+a~v~rovniciach pre šikmý vrh je nepriamo zahrnutá v~gravitačnom zrýchlení~$g$, kde
+\eq[m]{
+	x &= x_0 + v_{0,x} t \,,\\
+	y &= y_0 + v_{0,y} t - \frac{1}{2} g t^2 \,,
+}
+kde
+\eq{
+	g = \frac{G M\_{Zem}}{R\_{Zem}^2}\,.
+}
+
+Skôr než začneme rozoberať konkrétne prípady treba povedať ešte dve veci. Javy,
+ktoré sme tu uviedli, zďaleka nebudú všetky. Pôjde o~najvýznamnejšie, ktoré nás
+napadli. Druhá vec, v~pátraní súboru %formulácia
+základných konštánt, ktoré priamo určujú konštanty vo všetkých zákonoch známej
+fyziky, sa zúžil počet na zopár konštánt (medzi nimi je napríklad rýchlosť svetla,
+Planckova konštanta i~gravitačná konštanta), medzi ktorými sa zatiaľ nepodarila nájsť
+previazanosť, čo však nevylučuje, žeby sa časom mohla nájsť. Budeme predpokladať,
+že sú nezávislé.
+
+Uvažujme zmenu gravitačnej konštanty~$k$-násobkom
+\eq{
+	G' = kG \,,
+}
+kde $G$~je pôvodná gravitačná konštanta, $G'$~je nová gravitačná konštanta a~$k$~je
+bezrozmerné číslo.
+
+Prvá zjavná vec, ktorá zo zmenou~$G$ prichádza, je zmena gravitácie a~už spomínaný
+šikmý vrh na povrchu Zeme. Zo vzťahu pre gravitačné zrýchlenie dostaneme,
+že sa~$k$-násobne zväčší
+\eq{
+	g'=\frac{G' M\_{Zem}}{R\_{Zem}^2} = \frac{kGM\_{Zem}}{R\_{Zem}^2}=kg\,.
+}
+Predstavme si malý kanón, ktorý strieľa gule priamo nad seba (vojensky neužitočný
+kanón). Deň pred zmenou letela guľa do výšky~$h$ a~celý pád jej trval čas~$t$. Keď
+riešime tento jednoduchý problém, tak dostaneme v~závislosti od počiatočných
+podmienok vzťahy
+\eq{
+	h = \frac{v_0^2}{2 g}\,, \qquad t = \frac{2 v_0}{g} \,.
+}
+Na druhý deň nastala zmena konštanty. Síce kanón dodal guli rovnakú kinetickú
+energiu (a~tým pádom i~hybnosť a~rýchlosť), ale namerali sme výšku~$h'$ a~čas~$t'$
+\eq{
+	h' = \frac{v_0^2}{2 g'} = \frac{h}{k}\,, \quad
+	t' = \frac{2 v_0}{g'} = \frac{t}{k} \,.
+}
+Pri šikmom vrhu kanónom je maximálny dostrel dosiahnutý pod uhlom~$"45\dg"$
+a~dostrel~$d$~je
+\eq{
+	d = \frac{v_0^2}{g} \,.
+}
+Asi už nikoho neprekvapí, že po zmene konštanty bude nový dostrel~$d'$ $k$-násobne kratší
+\eq{
+	d' = \frac{v_0^2}{g'} = \frac{d}{k} \,.
+}
+Tak vidíme, že pri hodoch sa $k$-násobne skrátia časy hodov, maximálne výšky
+i~dostrely pod konštantným uhlom.
+
+Zábavnejšie to však je v~prípade vesmírnych obežníc, a~to či už sa týka nášho
+Mesiaca alebo planét Slnečnej sústavy. Vo všeobecnosti podľa 1. Keplerovho zákona
+sa objekty v~radiálnom gravitačnom poli pohybujú po kužeľosečkách. Pohyb po
+kružniciach je iba jeden špeciálny prípad rýchlosti a~vzdialenosti od Slnka a~prakticky
+nedosiahnuteľný, keďže zo všetkých možných rýchlosti tomu zodpovedá práve jediná
+hodnota rýchlosti. Pohyby planét sú síce približne kružnicové, ale fakticky ide o~elipsy
+s~malou výstrednosťou/excentricitou (sploštenosťou dráhy). Pre jednoduchosť však
+môžeme predpokladať pred zmenou gravitačnej konštanty pohyb planét po
+kružniciach. Pred zmenu je potom vzťah medzi rýchlosťou
+planéty~$v_1$~a~vzdialenosťou od Slnka~$r_1$ (z~rovnosti gravitačnej a~dostredivej
+sily)
+\eq{
+	v_1^2 = \frac{G M\_S}{r_1} \,.
+}
+Po zmene gravitačnej konštanty majú všetky planéty pôvodné rýchlosti (to znamená
+rovnaká veľkosť i~smer = kolmé na spojnicu so Slnkom) a~v~novom poli sa budú
+pohybovať všeobecne po kužeľosečkách. Ak sa gravitačná konštanta zväčší, začne na
+ne pôsobiť väčšia dostredivá sila, ako je potrebná na udržanie na kruhovej dráhe,
+a~preto sa budú pohybovať po elipsách. Jeden vrchol (afélium) bude v~mieste, kde sa
+nachádzali, keď nastala zmena konštanty (lebo rýchlosť je kolmá na spojnicu so
+Slnkom iba vo vrcholoch elipsy a~od tohto bodu sa planéty pohybujú bližšie k~Slnku).
+Je jasné, že potom druhý vrchol (perihélium) je najbližšia vzdialenosť, na ktorú sa
+dostali k~Slnku. Zo zákona zachovania momentu hybnosti a~energie vieme túto
+vzdialenosť vypočítať
+\eq[m]{
+	m v_1 r_1 &= m v_k r_k\,,\\
+	\frac{m v_1^2}{2} - \frac{G' M\_S m}{r_1} &= \frac{m v_k^2}{2} - \frac{G' M\_S
+	m}{r_k} \, .
+}
+Po dosadení dostaneme takúto kvadratickú rovnicu
+\eq{
+	\frac{r_k^2}{r_1^2} (2 k-1) + \frac{r_k}{r_1} (-2k) + 1 = 0 \,.
+}
+Okrem afélia dostávame aj druhé riešenie
+\eq{
+	r_k = \frac{r_1}{2 k-1}\,.
+}
+Teraz na základe tohto výsledku môžeme povedať tieto skutočnosti. Ak by klesla
+gravitačná konštanta na viac ako polovicu ($0 < k< 0,5$), tak všetky planéty budú
+mať dostatočnú rýchlosť na odlet od Slnka. V~tabuľke~\ref{R26S2U6_tab1} je vidno pre
+rôzne~$k$ rôzne najmenšie vzdialenosti planét od Slnka.
+
+% todo: v ročence je moc široká, zatím zkrácena
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{r*{8}{r@{,}l}}
+		\toprule
+		 \multicolumn{1}{c}{planéta} & \multicolumn{2}{c}{Merkúr} &
+		 \multicolumn{2}{c}{Venuša} & \multicolumn{2}{c}{Zem} &
+		 \multicolumn{2}{c}{Mars} & \multicolumn{2}{c}{Jupiter} &
+		 \multicolumn{2}{c}{Saturn} & \multicolumn{2}{c}{Urán} \\
+		 %& \multicolumn{2}{c}{Neptún}
+		\\
+		\midrule
+		$r_1 \, [\rm{AU}] $ & 0&39 & 0&72 & 1&0 & 1&52 & 5&20 & 9&54 & 19&18 \\
+		% & 30&06 \\
+		$r_2 \, [\rm{AU}] $ & 0&13 & 0&24 & 0&33 & 0&51 & 1&73 & 3&18 & 6&39 \\
+		% & 10&02 \\
+		$r_{100} \, [\rm{AU}] $ & 0&002 & 0&004 & 0&005 & 0&008 & 0&026 & 0&048 &
+		0&096 \\ % & 0&151 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Najmenšie vzdialenosti planét od Slnka pre rôzne~$k$.} % prosím opravte to, neumím moc slovensky, Pikoš
+	\label{R26S2U6_tab1}	
+\end{table}
+
+Najskôr si budú v~dráhe prekážať susedné planéty. Pri zvyšovaní už pri~$k = "1.19"$
+nastáva prekryv možných oblastí stretnutia medzi Zemou a~Venušou. Pre~$k=2$ sa
+jedine neprekrývajú dráhy Jupitera a~Marsu. O~zábavu sa postará pásmo planétok,
+ktoré je pekne rozložené medzi Marsom a~Jupiterom a~ktoré bude mať perihélium
+približne~$"0.6 AU"$. To znamená, že by sme sa mohli pripraviť na deštrukčnú
+vesmírnu prestrelku. Pri eliptických dráhach sa pohybujú planéty v~podstatne väčšom
+rozsahu vzdialeností od Slnka, čím sa podstatne zvýši vplyv vzájomnej gravitačnej
+interakcie planét. Takže by sme mohli byť skôr, či neskôr svedkom zrážky planét alebo
+vyhodenia planéty zo Slnečnej sústavy niektorou z~väčších planét. Tak či onak by to
+boli pre Zem časy nepekné (pekelné alebo mrazivé). Pri pôvodnej gravitačnej konštante
+je polomer Slnka je~$"0.004\,6 AU"$. Zvýšením gravitačnej konštanty sa polomer Slnka
+zmenší, ale stále bude mať Slnko so svojou pre Zem nebezpečnou atmosférou rozmer rádovo
+tisíciny astronomickej jednotky. Pre~$k=100$ už je jasné, že
+planéty Merkúr, Venuša a~Zem budú míňať Slnko v~tesnej blízkosti alebo narazia na jeho
+povrch. V~perihéliu by sa Zem usmažila pri teplote cca~$"3\,700 \C"$ (už by
+sme sa nemohli sťažovať na slabé leto), deň by trval 18 hodín a~noc 6 hodín. Pri takej
+teplote by bola Zem úplne roztopená (až na diamanty a~grafit, ktoré by čoskoro
+zhoreli vo vzduchu) a~bola by to lietajúca kvapka magmy (vhodnejší výraz kvapa
+magmy). Kolízia s~inými planétami by bola otázka času.
+
+Ďalším javom, ktorý by gravitačná konštanta skomplikovala život na zemi sú kapilárne
+javy. Výška~$h$, do ktorej vystúpi kvapalina v~kapiláre, je
+\eq{
+	h = \frac{2 \sigma \cos{\alpha}}{r \rho g}\,,
+}
+kde $\sigma$~je povrchové napätie, $\alpha$~je styčný uhol, $r$~je polomer kapiláry,
+$\rho$~je hustota kvapaliny a~$g$~je gravitačné zrýchlenie. Čiastočne funguje transport
+vody v~pôde, a~potom i~v~úzkych cievnych zväzkoch, na základe kapilarity, čím sa
+zabezpečuje transport látok. Zmenou gravitačnej konštanty sa zníži výška vzlínania na
+\eq{
+	h' = \frac{2 \sigma \cos{\alpha}}{r \rho g'} = \frac{h}{k}\,.
+}
+Tým sa značne skomplikuje transport látok najmä vysokým rastlinám, stromom.
+
+Keďže aspektov, kde sa to odrazí, je skutočne veľa, uvedieme iba zopár príkladov bez
+podrobnejšej analýzy.
+\begin{compactitem}
+\item Zmenou gravitačnej konštanty bude vzduch priťahovaný silnejšie, čím sa zvýši
+hustota a~tlak vzduchu pri povrchu Zeme.
+\item Aby mohla byť voda v~potrubí vytlačená do vyšších poschodí, potrebujeme na
+to podľa Bernoulliho rovnice tlak. Zmenou gravitačnej konštanty potrebujeme dodať
+vode väčšiu potenciálnu energiu, teda budeme potrebovať väčší tlak, ktorý by
+vykonával prácu.
+\item Stavby sú síce navrhnuté tak, aby vydržali viac ako maximálnu záťaž (takže
+$k=2$~by asi prežili), ale pri určitej hranici sa prekročí medza pevnosti materiálu
+a~stavby sa zrútia (budovy, mosty, \dots).
+\end{compactitem}
+
+\ifyearbook \else
+Úloha bola hodnotená podľa hĺbky analýzy a~počtu javov, kde sa zmena odrazí.\fi}

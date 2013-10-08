@@ -1,0 +1,309 @@
+\subsubsection{Zadání}
+V~obálce jste spolu se zadáním dostali i~dvì èoèky. Vaším úkolem je zmìøit jejich 
+parametry~–~druh a~ohniskovou vzdálenost.\\
+
+\begin{flushright}
+\textit{Pùvod zadání: Karel se dozvìdìl, že se dají zadarmo sehnat (mírnì poškozené) èoèky.\\
+Autor øešení: Jana Poledniková}
+%\\Statistiky: max 8$\,$body; prùmìr $"5.46"$; øešilo 65 úèastníkù
+\end{flushright}
+ 
+\subsubsection{Úvod}
+Každý øešitel obdržel pro zmìøení jinou dvojici èoèek, namìøené hodnoty tedy
+nebudou v~tomto øešení uvedeným hodnotám odpovídat.
+
+V~této úloze budeme uvažovat pouze tenké èoèky, tedy takové èoèky, jejichž
+tlouška je malá oproti køivosti lámavých ploch. Navíc zanedbáme vady èoèek
+(chromatickou vadu, sférické zkreslení, koma).
+
+\subsubsection{Druhy èoèek}
+
+Existují dva druhy kulových èoèek -- spojky a~rozptylky. Odlišit je od sebe na
+první pohled je jednoduché, spojky jsou ve støedu tlustší než na kraji,
+rozptylky právì naopak. Další odlišnost získáme pohledem skrz èoèku na blízký
+pøedmìt. V~pøípadì spojky bude pøedmìt zvìtšen (spojky se používají jako lupy),
+skrz rozptylku uvidíme pøedmìt naopak zmenšený. Tøetí, na první pohled viditelný
+rozdíl, je v~orientaci obrazu. Podíváme-li se skrz spojku na vzdálený pøedmìt
+tak, abychom jej vidìli ostøe, budeme pøedmìt vidìt pøevrácený (a~zmenšený),
+zatímco u~rozptylky bude pøímý (a~též zmenšený).
+
+Èoèky dále diferencujeme podle jejich tvaru, viz tabulka~\ref{R25S2U7_typy_cocek}.
+
+\begin{table}[h!]
+    \centering
+    \ifyearbook\footnotesize\else\relax\fi
+    \caption{Rozdìlení èoèek podle tvaru}
+    \label{R25S2U7_typy_cocek}
+    \begin{tabular}{cl@{\hspace{0.6cm}}@{\hspace{0.6cm}}cl}
+        \multicolumn{2}{c@{\hspace{0.9cm}}}{\textbf{Spojky}}    &    \multicolumn{2}{c}{\textbf{Rozptylky}}    \\\\
+        \multirow{2}{*}{\includegraphics{problem2-7-typy-cocek11.eps}}    &    dvojvypuklá    &
+        \multirow{2}{*}{\includegraphics{problem2-7-typy-cocek21.eps}}    &    dvojdutá    \\
+        & (bikonvexní) & & (bikonkávní) \\\\
+        \multirow{2}{*}{\includegraphics{problem2-7-typy-cocek12.eps}}    &    ploskovypuklá    &
+        \multirow{2}{*}{\includegraphics{problem2-7-typy-cocek22.eps}}    &    ploskodutá    \\
+        & (plankonvexní) & & (plankonkávní) \\\\
+        \multirow{2}{*}{\includegraphics{problem2-7-typy-cocek13.eps}}    &    dutovypuklá    &
+        \multirow{2}{*}{\includegraphics{problem2-7-typy-cocek23.eps}}    &    vypuklodutá    \\
+        & (konkávkonvexní) & & (konvexkonkávní)
+    \end{tabular}
+\end{table}
+
+Kromì kulových èoèek existují i~jiné druhy: asférické èoèky (používané
+tøeba v~objektivech fotoaparátù), Fresnelovy èoèky (najdeme je tøeba v~reflektorech,
+zpìtných projektorech, na majácích apod.) atd. Tìmi se však dále nebudeme
+zabývat.
+
+\subsubsection{Výpoèet ohniskové vzdálenosti z~polomìrù køivosti}
+
+Podaøí-li se nám zmìøit polomìry køivosti $ R_1 $ a~$ R_2 $ obou ploch
+èoèky (pro rovné plochy èoèek je støed køivosti v~nekoneènu, tedy napø. $
+{1}/{R_1} = 0 $) a~víme-li, z~jakého materiálu je daná èoèka vyrobena (známe
+tedy index lomu $ n $ tohoto materiálu), mùžeme ohniskovou vzdálenost~$ f $
+(resp.optickou mohutnost~$ D $) této èoèky spoèítat ze vztahu
+\eq{
+    D = \frac{1}{f} = \left( n - 1 \right) \left( \frac{1}{R_2} - \frac{1}{R_1} \right) \,.
+}
+
+\ifyearbook%
+\illfig{problem2-7-vypocet-polomeru.eps}{Výpoèet polomìru køivosti}{R25S2U7_vypocet_polomeru}{7}%
+\else%
+\illfig{problem2-7-vypocet-polomeru.eps}{Výpoèet polomìru køivosti}{R25S2U7_vypocet_polomeru}{5}%
+\fi
+
+Zjistit polomìry køivosti je možné pøímo u~vypuklých ploch èoèek. Upevníme èoèku
+kolmo nad milimetrový papír a~èoèku z~vìtší vzdálenosti (kvùli omezení vlivu
+perspektivy) takto kolmo na milimetrový papír vyfotíme. Na fotografii 
+urèíme výšku $ v $ a~délku tìtivy $ l $
+(viz obrázek~\ref{R25S2U7_vypocet_polomeru}) a~polomìr plochy spoèítáme jako 
+\eq{
+    r = \frac{v^2 + \frac{t^2}{4}}{2 v} \,.
+}
+
+Je zøejmé, že tuto metodu mùžeme použít pouze u~vypuklých ploch èoèek. U~dutých
+zakøivených ploch budeme muset použít složitìjší metodu mìøení. Využijeme toho,
+že èást svìtla se na této ploše odráží, a~ta se tak chová jako duté zrcadlo.
+Umístíme-li pøed takovouto èoèku pøedmìt, vznikne na téže stranì èoèky skuteèný
+(tedy pøevrácený) obraz tohoto pøedmìtu. Ze vzdálenosti pøedmìtu a~obrazu od
+zrcadla dokážeme urèit jeho ohniskovou vzdálenost, a~tedy i~polomìr køivosti.
+
+Nicménì stále neznáme index lomu materiálu, ze kterého je èoèka vyrobená, tedy
+nemùžeme urèit její ohniskovou vzdálenost. Tato metoda je tedy vhodná spíše pro
+urèení indexu lomu po zmìøení ohniskové vzdálenosti nìkterou z~dalších metod.
+
+\subsubsection{Teorie}
+
+Budeme používat následující znaménkovou konvenci:
+\begin{compactitem}
+    \item ohnisková vzdálenost (oznaèovaná $ f $) spojky je kladná, rozptylky záporná,
+    \item pøedmìtová vzdálenost $ a $ je vždy kladná,
+    \item vzniká-li obraz na opaèné stranì èoèky, než se nachází zobrazovaný pøedmìt, je obrazová vzdálenost $ a' $ kladná,
+    \item vzniká-li obraz na stejné stranì èoèky, na níž leží pøedmìt, je obrazová vzdálenost $ a' $~záporná.
+\end{compactitem}
+
+Pro zobrazování tenkými èoèkami platí zobrazovací rovnice
+\eq{
+    \frac{1}{f} = \frac{1}{a} + \frac{1}{a'} \,,
+}
+kde $ f $ je ohnisková vzdálenost èoèky, $ a $ je vzdálenost pøedmìtu
+od støedu èoèky a~$ a' $ je vzdálenost obrazu od støedu èoèky. Pøi použití výše
+zmiòované znaménkové konvence tato rovnice platí pro zobrazování tenkou spojkou
+i~pro zobrazování tenkou rozptylkou.
+
+Je vidìt, že $ a $ a~$ a' $ mùžeme zamìnit, platí tedy princip zámìnnosti
+pøedmìtu a~jeho obrazu.
+
+\subsubsection{Mìøení ohniskové vzdálenosti spojky -- teorie}
+
+\subsubsubsection{Mìøení pomocí polohy pøedmìtu a~jeho obrazu}
+
+\fullfig{problem2-7-poloha-predmetu-obrazu.eps}{Mìøení polohy pøedmìtu a~jeho obrazu}{R25S2U7_poloha-predmetu-obrazu}
+
+Po upravení zobrazovací rovnice dostáváme vztah pro ohniskovou vzdálenost (oznaèení viz obrázek~\ref{R25S2U7_poloha-predmetu-obrazu})
+\eq{
+    f = \frac{a a'}{a + a'} \,,
+}
+tedy pro urèení ohniskové vzdálenosti potøebujeme zmìøit vzdálenost
+pøedmìtu od optického støedu èoèky a~vzdálenost jeho obrazu od optického støedu
+èoèky. Jako pøedmìt mùžeme použít napøíklad svíèku, kterou umístíme do
+vzdálenosti $ a $ od optického støedu èoèky. Na opaèné stranì èoèky pohybujeme
+se stínítkem, dokud na nìm nedostaneme ostrý obraz svíèky. Poté zmìøíme
+vzdálenost $ a' $ stínítka od optického støedu èoèky. Pro vìtší pøesnost je
+vhodné toto mìøení opakovat pro rùzné hodnoty vzdálenosti $ a $.
+
+\subsubsubsection{Pøímé mìøení ohniskové vzdálenosti}
+
+Ze zobrazovací rovnice je zøejmé, že je-li $ a \gg a' $ (paprsky jdoucí od
+pøedmìtu jsou témìø rovnobìžné), bude platit $ f \approx a' $. Pokud jako
+pøedmìt použijeme napø. Slunce, paprsky se spojí pøibližnì pøímo v~ohnisku.
+V~tomto pøípadì navíc není tøeba zobrazovat žádný pøedmìt~–~posvítíme-li kolmo
+do èoèky rovnobìžným svazkem dostateèného prùmìru (napø. laserovým), spojí se
+také v~ohnisku.
+
+\subsubsubsection{Besselova metoda}
+
+Besselova metoda mìøení ohniskové vzdálenosti spojky využívá principu zámìnnosti
+chodu paprskù. Zvolíme pøi ní pevnou vzdálenost $ d $ (musí platit $ d > 4 f $,
+tedy $ d $ volíme dostateènì velké) pøedmìtu a~stínítka. Existují dvì polohy
+èoèky mezi pøedmìtem a~stínítkem, pøi nichž se na stínítku zobrazí ostrý obraz
+pøedmìtu. Vzdálenost $ s $ tìchto poloh zmìøíme. Všimnìme si, že v~tomto pøípadì
+mìøíme jen zmìnu polohy èoèky, nikoliv absolutnì její polohu, èímž eliminujeme
+chybu urèení optického støedu èoèky.
+
+Zvolíme-li oznaèení podle obrázku~\ref{R25S2U7_besselova-metoda}, platí $ a_1 =
+- a'_2 $ a~$ a'_1 = - a_2 $. Dále s~ohledem na znaménkovou konvenci platí
+\eq[m]{
+    d &= a'_1 - a'_1 = a'_2 - a_2 \, , \\
+    s &= a'_1- a'_2 \,,
+}
+odkud
+\eq{
+    a'_1 = - \frac{1}{2} (d + s), \qquad a_1 = \frac{1}{2} (d - s) \,,
+}
+z~èehož již mùžeme spoèítat ohniskovou vzdálenost
+\eq{
+    f = \frac{d^2 - s^2}{4 d} \,.
+}
+
+\fullfig{problem2-7-besselova-metoda.eps}{Schématické znázornìní Besselovy metody}{R25S2U7_besselova-metoda}
+
+\subsubsubsection{Mìøení pomocí zvìtšení}
+
+Zmìøit ohniskovou vzdálenost èoèky je možné i~pomocí urèení jejího zvìtšení. Pro zvìtšení~$Z$ platí
+\eq{
+    Z = - \frac{a'}{a} = - \frac{f}{a - f}\,,
+}
+odkud
+\eq{
+    f = \frac{a'}{1 + Z} = \frac{a Z}{1 + Z}\,.
+}
+
+Zvìtšení zjistíme jako pomìr velikostí pøedmìtu a~obrazu, tedy jako pøedmìt
+zvolíme napø. milimetrové mìøítko a~stínítko též opatøíme milimetrovým mìøítkem.
+Jestliže se $ n $ dílkù stupnice na stínítku kryje s~$ n' $ dílky zobrazované
+stupnice, zvìtšení urèíme jako $ Z = {n}/{n'} $.
+
+\subsubsection{Mìøení ohniskové vzdálenosti spojky -- experiment}
+
+Nyní k~samotnému experimentu. Mìøena byla ohnisková vzdálenost neznámé tenké
+spojky podobné tìm, které byly rozesílány spolu se zadáním. Pro mìøení byla
+použita Besselova metoda. Pro nìkolik rùzných vzdáleností $ d $ pøedmìtu
+(èelovky) od stínítka (zdi) byly hledány takové polohy spojky, kdy se na zdi
+zobrazil ostrý obraz diod èelovky. Byly zmìøeny vzdálenosti $ a'_1 $ a~$ a_2 $
+(oznaèení viz obrázek~\ref{R25S2U7_besselova-metoda}). Jelikož nás zajímá pouze
+rozdíl tìchto vzdáleností, byly mìøeny od okraje èoèky, èímž jsme se vyhnuli
+chybì pøi urèování optického støedu èoèky. Z~namìøených hodnot pak byla urèena
+ohnisková vzdálenost mìøené èoèky na~$"(28.1\pm0.6) cm"$.
+
+\begin{table}[h!]
+    \centering
+    \caption{Namìøená data pro urèení ohniskové vzdálenosti spojky}
+        \begin{tabular}{lrrr}
+            \toprule
+            \multicolumn{1}{c}{$ n $}    &    \multicolumn{1}{c}{\popi{d}{cm}}    &    \multicolumn{1}{c}{\popi{|a'_1|}{cm}}    &    \multicolumn{1}{c}{\popi{|a_2|}{cm}}\\
+            \midrule
+            1    &    230    &    197    &    33\\
+            2    &    220    &    187    &    34\\
+            3    &    210    &    177    &    34\\
+            4    &    200    &    166    &    34\\
+            5    &    190    &    156    &    34\\
+            6    &    180    &    145    &    35\\
+            \midrule
+        \end{tabular}
+    \hspace{1cm}
+        \begin{tabular}{lrrr}
+            \midrule
+            \multicolumn{1}{c}{$ n $}    &    \multicolumn{1}{c}{\popi{d}{cm}}    &    \multicolumn{1}{c}{\popi{|a'_1|}{cm}}    &    \multicolumn{1}{c}{\popi{|a_2|}{cm}}\\
+            \midrule
+            7    &    170    &    134    &    35    \\
+            8    &    160    &    123    &    36    \\
+            9    &    150    &    112    &    37    \\
+            10    &    140    &    102    &    38    \\
+            11    &    130    &    89    &    41    \\
+            12    &    120    &    76    &    44    \\
+            \bottomrule
+        \end{tabular}
+\end{table}
+
+\subsubsection{Mìøení ohniskové vzdálenosti rozptylky -- teorie}
+
+Zmìøit ohniskovou vzdálenost rozptylky není možné pomocí vzdálenosti obrazù,
+jelikož obraz zobrazený rozptylkou není skuteèný, nelze jej tedy zachytit na
+stínítko. Využijeme principu zámìnnosti pøedmìtu a~jeho obrazu. Vytvoøíme
+spojkou skuteèný obraz, který bude sloužit jako zdánlivý pøedmìt pro zobrazení
+rozptylkou. Ta pak vytvoøí skuteèný obraz, lze jej tedy zachytit na stínítku
+(chod paprskù viz obrázek~\ref{R25S2U7_rozptylka}).
+
+\fullfig{problem2-7-rozptylka.eps}{Schématické zobrazení soustavy spojky a~rozptylky}{R25S2U7_rozptylka}
+
+Z~obrázku je zøejmé, že platí $ a\_r = d - a'\_s $ (vzdálenost $ a\_r $ je dle
+zmiòované znaménkové konvence záporná). Dosadíme-li do zobrazovací rovnice,
+dostáváme vztah pro výpoèet ohniskové vzdálenosti rozptylky
+\eq{
+    f\_r = \frac{a'\_r a\_r}{a\_r + a'\_r} = \frac{a'\_r (d - a'\_s)}{d - a'\_s + a'\_r} \,.
+}
+
+Máme dvì možnosti, jak postupovat pøi mìøení. Mùžeme zmìøit vzdálenost $ a'\_s $,
+tedy vzdálenost ostrého obrazu na stínítku od spojky. Poté mezi stínítko
+a~spojku umístíme rozptylku. Dále pohybem rozptylky (ne ve všech polohách
+rozptylky vzniká obraz) a~stínítka nalezneme ostrý obraz a~zmìøíme vzdálenosti $
+a'\_r $ (vzdálenost obrazu od spojky) a~$ d $ (vzdálenost spojky a~rozptylky).
+
+Druhou možností je zmìøit pouze vzdálenosti $ a\_r $ a~$ a'\_r $.
+Opìt je vhodné mìøení opakovat pro rùzné $ a\_s $ a~$ d $.
+
+\subsubsection{Mìøení ohniskové vzdálenosti rozptylky -- experiment}
+
+Popisovanou metodou byla mìøena ohnisková vzdálenost tenké rozptylky. Jako
+pøedmìt byla opìt použita èelovka a~hledal se ostrý obraz diod. Všechny
+vzdálenosti byly mìøeny právì od diod èelovky. Nejdøíve byla do urèité
+vzdálenosti $ a\_s $ vložena spojka a~zmìøena vzdálenost $ a\_s + a'\_s $. Poté
+byla mezi spojku a~ostrý obraz vložena rozptylka do vzdálenosti $ a\_s + d $
+a~byla zmìøena vzdálenost $ a\_s + d + a'\_r $ ostrého obrazu vytvoøeného rozptylkou
+od pøedmìtu. Z~namìøených hodnot byla urèena ohnisková vzdálenost mìøené
+rozptylky na~$"(-12.0\pm1.1) cm"$. Je vidìt, že chyba mìøení je
+v~tomto pøípadì velká, protože jsme mìøili ètyøi vzdálenosti, což bylo v~podstatì
+zbyteèné (staèilo zmìøit vzdálenosti $ a\_r $ a~$ a'\_r $), a~všechny byly
+zaokrouhleny na centimetry.
+
+\begin{table}[h!]
+    \centering
+    \caption{Namìøená data pro urèení ohniskové vzdálenosti rozptylky}
+    \begin{tabular}{lrrrr}
+        \toprule
+        \multicolumn{1}{c}{$ n $}    &    \multicolumn{1}{c}{\popi{a\_s}{cm}}    &    \multicolumn{1}{c}{\popi{a\_s + a'\_s}{cm}}    &    \multicolumn{1}{c}{\popi{a\_s + d}{cm}} &    \multicolumn{1}{c}{\popi{a\_s + d + a'\_r}{cm}}\\
+        \midrule
+        1    &    50    &    89    &    80    &    113    \\
+        2    &    50    &    89    &    82    &    99    \\
+        3    &    50    &    89    &    84    &    93    \\
+        4    &    60    &    94    &    87    &    105    \\
+        5    &    60    &    94    &    90    &    96    \\
+        6    &    60    &    94    &    91    &    95    \\
+        7    &    70    &    102    &    92    &    137    \\
+        8    &    70    &    102    &    94    &    116    \\
+        9    &    70    &    102    &    95    &    111    \\
+        10    &    80    &    110    &    100    &    153    \\
+        11    &    80    &    110    &    102    &    126    \\
+        12    &    80    &    110    &    105    &    114    \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsubsection{Diskuse a~chyby mìøení}
+
+Pøi mìøení ohniskové vzdálenosti èoèky vìtšinou mìøíme vzdálenosti, které pøi
+popisovaných mìøeních nabývají hodnoty od nìkolika centimetrù až po nìkolik
+metrù.  Je vidìt, že zvolíme-li vìtší vzdálenosti, chyba mìøení bude
+menší. 
+
+Abychom mìøení zpøesnili, je tøeba mìøení opakovat pro rùzné poèáteèní podmínky
+(napø. pro rùzné vzdálenosti pøedmìtu od èoèky pøi mìøení ohniskové
+vzdálenosti spojky pomocí polohy pøedmìtu a~jeho obrazu). Z~každého mìøení 
+spoèítáme ohniskovou vzdálenost, urèíme aritmetický prùmìr a~odchylku.
+
+U~nìkterých popisovaných metod je tøeba mìøit vzdálenosti od optického støedu
+èoèky. Ten však nemusí být vždy jednoduše pøesnì urèitelný. U~mìøení ohniskové
+vzdálenosti spojné èoèky tuto chybu eliminuje Besselova metoda, u~níž mìøíme
+pouze zmìnu polohy èoèky. V~popisované metodì mìøení ohniskové vzdálenosti
+rozptylky je však tøeba polohu optického støedu odhadnout. Pro pøesnìjší mìøení
+ohniskové vzdálenosti rozptylky je možné použít spojku, jejíž ohniskovou
+vzdálenost známe nebo jsme ji zmìøili pøesnìjší metodou.

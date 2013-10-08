@@ -64,19 +64,39 @@
 \contentsline {section}{\numberline {8.1}Statut koresponden\v cn\IeC {\'\i }ch semin\'a\v r\r u MFF UK}{20}{section.8.1}
 \contentsline {section}{\numberline {8.2}Uk\'azky \'uloh ze s\'eri\IeC {\'\i } FYKOSu}{21}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Jednoduch\'a -- 24-IV-1 a) -- napnut\'a struna}{21}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Jednoduch\'a -- 26-I-1 -- tlust\'y pap\IeC {\'\i }r}{21}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Jednoduch\'a -- 26-II-2 -- hollow Earth}{21}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Norm\'aln\IeC {\'\i } -- 24-IV-4 -- kone\v cn\'e \v re\v sen\IeC {\'\i } ot\'azky glob\'aln\IeC {\'\i }ho oteplov\'an\IeC {\'\i }}{21}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}Norm\'aln\IeC {\'\i } -- 25-I-4 -- drrrrr}{21}{subsection.8.2.5}
-\contentsline {subsection}{\numberline {8.2.6}Norm\'aln\IeC {\'\i } -- 25-VI-5 -- b\v eh na p\v redn\'a\v sku z eugeniky}{21}{subsection.8.2.6}
-\contentsline {subsection}{\numberline {8.2.7}Probl\'emov\'a -- 25-V-P -- sv\v eteln\'y me\v c}{21}{subsection.8.2.7}
-\contentsline {subsection}{\numberline {8.2.8}Probl\'emov\'a -- 26-II-P -- gravitace si \v z\'ad\'a v\v et\v s\IeC {\'\i } slovo}{21}{subsection.8.2.8}
-\contentsline {subsection}{\numberline {8.2.9}Experiment\'aln\IeC {\'\i } -- 24-V-E -- strunatci}{21}{subsection.8.2.9}
 \contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{21}{section*.14}
-\contentsline {subsubsection}{Teorie}{21}{section*.15}
-\contentsline {subsubsection}{Postup m\v e\v ren\IeC {\'\i }}{22}{section*.16}
-\contentsline {subsubsection}{V\'ysledky}{22}{section*.17}
-\contentsline {subsubsection}{Diskuze}{23}{section*.18}
-\contentsline {subsubsection}{Z\'av\v er}{25}{section*.19}
-\contentsline {subsection}{\numberline {8.2.10}Experiment\'aln\IeC {\'\i } -- 25-I-E -- brumlovo tajemstv\IeC {\'\i }}{25}{subsection.8.2.10}
-\contentsline {subsection}{\numberline {8.2.11}Experiment\'aln\IeC {\'\i } -- 25-II-E -- \v co\v ckov\'an\IeC {\'\i }}{25}{subsection.8.2.11}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{21}{section*.15}
+\contentsline {subsection}{\numberline {8.2.2}Jednoduch\'a -- 26-I-1 -- tlust\'y pap\IeC {\'\i }r}{22}{subsection.8.2.2}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{22}{section*.16}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{22}{section*.17}
+\contentsline {subsection}{\numberline {8.2.3}Jednoduch\'a -- 26-II-2 -- hollow Earth}{22}{subsection.8.2.3}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{22}{section*.18}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{23}{section*.19}
+\contentsline {subsection}{\numberline {8.2.4}Norm\'aln\IeC {\'\i } -- 24-VI-4 -- kone\v cn\'e \v re\v sen\IeC {\'\i } ot\'azky glob\'aln\IeC {\'\i }ho oteplov\'an\IeC {\'\i }}{23}{subsection.8.2.4}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{23}{section*.20}
+\contentsline {subsubsection}{Teorie}{24}{section*.21}
+\contentsline {subsubsection}{N\v eco nav\IeC {\'\i }c}{25}{section*.22}
+\contentsline {subsection}{\numberline {8.2.5}Norm\'aln\IeC {\'\i } -- 25-I-4 -- drrrrr}{26}{subsection.8.2.5}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{26}{section*.23}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{27}{section*.24}
+\contentsline {subsection}{\numberline {8.2.6}Norm\'aln\IeC {\'\i } -- 25-VI-5 -- b\v eh na p\v redn\'a\v sku z eugeniky}{28}{subsection.8.2.6}
+\contentsline {subsection}{\numberline {8.2.7}Probl\'emov\'a -- 25-V-P -- sv\v eteln\'y me\v c}{28}{subsection.8.2.7}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{28}{section*.25}
+\contentsline {subsubsection}{\'Uvod ke sv\v eteln\'ym me\v c\r um}{28}{section*.26}
+\contentsline {subsubsection}{Energetick\'y zdroj}{29}{section*.27}
+\contentsline {subsubsection}{Laserov\'y me\v c}{30}{section*.28}
+\contentsline {subsubsection}{Plazmov\'y me\v c}{31}{section*.29}
+\contentsline {subsubsection}{Chlazen\IeC {\'\i }}{31}{section*.30}
+\contentsline {subsubsection}{Z\'av\v er}{32}{section*.31}
+\contentsline {subsection}{\numberline {8.2.8}Probl\'emov\'a -- 26-II-P -- gravitace si \v z\'ad\'a v\v et\v s\IeC {\'\i } slovo}{32}{subsection.8.2.8}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{32}{section*.32}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{32}{section*.33}
+\contentsline {subsection}{\numberline {8.2.9}Experiment\'aln\IeC {\'\i } -- 24-V-E -- strunatci}{35}{subsection.8.2.9}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{35}{section*.34}
+\contentsline {subsubsection}{Teorie}{36}{section*.35}
+\contentsline {subsubsection}{Postup m\v e\v ren\IeC {\'\i }}{36}{section*.36}
+\contentsline {subsubsection}{V\'ysledky}{37}{section*.37}
+\contentsline {subsubsection}{Diskuze}{38}{section*.38}
+\contentsline {subsubsection}{Z\'av\v er}{39}{section*.39}
+\contentsline {subsection}{\numberline {8.2.10}Experiment\'aln\IeC {\'\i } -- 25-I-E -- brumlovo tajemstv\IeC {\'\i }}{39}{subsection.8.2.10}
+\contentsline {subsection}{\numberline {8.2.11}Experiment\'aln\IeC {\'\i } -- 25-II-E -- \v co\v ckov\'an\IeC {\'\i }}{39}{subsection.8.2.11}

@@ -1,0 +1,96 @@
+\subsubsection{Zadání}
+Mezi dvìma opaènì nabitımi deskami se sem a~tam odráí vodivá kulièka
+zanedbatelnıch rozmìrù. S~jakou frekvencí se pohybuje? Napìtí mezi deskami
+je~$U$. Pøi nárazu se kulièka nabije na náboj velikosti~$Q$ shodnı s~polaritou desky.
+Koeficient restituce je~$k$.\\
+\emph{Bonus:} Odpovídá vıkon na tomto rezistoru energetickım ztrátám pøi nárazech?\\
+\emph{Poznámka:} Koeficient restituce je pomìr kinetickıch energií po nárazu a~pøed ním.%
+\footnote{Alespoò pro naše úèely v této úloze. V nìkterıch pøípadech bıvá definován
+jako pomìr rychlostí pøed a po odrazu.}
+
+\begin{flushright}
+\textit{Pùvod zadání: Jáchym hodil do stroje kulièku.\\
+Autor øešení: Ján Pulmann}
+%\\Statistiky: max 4$\,$body; prùmìr $"2.30"$; øešilo 27 úèastníkù
+\end{flushright}
+ 
+\subsubsection{Øešení}
+Keïe sa gu¾ôèka nabije na náboj rovnakej polarity ako doska, do ktorej narazí,
+po kadom náraze je naïalej urıchlovaná elektrickım po¾om. Takto ale
+nezískava energiu neustále, po zopár nárazoch sa jej pohyb stane takmer 
+periodickı. Gu¾ka toti pri náraze stráca energiu, a~hodnota tejto energie 
+závisí od rıchlosti. Èím ide rıchlejšie, tım má väèšiu kinetickú energiu, 
+a~teda aj o~viac energie príde. Takto bude získava energiu z~potenciálového 
+rozdielu a~zrıchlova, a pokia¾ sa nedostane do ustáleného stavu,
+v~ktorom pri zráke stratí rovnakú energiu, akú získa pri prechode medzi 
+doskami. Na rovnakej rıchlosti by sa ustálila aj v~prípade, ak by najprv 
+išla prirıchlo.
+ 
+Oznaèíme si rıchlos tesne pred dopadom~$v$ a~po odraze~$u$. Koeficient 
+reštitúcie je definovanı ako
+\eq{
+    k = \frac{\frc{1}{2} m u^2}{\frc{1}{2} m v^2} =  \frac{u^2}{v^2}\,.
+}
+ 
+Teraz vieme vypoèíta ustálenú rıchlos, napríklad tú pred dopadom
+ 
+\eq{
+    \frac{1}{2}mv^2 - \frac{1}{2}m u^2 = UQ\,.
+}
+ 
+Èo vyjadruje, e gu¾ôèka získa na napätí rovnakú energiu, akú stratí pri 
+náraze. Rıchlos $v$ u len vyjadríme
+\eq[m]{
+    \frac{1}{2}mv^2 (1-k) &=  UQ\\
+    v &= \sqrt{\frac{2UQ}{m(1-k)}}\,.
+}
+ 
+Ako vyzerá pohyb medzi doskami? Ak sú tieto dosky dostatoène ve¾ké 
+v~porovnaní s~medzerou medzi nimi, tak môeme elektrické pole povaova 
+za homogénne, a~takéto pole pôsobi na gu¾ôèku konštantnou silou. Pohyb je 
+teda jednoducho rovnomerne zrıchlenı. Ak si oznaèíme vzdialenos dosiek 
+$d$, a~uvedomíme si, e priemerná rıchlos je aritmetickı 
+priemer $u$ a~$v$ (je to kvôli konštantnému zrıchleniu, premyslite si!), 
+èas prechodu medzi doskami bude \eq{
+    t = \frac{d}{(u+v)/2} = \frac{2d}{u+v}\,.
+}
+ 
+Frekvencia je obrátená hodnota periódy, a~v~našom prípade perióda zahròuje pohyb 
+tam a~spa, teda je dvojnásobok èasu $t$.
+\eq{
+f = \frac{1}{2t} = \frac{u+v}{4d}
+}
+ 
+Teraz u len dosadíme za rıchlos 
+\eq{
+    f =  \frac{1+\sqrt{k}}{4d}v = \frac{1+\sqrt{k}}{4d}\sqrt{\frac{2UQ}{m(1-k)}} 
+    = \sqrt{ \frac{UQ}{8md^2}\left(\frac{1+\sqrt{k}}{1-\sqrt{k}}\right) }\,.
+}
+ 
+Tu síce vystupujú parametre, ktoré neboli v~zadaní, no jednoduchou 
+úvahou zistíme, e tam skutoène majú by, a~nedajú sa vyjadri. 
+Obe velièiny, hmotnos aj vzdialenos dosiek, vieme meni nezávisle od 
+zvyšnıch zadanıch parametrov, take vieme vyrobi dve situácie, 
+ktoré sa líšia len napr. hmotnosou gu¾ôèky, ktorá teda nemôe by 
+kombináciou u zadanıch velièín ako napätie, prenášanı náboj èi 
+koeficient reštitúcie.
+ 
+V~bonuse urèite zanedbáme všetky straty energie okrem tıch, ktoré 
+nastávajú pri zráke, kvôli koeficientu reštitúcie. Tu potom jasne 
+vidíme, e vıkon, ktorı dodáva zdroj poskytujúci napätie $U$, sa 
+mení len na stratovı vıkon pri nárazoch. Presvedèi sa o~tom 
+dá aj priamo poèítaním tıchto dvoch vıkonov, všetko potrebné u 
+máme vyjadrené. Staèí len náboj prenesenı za èas $t$ (takto toti 
+vyzerá definícia prúdu) vynásobi napätím $U$, a~tento vıkon porovna 
+so stratou kinetickej energie pri jednom náraze delenou èasom $t$, 
+aby sme opä dostali vıkon (èo, ako si môeme všimnú, je nakoniec 
+len rovnica vyjadrujúca rovnos získanej a~stratenej energie, z~ktorej 
+sme vychádzali na zaèiatku).
+
+Vidíme teda, e ak si všímame len vonkajší vıkon a~prúd, správa sa 
+takıto rezistor ako skutoènı odpor. Skôr ako však beíme na patentovı 
+úrad, mali by sme si so sklamaním všimnú, e jeho voltampérová 
+charakteristika nie je priamka. Prúd $I=Q/t=Qf$ závisí od napätia 
+nie lineárne, ako by sa na správny rezistor patrilo, ale komplikovanejšie, 
+kvôli èomu klesá odpor s~druhou odmocninou napätia. Analógia so skutoènım 
+rezistorom je teda moná len èiastoène.
