@@ -36,23 +36,58 @@
 
 %% Ostatní balíèky
 \usepackage{graphicx}   % obrázky
-\usepackage[nointegrals]{wasysym}   % obrázky
-\usepackage{marvosym}   % nìkteré speciální znaky/obrázky
+%\usepackage[nointegrals]{wasysym}   % obrázky
+%\usepackage{marvosym}   % nìkteré speciální znaky/obrázky
 %\usepackage{amsthm}     % nekompatibilní s FYKOSími makry
 \usepackage{fkssugar}   % FYKOSí komfortní makra
 %\usepackage{cite}       % nìco s citováním
 \usepackage{float}      % obrana proti pøíliš plovoucím objektùm, jako volitelný parametr dávat [H]
 
+\usepackage{booktabs}   % tabulky
+\usepackage{multirow}   % tabulky
+\usepackage{array}
+
+\usepackage{titlesec}
+
+\usepackage{xcolor}
+\usepackage{hanging}
+
+\usepackage{epstopdf}
+
+\usepackage{placeins} % FloadBarrier
+\usepackage{paralist}
+\usepackage{bm}
+\usepackage{wrapfig}
+
+%blbé zalamování - snaha opravit
+\tolerance 1000
+\hbadness \tolerance
+\advance\hbadness -1
+
+
 %% Balíèek hyperref, kterým jdou vyrábìt klikací odkazy v PDF,
 %% ale hlavnì ho používáme k uložení metadat do PDF (vèetnì obsahu).
 %% POZOR, nezapomeòte vyplnit jméno práce a autora.
 \usepackage{hyperref}
+
+%\input{fksfigpahyl}
+
 %\usepackage[ps2pdf,unicode]{hyperref}   % Musí být za všemi ostatními balíèky
 \hypersetup{pdftitle=Fyzikální korespondenèní semináø na MFF UK – reflexe a rozvoj}
 \hypersetup{pdfauthor=Bc. Karel Koláø}
 
-%%% Osobní makra - Karel Koláø
-% zatím nejsou 
+%%% Nìjaká další makra
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 %%% Drobné úpravy stylu
 
@@ -147,6 +182,10 @@ Praha 2014
 
 %%% Na tomto místì mohou být napsána pøípadná podìkování (vedoucímu práce,
 %%% konzultantovi, tomu, kdo zapùjèil software, literaturu apod.)
+
+%Dìkuji firmì GoodData v~zastoupení Mgr. Tomáše Jirotky, která poskytla
+%nìkteré analytické nástroje pro zpracování dat a~statistik o øešitelích a jemu
+%osobnì za pomoc se sestavením nìkterých výstupù.
 
 \openright
 
@@ -250,33 +289,63 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 \tableofcontents
 
 %%% Jednotlivé kapitoly práce jsou pro pøehlednost uloženy v samostatných souborech
+\include{predmluva}
 \include{uvod}
 
 \chapter{O Fyzikálním korespondenèním semináøi}
 \input{kap01} % Úvod - o FYKOSu
+\pagebreak
 \input{kap02} % Cíle FYKOSu a základní fakta o FYKOSu
+\pagebreak
 \input{kap03} % Korespondenèní èást
+\pagebreak
 \input{kap04} % Soustøedìní
-\input{kap06} % Výfuk
+\pagebreak
 \input{kap05} % Exkurze, poznávací zájezdy
+\pagebreak
 \input{kap11} % Soutìže FYKOSí Fyziklání a Fol
+\pagebreak
+\input{kap18} % Pøednášky pro støedoškoláky
+\pagebreak
+\input{kap06} % Výfuk
+\pagebreak
 \input{kap07} % Historie FYKOSu
 
-\chapter{Metody a cíle CZV}
+\chapter{Statistická data o FYKOSu a~jejich interpretace}
+\input{kap17} % Statistická øešitelù sérií - Úvod, Historické poèty øešitelù roèníku
+\input{kap19} % Statistická øešitelù sérií - Poèty úspìšných øešitelù, Poèty opravených úloh v~roènících, Celkový poèet získaných bodù øešiteli v roèníku
+\input{kap20} % Statistická øešitelù sérií - Poèty øešitelù dle sérií roèníku, Genderové statistiky øešitelù, Vìrnost øešitelù
+\input{kap25} % Statistická øešitelù sérií - shrnutí
+
+\chapter{Cíle a metody zpìtné vazby úèastníkù}
 \input{kap12} % Cíle
 \input{kap13} % Metody
 
-\chapter{Realizace a výsledky CZV}
-\input{kap14} % Rozhovory
-\input{kap15} % Dotazník
+\chapter{Interview s øešiteli}
+\input{kap14} % Interview - Rozhovory
 
-\chapter{Další soutìže a akce mimo FYKOS v ÈR a SR}
-\input{kap08} % Úvod - další soutìže
-\input{kap09} % Soutìže a akce organizované MFF UK
-\input{kap10} % Další soutìže
+\chapter{Dotazníkové šetøení}
+\input{kap15} % Úvod k dotazníkovému šetøení, pilotáž
+\input{kap22} % Elektronický dotazník
+\input{kap23} % Srovnání odpovìdí v pilotáži a v elektronickém dotazníku
+\input{kap26} % Emailový dotazník
+
+\chapter{Studijní vývoj úèastníkù FYKOSu}
+\input{kap21} % Studijní vývoj
+
+\chapter{Profesní vývoj úèastníkù FYKOSu}
+\input{kap24} % Profesní vývoj
+
+%\chapter{Další soutìže a akce mimo FYKOS v ÈR a SR}
+%\input{kap08} % Úvod - další soutìže
+%\input{kap09} % Soutìže a akce organizované MFF UK
+%\input{kap10} % Další soutìže
 
 \chapter{Navržená a realizovaná vylepšení FYKOSu}
+\input{kap27} % Celkové zmìny semináøe
+\input{kap28} % Korespondenèní èást
 \input{kap16} % Vylepšení stránek
+\input{kap29} % Vylepšení akcí
 
 
 \include{zaver}
@@ -303,7 +372,7 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 %%% Použité zkratky v diplomové práci, existují-li, vèetnì jejich vysvìtlení.
 
 \include{zkratky}
-% \include{znacky}
+%\include{znacky}
 
 %%% Pøílohy k diplomové práci, existují-li (rùzné dodatky jako výpisy programù,
 %%% diagramy apod.). Každá pøíloha musí být alespoò jednou odkazována z vlastního

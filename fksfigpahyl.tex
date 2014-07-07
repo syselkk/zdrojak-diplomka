@@ -1,0 +1,90 @@
+%
+% @author Michal Koutný <michal@fykos.cz>
+%
+% @description Macros for unified insertion of figures into
+%              page.
+%               - full figures (whole width)
+%               - illustration figures (1/3 of width), text is wrapped
+%               - plots – like full figures, optimized for Gnuplot output
+%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fksfigures}[2011/09/11 FYKOS figures manipulation]
+
+\RequirePackage{graphicx}
+\RequirePackage{wrapfig}
+%\RequirePackage{color}
+\RequirePackage{ifthen}
+\RequirePackage{calc}
+\RequirePackage[center]{caption}
+\RequirePackage[all]{hypcap} % links jump to an image, not the caption
+%\RequirePackage{optional}
+\RequirePackage{subfig}
+\RequirePackage{xargs}
+\RequirePackage{tikz}
+
+
+
+% to avoid label name collision in yearbook, figures inserted in 
+\newcommand\labelsuffix{}
+
+% commands for inserting figures syntax is command[position]{filename}{caption}{label}[opts]
+
+\newcommandx*\fullfig[5][1=h, 5=0]{
+\ifthenelse{\equal{#3}{}}{\capstartfalse}{}
+\begin{figure}[#1]
+\centering
+\ifthenelse{\equal{#5}{0}}{
+	\includegraphics{#2}
+}{
+	\includegraphics[#5]{#2}
+}
+%\includegraphics{#2}
+\ifthenelse{\equal{#3}{}}{}{\caption{#3}}
+\@putlabel{#4}
+\end{figure}
+\ifthenelse{\equal{#3}{}}{\capstarttrue}{}
+\ignorespaces}
+
+\newcommand\plotfig[4][h]{%
+\ifyearbook\immediate\write\plotsfile{#2}\else\relax\fi
+\ifthenelse{\equal{#3}{}}{\capstartfalse}{}
+\begin{figure}[#1]
+\centering
+\ifthenelse{\equal{#3}{}}{}{\caption{#3}}
+\@putlabel{#4}
+\end{figure}%
+\ifthenelse{\equal{#3}{}}{\capstarttrue}{}%
+\ignorespaces}
+
+% specialized for third illustration figures
+% maximal width of illustration image is 0.28\textwidth
+% usage: illfig[alignment]{path}{caption}{label}{height (in rows)}
+%        possibly wrapped in \illtoptrue--\illtopfalse when figure is
+%        is on top of the page and negative vertical shift is not intended.
+\newif\ifilltop
+\illtopfalse
+
+%\newcommand\illfig[5][o]{%
+%\settowidth{\img@width}{\includegraphics{#2}}%
+%\setlength{\img@width}{\minof{\img@width}{0.28\textwidth}}%
+%\begin{wrapfigure}[#5]{#1}{1.05\img@width}
+%\ifilltop\else\vspace{-\intextsep}\fi%
+%\includegraphics[width=\img@width]{#2}%
+%\ifthenelse{\equal{#3}{}}{}{\caption{#3}}%
+%\@putlabel{#4}%
+%\end{wrapfigure}\ignorespaces}
+
+\newcommand\illfigi[6][o]{%
+\settowidth{\img@width}{\includegraphics{#2}}%
+\setlength{\img@width}{\minof{\img@width}{#6\textwidth}}%
+\begin{wrapfigure}[#5]{#1}{1.05\img@width}
+\ifilltop\else\vspace{-\intextsep}\fi%
+\includegraphics[width=\img@width]{#2}%
+\ifthenelse{\equal{#3}{}}{}{\caption{#3}}%
+\@putlabel{#4}%
+\end{wrapfigure}\ignorespaces}
+
+
+\newcommand\illfig[5][o]{\illfigi[#1]{#2}{#3}{#4}{#5}{0.28}}
+
+

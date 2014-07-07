@@ -1,0 +1,107 @@
+\subsubsection{Zadání}
+\begin{wrapfigure}{r}{0.22\textwidth}
+  \vspace{-20pt}
+  \begin{center}
+  \includegraphics[width=0.2\textwidth]{ulohy/reseni27-V-4/problem5-4-zadani.eps} 
+  \caption{K zadání úlohy 27-V-4} \label{27V4-zadani-obr}
+  \end{center}
+  \vspace{-35pt}
+\end{wrapfigure}
+Urèete odpor trojúhelníku vytvoøeného z~odporového drátu mezi
+svorkami~$\bod{A}$~a~$\bod{B}$, které vidíte na obrázku. Jedna strana malého
+trojúhelníèku (ze kterıch se skládá velkı trojúhelník) má odpor~$R_0$. Odpor
+pøívodních vodièù neuvaujte.
+
+\begin{flushright}
+\textit{Pùvod zadání: Karel Koláø\\ %Karel si maloval trojúhelníèky.
+Autor øešení: Jakub Šafin}
+\\Statistiky: max 4$\,$body; prùmìr $"2.78"$; øešilo 41 úèastníkù
+\end{flushright}
+ 
+\subsubsection{Øešení}
+Zamyslime sa, èím vieme popísa elektrickı obvod. Kadému uzlu vieme priradi
+potenciál $\varphi$ a~kadému drôtu prúd~$I$. Ak spája drôt s~odporom~$r$ $i$-ty
+a~$j$-ty uzol, potom ním teèie prúd
+\eq{
+	I_{ij}=\frac{\varphi_i-\varphi_j}{r}
+}
+z~$i$-teho do~$j$-teho uzla (ak je zápornı, znamená to len, e kladnı
+prúd~$-I_{ij}=I_{ji}$ teèie opaènım smerom). Ide o~obyèajnı Ohmov
+zákon~--~napätie medzi uzlami je toti rozdiel ich potenciálov a~prúd teèie
+z~väèšieho potenciálu na menší.
+
+Ak teda pridáme medzi 2~uzly s~rovnakımi potenciálmi drôt s~¾ubovo¾ne malım
+odporom, nebude tımto drôtom tiec iadny prúd~--~ten ale netiekol ani pred tım,
+take sa v~obvode niè, vrátane odporu medzi bodmi~$\bod{A}$~a~$\bod{B}$,
+nezmení. Potom môeme tento drôt skracova na ¾ubovo¾ne malú dåku, a kım sa
+naše 2~uzly spoja do jedného, tie bez zmeny odporu medzi
+bodmi~$\bod{A}$~a~$\bod{B}$. Pozor, pri takomto spojení uzlov stále existujú
+všetky pôvodné drôty!
+
+Dvojíc s~rovnakımi potenciálmi sa dá ¾ahko nájs dos ve¾a. Obvod je toti symetrickı
+pod¾a osi~$\bod{AB}$, teda kadé 2~uzly, ktoré sú si navzájom obrazmi v~tejto
+osovej súmernosti, budú ma aj rovnaké potenciály. Spojme teda kadé dva také uzly
+do jedného.
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=0.7\textwidth]{ulohy/reseni27-V-4/problem5-4-pic1.eps}
+	\caption{Zjednodušenie obvodu pomocou symetrie.} \label{R27S5U4-pic1}
+	\end{center}
+\end{figure}
+
+Pri druhom zjednodušení na obr.~\ref{R27S5U4-pic1} ešte zahodíme drôt, ktorı
+spájal jeden uzol sám so sebou (tımto drôtom iadny prúd zjavne neteèie)
+a~nahradili kadé 2 paralelne zapojené drôty s~rovnakımi odpormi $r$ jednım
+drôtom s~odporom~$r/2$. \emph{Celá} strana malého trojuholníèka bude potom ma
+odpor~$R_0/2$ a~jej \emph{polovica} pri uzle~$\bod{A}$ odpor~$R_0/4$.
+
+\subsubsection{Transformácia trojuholník-hviezda}
+
+Predstavme si èiernu skrinku, do ktorej môeme pripoji drôty na nieko¾kıch miestach
+(tzv.~termináloch), zvoli potenciály na tıchto termináloch a~mera prúdy, ktoré cez
+tieto drôty teèú.
+
+Ak by sme mali dve takéto èierne skrinky (T~a~S), pre ktoré nameráme pre rovnaké
+potenciály vdy rovnaké prúdy, potom môeme v~¾ubovo¾nom obvode vymeni skrinku
+T~za skrinku~S~(a~naopak) bez toho, aby sa ¾ubovo¾ná velièina (odpory, prúdy, atï.)
+v~obvode zmenila.
+
+Dá sa dokáza\footnotei,{Ide o~ve¾mi známy trik pri poèítaní odporov, dôkaz preto
+neuvádzame.} e skrinky na obr.~\ref{R27S5U4-pic2} (s~terminálmi~$\bod{K}$, $\bod{L}$ a~$\bod{M}$)
+\emph{sú} v~tomto zmysle ekvivalentné. Zapojeniu v~skrinke T~hovoríme trojuholník,
+zapojeniu v~skrinke~S~zasa hviezda\footnotei.{Ekvivalentnú hviezdu vieme nájs
+¾ubovo¾nému trojuholníku, vzahy medzi odpormi v~hviezde a~v~trojuholníku sú ale
+zloitejšie.}
+
+Všimnime si, e práve trojuholník zloenı z~drôtov s~rovnakımi odpormi sa
+v~našom (u zjednodušenom) obvode nachádza. Môeme ho teda nahradi hviezdou
+ako na obr.~\ref{R27S5U4-pic3}.
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=0.55\textwidth]{ulohy/reseni27-V-4/problem5-4-pic2.eps}
+	\caption{Ekvivalentné zapojenia do trojuholníka a~do hviezdy.} \label{R27S5U4-pic2}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=0.65\textwidth]{ulohy/reseni27-V-4/problem5-4-pic3.eps}
+	\caption{Zjednodušenie obvodu nahradením trojuholníka hviezdou.} \label{R27S5U4-pic3}
+	\end{center}
+\end{figure}
+
+Odpor~$R$ tohto obvodu u spoèítame priamoèiaro~--~u zo základnej školy predsa
+vieme, e sériovo zapojené rezistory s~odpormi~$R_1$ a~$R_2$ sa správajú ako jeden
+rezistor s~odporom~$R_1+R_2$ a~pri paralelnom zapojení zasa ako rezistor
+s~odporom
+\eq{
+	\frac{1}{\frac{1}{R_1}+\frac{1}{R_2}}\,.
+}
+Odpor medzi bodmi~$\bod{A}$ a~$\bod{B}$ teda bude
+\eq{
+	R=\frac{R_0}{4}+\dfrac{1}{\dfrac{1}{\frac{R_0}{6}+\frac{R_0}{2}}+
+		\dfrac{1}{\dfrac{R_0}{6}+\dfrac{1}{\frac{1}{R_0}+\frac{2}{R_0}}}}+
+	\frac{R_0}{6}+\frac{R_0}{2}=\frac{101R_0}{84}\,.
+}

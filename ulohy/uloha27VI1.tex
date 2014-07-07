@@ -1,0 +1,71 @@
+\subsubsection{Zadání}
+Máme dvì homogenní nerotující planety tvaru dokonalıch koulí s~vnìjšími polomìry~$R\_Z$.
+První z~nich je dokonalá koule o~hustotì~$\rho$ a~na jejím povrchu je gravitaèní
+zrychlení~$a\_g$. Druhá je dutá do poloviny jejího polomìru a~a pak je plná.
+\begin{compactenum}[a)]
+	\item Pokud by obì planety byly ze stejného homogenního materiálu, na povrchu
+	které planety bude vìtší gravitaèní zrychlení a~jakı bude pomìr mezi hodnotami
+	gravitaèního zrychlení na obou planetách?
+	\item Pokud by i~na povrchu druhé planety bylo gravitaèní zrychlení~$a\_g$, jaká by
+	musela bıt hustota druhé planety?
+\end{compactenum}
+
+\begin{flushright}
+\textit{Pùvod zadání: Karel Koláø\\ %Karel zase vymyslel nìco trochu astro s~dutou zemí.
+Autor øešení: Karel Koláø}
+\\Statistiky: max 2$\,$body; prùmìr $"1.79"$; øešilo 178 úèastníkù
+\end{flushright}
+ 
+\subsubsection{Øešení}
+Intenzita gravitaèního pole, a~tedy i~zrychlení na volnı objekt jím vytváøené,
+je stejná, a u jsme vzdáleni od hmotného bodu s~nìjakou hmotností èi jsme na povrchu
+tìlesa, které je kulové, má sféricky symetricky rozloenou hustotu (tj. závisí
+pouze na vzdálenosti od jeho hmotného støedu) a~jeho polomìr je roven vzdálenosti
+od hmotného bodu v~pøedchozím pøípadì.
+Gravitaèní zrychlení na povrchu homogenní koule tedy mùeme vypoèítat ze známého
+vztahu~$a\_g = G \, m_i/R\_Z^2$, kde $m_i$~je hmotnost dané koule. Hmotnost plné
+koule ze zadání, kterou si oznaèíme~$M_1$~je tedy pevnì dána jako~$M_1 = a\_g R\_Z^2/G $.
+
+\begin{compactenum}[a)]
+\item Hmotnosti koulí mùeme poèítat z~objemù, tedy~$M_1 = \rho V\_Z$
+a~$M_2 = \rho \(V\_Z - V\_{in}\)$,
+kde $\rho$~je hustota koulí, $V\_Z$~je objem plné koule a~$V\_{in}$~je objem dutiny.
+Objem koule je obecnì~$V_i = (4/3) \, \pi r_i^3$, kde $r_i$~je polomìr dané koule.
+Vyjádøeme si nyní hmotnost duté koule $M_2$ v~závislosti na hmotnosti~$M_1$
+\eq{
+	M_2 = \rho \( V\_Z - V\_{in} \) =
+	\rho \frac{4}{3} \pi \( R\_Z^3 - \frac{R\_Z^3}{8} \) = \frac{7}{8} M_1 \, .
+}
+Gravitaèní zrychlení na povrchu první, plné, planety by bylo
+\eq{
+	a\_{g1} = \frac{G \, M_1}{R\_Z^2} \, .
+}
+Gravitaèní zrychlení na povrchu druhé, duté, planety by bylo
+\eq{
+	a\_{g2} = \frac{G \, M_2}{R\_Z^2} = \frac{7G \, M_1}{8R\_Z^2} \, .
+}
+Odpovìdí tedy je, e gravitaèní zrychlení na povrchu první planety by bylo vyšší, a~to 8/7krát
+tak velké, co na druhé planetì.
+
+\item Ponechme oznaèení hustoty plné koule jako~$\rho$ a~hustotu duté koule oznaème
+jako~$\rho_2$. Hmotnost obou planet má bıt stejná, take hustota duté planety musí bıt
+o~nìco vyšší. Zapišme si vztahy pro gravitaèní zrychlení na povrchu obou planet
+v~závislosti na hustotì.
+\eq{
+\tilde a\_{g1} = G \, \frac{\rho V\_Z}{R\_Z^2} \, , \qquad
+\tilde a\_{g2} = G \, \frac{\rho \( V\_Z - V\_{in}\)}{R\_Z^2} = G \, \frac{7\rho V\_Z}{8R\_Z^2} \, .
+}
+Pokud má platit, e~$\tilde a\_{g1} = \tilde a\_{g2}$, pak dostáváme vısledek.
+\eq{
+	\rho_2 = \frac{8}{7} \rho \,.
+}
+Pokud dutá planeta bude mít hustotu 8/7krát tak velkou, co plná, pak budou
+mít obì planety na svém povrchu stejné gravitaèní zrychlení.
+\end{compactenum}
+
+\subsubsection{Poznámky k~došlım øešením} % TODO demoverze
+Poznamenejme, e úloha byla pouze o~urèení gravitaèního zrychlení. Na povrchu
+Zemì mùeme mìøit spíše rozdíl tíhového zrychlení, ve kterém je i~odstøedivé
+zrychlení, a~zrychlení zpùsobeného vztlakovou silou vzduchu. Úloha byla zadána jako
+jednoduchá a~proto jsme ani diskuzi tìchto vlivù neoèekávali, nicménì bychom za nì dali
+bonusové body, pokud by byla diskuze správná.

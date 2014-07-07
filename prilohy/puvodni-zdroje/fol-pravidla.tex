@@ -1,0 +1,168 @@
+\documentclass[a4paper,11pt,oneside]{article}
+
+\usepackage[IL2]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+
+\usepackage{fales2}
+%\usepackage{titulka_a}
+
+\usepackage{geometry} %rozložení stránky
+
+\usepackage{amsfonts,amsmath,amssymb}
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{epstopdf}
+
+\usepackage{booktabs} %tabulky
+\usepackage{array}
+\usepackage{dcolumn} %zarovnání tabulek podle desetinného místa
+\usepackage{multirow}
+\usepackage{xtab} %dlouhé  tabulky
+
+\usepackage{lastpage}
+\usepackage{fancyhdr} %záhlaví, zápatí
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+%\fancyhead[RO,LE]{Aleš FLANDERA}
+%\fancyhead[LO,RE]{Praktikum \PRAKTIKUM, Úloha č. \ULOHAN}
+\fancyfoot[RO,LE]{\thepage\ z \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.0pt}
+
+
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{czech}
+\addto\captionsczech{\renewcommand{\refname}{}} %změna nadpisu literatury (jeho vymazání)
+
+%\usepackage{cite}
+%\usepackage{float}
+%\usepackage{caption,subcaption}
+%\usepackage{longtable}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\section*{Pravidla}
+\hrule
+\hfill
+\\
+\\
+Fyziklání online je tříhodinová týmová hra probíhající přes Internet.
+
+Týmy řeší zadané úlohy, řešením každé úlohy je číslo, které odesílají přes 
+webový formulář.
+
+Za vyřešené úlohy získávají týmy body, během hry týmy stále vidí aktuální 
+výsledkovou listinu, která bude 20 minut před koncem soutěže zmrazena a opět 
+aktualizována až po skončení hry.
+
+\section{Účast ve hře}
+
+Týmy ve všech kategoriích řeší stejné úlohy. 
+
+Každá kategorie má samostatnou výsledkovou listinu, bude vytvořena i celková výsledková listina.
+
+Účast ve hře je zdarma.
+
+Je zakázána jakákoliv spolupráce mezi týmy i s osobami mimo tým.
+
+Hra je založena na fair-play. Průběh hry monitorujeme a můžeme tedy odhalit 
+některé způsoby podvádění, nicméně předpokládáme, že hrajete proto, abyste si 
+zahráli, a tudíž podvádění nemá smysl.
+
+\section{Úlohy}
+
+Zadání úloh budou zveřejněna ve formátu PDF na webu hry po přihlášení 
+týmovým heslem.
+
+Výsledkem úlohy je číslo. V zadání úlohy bude, zda požadujeme číslo celé 
+(vysloveně) nebo reálné (výchozí). U reálného čísla se bude jeho vyhodnocování 
+provádět v rámci intervalu tolerance.
+
+Je-li v zadání uvedena číselná hodnota nějaké konstanty, použijte striktně 
+tuto hodnotu.
+
+Číselné výsledky úloh uvádějte v nenásobných jednotkách SI, není-li uvedeno 
+jinak. U každého příkladu je uveden minimální počet požadovaných platných cifer, 
+ačkoli je možné, že váš výsledek bude správný i při menším počtu zadaných míst, 
+jen dodržení vám zaručí správnou opravu výsledku. Příklady:
+\begin{itemize}
+\item Jakou vzdálenost ujede vlak rychlostí $*50 km.h^{-1}*$ za minutu? Uveďte alespoň 4~platné cifry. — správně je například odpověď 833,3 nebo 833,33
+
+\item Kolik kilometrů ujede vlak rychlostí $*50 km.h^{-1}*$ za minutu? Stačí 1 platná cifra. — například odpověď 0,8
+
+\item Kolik atomů uhlíku (celé číslo) obsahuje molekula cyklopentanoperhydrofenantrenu? — odpověď 17 je správně, odpověď 17,0001 je špatně
+
+\end{itemize}
+
+Úlohy budou rozmanitých typů a rozmanité obtížnosti, která bude rozlišena 
+maximem možných získaných bodů, jednodušší úlohy bude obsahovat Hurry-up série, 
+ale bude na jejich řešení méně času.
+
+\section{Systém hry a bodování}
+
+Hra bude mít tři části:
+\begin{enumerate}
+\item První část: 17:00 až 18:30.
+\item Druhá část: 18:30 až 20:00.
+\item Hurry-up část: 18:00 až 18:30 probíhající souběžně s~první částí v průběhu její poslední půl hodiny.
+\end{enumerate}
+Konec hry je ve 20:00 (3 hodiny po začátku hry).
+
+V první části bude zadáno každému týmu 5 úloh, po vyřešení úlohy se týmu 
+zpřístupní další příklad v sérii.
+
+Za úlohy získávají týmy body. U každé úlohy je určen maximální počet bodů, 
+které tým získá, pokud odpoví na úlohy správně napoprvé. Při prvním opakování 
+odpovědi získává tým 0,6-násobek maxima, dále analogicky 0,4-násobek a 
+0,2-násobek, minimální počet bodů, který získá, je ale 1 bod. Násobky se 
+zaokrouhlují nahoru na celý bod.
+
+Při špatné odpovědi bude týmu na 1 minutu znemožněno odpovídat na úlohy dané 
+skupiny, tzn. úlohy klasické (první a druhé části), nebo jedné ze tří skupin úloh části Hurry up.
+
+Druhá část na tu první spojitě naváže a její bodování je stejné. Pokračuje 
+se řešením stejných příkladů, včetně těch, které již máte k dispozici, popřípadě 
+máte rozpracované. Týmy ale navíc získají možnost na nevyřešenou úlohu 
+neodpovídat a otevřít si místo ní jinou; za toto bude tým penalizován srážkou jednoho bodu.
+
+V případě rovnosti bodů rozhoduje nižší čas přijetí poslední správné 
+odpovědi, v~případě další shody pak rozhodne los.
+
+\subsection*{Hurry-up}
+
+Hodinu po začátku se otevře možnost odpovídat na úlohy tzv. Hurry-up série.
+
+Úlohy této části lze odevzdávat jenom půl hodiny (avšak souběžně s první 
+částí).
+
+Úlohy jsou rozděleny na tři tematické oddíly. Na počátku dostane tým z 
+každého oddílu jeden příklad. Po správné odpovědi se týmu zpřístupní další úloha 
+daného oddílu.
+
+Za každou zkompletovanou trojici (tj. správně zodpovězené úlohy daného 
+pořadí z~každého oddílu) bude tým odměněn bonusem ve výši bodů získaných za 
+úlohy dané trojice.
+
+Za každou špatnou odpověď na úlohu Hurry-up série se počet bodů získatelných za 
+její vyřešení o jeden bod sníží a to až na hranici 0 bodů.
+
+\section{Dovolené vybavení}
+Počítač s přístupem na Internet (rychlost připojení by neměla být příliš 
+důležitá). Více počítačů může být výhodou (ale není nezbytně nutné). Je dovoleno 
+používat Internet jako zdroj informací v libovolné míře.
+
+Tiskárna není nutná, ale může vám pomoci.
+
+Papíry, tužky, pastelky, podložky, literatura, kalkulačka.
+
+\section{Odměny}
+
+V každé kategorii bude odměněno alespoň prvních pět týmů, a to knihami či knižními poukázkami či deskovými nebo karetními hrami.
+
+Odměněné týmy si mohou vybrat ceny z dané množiny, týmy výše v žebříčku mají přednost.
+
+\end{document}

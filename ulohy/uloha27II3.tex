@@ -1,0 +1,83 @@
+\subsubsection{Zadání}
+Máme nádobu o~konstantním prùøezu, která obsahuje ideální plyn a~píst ve
+vıšce~$h$. Píst nejprve rychle (tzn.~prakticky adiabaticky) stlaèíme do
+vıšky~$h/2$, podríme ho, ne nastane tepelná rovnováha s~okolím, a~pak ho
+pustíme. Do jaké vıšky píst vystoupá ihned? Do jaké vıšky vystoupá za dlouhou
+dobu? Nakreslete $pV$~diagram.
+
+\begin{flushright}
+\textit{Pùvod zadání: Karel Koláø\\ %Karel pøemıšlel nad pístem.
+Autor øešení: Jakub Kocák}
+\\Statistiky: max 4$\,$body; prùmìr $"2.68"$; øešilo 76 úèastníkù
+\end{flushright}
+ 
+\subsubsection{Øešení}
+Najprv si uvedomíme celkom zjavnú vec. Keï má nádoba konštantnı prierez~$S$,
+tak jej aktuálny objem~$V\_a$~je priamo úmernı aktuálnej vıške piestu~$h\_a$
+\eq{
+	V\_a = Sh\_a \,. \lbl{R27S2U3_lin}
+}
+Stav plynu v~nádobe budú charakterizova stavové velièiny: objem~$V$, tlak~$p$
+a~teplota~$T$. Plyn prešiel nasledujúcim procesom. Na zaèiatku bol v~stave~$\bod{1}$
+s~piestom vo vıške~$h$. Potom prešiel adiabatickım stlaèením
+do stavu~$\bod{2}$ s~piestom vo vıške~$h/2$ (objem sa zmenšil, tlak a~teplota
+zvıšili). Potom sa izochoricky ochladil na okolitú (poèiatoènú) teplotu
+do stavu~$\bod{3}$ (objem sa nemenil, teplota i~tlak klesli). Uvo¾nením piesta sa
+adiabaticky roztiahol na okolitı tlak do stavu~$\bod{4}$ (objem stúpol, tlak
+a~teplota klesli). Nakoniec sa izobaricky zohrial na okolitú teplotu
+do stavu~$\bod{5}$ (tlak sa nemenil, teplota a~objem stúpli).
+
+Ideálny plyn sa správa pod¾a stavovej rovnice
+\eq{
+	p_i V_i = n R T_i \,, \lbl{R27S2U3_stav}
+}
+kde $i$~je index pre rôzne stavy. Látkové mnostvo plynu $n$~sa v~nádobe
+nemení, preto je pre všetky stavy rovnaké a~nemusí sa špecifikova indexom.
+
+Najprv si ukáeme, e stavy~$\bod{1}$ a~$\bod{5}$~sú tie isté.
+V~stave~$\bod{1}$ mal plyn stavové velièiny~$p_{\bod{1}}$, $V_{\bod{1}}$
+a~$T_{\bod{1}}$ a~spåòal stavovú rovnicu~\eqref{R27S2U3_stav}. Potom, èo plyn
+prešiel jeden vyššie popísanı proces, sa teplota plynu vyrovnala s~okolím
+($T_{\bod{5}} = T_{\bod{1}}$) a~tlak plynu bol rovnakı ako okolitı ($p_{\bod{5}} =
+p_{\bod{1}}$). Pod¾a stavovej rovnice~\eqref{R27S2U3_stav} musí teda by aj
+objem rovnakı~$V_{\bod{5}}=V_{\bod{1}}$ a~stavy~$\bod{1}$ a~$\bod{5}$~sú
+rovnaké. Vieme teda poveda, e po dlhom èase vystúpa piest na pôvodnú
+vıšku~$h$.
+
+Aby sme zistili, do akej vıšky vystúpi piest ihneï, potrebujeme vedie, z~akého
+stavu sa adiabaticky rozahuje. V~stave $\bod{3}$~je teplota rovnaká ako teplota okolia
+($T_{\bod{3}} = T_{\bod{1}}$) a~piest dríme v~poloviènej vıške, preto bude aj
+objem poloviènı oproti poèiatoènému ($V_{\bod{3}} = V_{\bod{1}}/2$). Pouitím
+stavovej rovnice~\eqref{R27S2U3_stav} vieme dopoèíta, e tlak bude dvojnásobnı
+oproti okolitému ($p_{\bod{3}} = 2 p_{\bod{1}}$).
+
+Zo stavu~$\bod{3}$ sa plyn adiabaticky rozopne na okolitı tlak ($p_{\bod{4}} =
+p_{\bod{1}}$). Pri adiabatickom deji platí
+\eq{
+	p_{\bod{3}} V_{\bod{3}}^\kappa = p_{\bod{4}} V_{\bod{4}}^\kappa \,,
+}
+kde $\kappa$~je Poissonova konštanta plynu. Dosadením vırazov~$p_{\bod{3}}$,
+$V_{\bod{3}}$ a~$p_{\bod{4}}$ a~vyjadrením~$V_{\bod{4}}$ dostaneme
+\eq{
+	V_{\bod{4}} = V_{\bod{1}} 2^{\frac{1-\kappa}{\kappa}} \,.
+}
+Keïe sú objemy plynu a~vıšky priamoúmerné pod¾a~\eqref{R27S2U3_lin}, vieme
+poveda, do akej vıšky~$h_{\bod{4}}$ piest vystúpa
+\eq{
+	h_{\bod{4}} = h 2^{\frac{1-\kappa}{\kappa}} \,,
+}
+èo vychádza napríklad pre vzduch ($\kappa \approx "1.4"$) pribline~$"82 \%"$
+pôvodnej vıšky~$h$.
+
+Keï si celı proces vykreslíme v~$pV$ diagrame, dostaneme cyklus ako na
+obrázku~\ref{R27S2U3_pV}.
+
+\begin{figure}[h]
+	\begin{center}
+	\includegraphics[width=0.7\textwidth]{ulohy/reseni27-II-3/pV.jpg}
+	\caption{Relatívny $pV$~diagram cyklu plynu v~nádobe pod piestom.} \label{R27S2U3_pV}
+	\end{center}
+\end{figure}
+
+$pV$~diagram je urobenı pre dvojatómovı plyn (vzduch). Tlak i~objem sú vyjadrené
+relatívne vzh¾adom na poèiatoèné podmienky.

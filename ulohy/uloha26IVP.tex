@@ -1,0 +1,244 @@
+\subsubsection{Zadání}
+V~pohádce Mrazík vyhodil Ivan loupeníkùm kyje do takové vıšky, e spadly a za pùl
+roku. Jak vysoko by je musel vyhodit, aby dopadly za takovou dobu? Vytvoøte první
+a~druhı hrubı odhad. Zdùvodnìte, proè jsou tyto odhady nejspíš øádovì špatné. Co jste
+všechno zanedbali? Z~jakıch dùvodù je celkovì nesmyslné, aby kyje dopadly na
+prakticky stejné místo po pùl roce? Nebraòte se proudu kritiky na tuto klasickou
+pohádku!
+
+\begin{flushright}
+\textit{Pùvod zadání: Lukáš Ledvina\\ % si vzpomnìl na Mrazíka.
+Autor øešení: Karel Koláø}
+\\Statistiky: max 5$\,$body; prùmìr $"2.91"$; øešilo 35 úèastníkù
+\end{flushright}
+
+\subsubsection{Øešení}
+
+Budeme øešit pohyb jednoho z~kyjù.
+Zkusme nejprve naivnì pøedpokládat, e Ivan vyhodil kyj v~homogenním gravitaèním
+poli v~bezodporovém prostøedí. Ivánek hází kolmo nahoru z~vıšky, kterou oznaèíme jako nulovou, s~nìjakou
+poèáteèní rychlostí~$v_0$, kterou budeme chtít urèit. Rovnice pro svislı vrh vzhùru
+pak vypadají
+\eq[m]{
+	h &= v_0 t- \frac{1}{2}gt^2 \, , \lbl{eq:haaa} \\
+	v&= v_0 - gt \, , \lbl{eq:veee}
+}
+kde $h$~je vıška kyje v~èase~$t$, $v$~je jeho aktuální rychlost a~$g$~je tíhové zrychlení.
+Èas, za kterı mají kyje dopadnout, je pùl roku~$T \doteq "15.8e6 s"$. Z~druhé rovnice pak
+mùeme urèit pùvodní rychlost kyje, protoe víme, e ve chvíli návratu by mìly mít kyje stejnou
+rychlost, ale opaèného smìru.
+\eq{
+	-v_0 = v_0 - gT \ztoho v_0 = \frac{gT}{2} \approx "8e7 m.s^{-1}"
+	\approx \frac{c}{4} \, ,
+}
+kde $c \doteq "3.0e8 m.s^{-1}"$~je rychlost svìtla ve vakuu.
+Z~vısledku je patrné, e bychom u správnì
+mìli vyuít pro vıpoèet speciální teorii relativity, protoe kyj by mìl bıt
+vyhozen relativistickou rychlostí. Ovšem ne se zbìsile vrhneme do
+relativistickıch øešení, tak si mùeme vyzkoušet vypoèíst, do jaké vıšky by dle
+vıše uvedeného vıpoètu mìl kyj vystoupit. Buï si rovnou vzpomeneme,
+e nejvyššího bodu dosáhne kyj v~èase~$T\_{max} = v_0/g = T/2$, nebo si uvìdomíme, e
+v~okamiku obratu je rychlost nulová a~vypoèteme tento èas z~rovnice~\eqref{eq:veee},
+nebo si to mùeme ukázat sloitìji tak, e rovnici~\eqref{eq:haaa} doplníme na ètverec
+\eq{
+	h = - \frac{1}{2}g\(t^2- \frac{2v_0}{g}t \) \ztoho h = - \frac{1}{2}g \(t-
+		\frac{v_0}{g} \)^2 + \frac{1}{2} \frac{v_0^2}{g} \, .
+}
+Vıška bude maximální v~okamiku, kdy závorka umocnìná na druhou má nej\-men\-ší
+hodnotu, tedy v~okamiku, kdy je nulová. Pokud èas~$T\_{max}$ dosadíme do
+\eqref{eq:haaa},
+pak dostáváme~$h\_{max} = gT\_{max}/2 \approx "3e14 m"$, tedy (pokud uváíme, e
+polomìr Zemì je~$R\_Z = "6\,378 km"$) e se jedná øádovì
+o~$"5e7"$ násobek polomìru Zemì. V~dalších jednotkách je to
+pak~$"2e3 AU"$ èi~$"0.03 ly"$.
+Je tedy zøejmé, e gravitaèní pole,
+ve kterém se kyj pohybuje, ve skuteènosti nebude homogenní, a~proto náš
+pùvodní pøedpoklad vùbec neplatí, take se ani vylepšováním speciální teorií
+relativity nemusíme zabıvat.
+
+Ji víme, e budeme muset uvaovat, e se jedná o~vrh v~radiálním gravitaèním
+poli Zemì. Vrh je provádìn kolmo vzhùru, co by mìlo vést k~tomu, e se
+kyj bude pohybovat po degenerované elipse na úseèku, její jeden konec by
+se nacházel v~tìišti Zemì.
+Nebudeme radìji moc spekulovat nad tím, jak by pak
+mohl dopadnout kyj opìt na stejné místo pod stejnım úhlem, protoe bychom
+po chvíli stejnì došli k~tomu, e je to pøíliš podezøelé, a~to zejména kvùli
+sklonu osy zemské rotace a~dalším pohybùm Zemì v~prùbìhu roku. Keplerùv
+tøetí zákon platí i~pro takto zdegenerovanou elipsu. Napišme si ho ve~tvaru
+\eq{
+	\frac{a^3}{T^2} = \frac{GM\_Z}{4 \pi^2} \, ,
+}
+kde $a$~je délka hlavní poloosy, co je v~našem pøípadì polovina délky úseèky,
+po které se pohybuje kyj\footnote{Musíme poznamenat, e v~místì obratu kyje,
+tedy v~tìišti Zemì, bychom museli umístit nìco, od èeho by se kyj mohl dokonale prunì
+odrazit, kdeto cestu a k~tìišti bychom mu museli vyhloubit. Take se jedná
+vlastnì o~hypotetickou a~dost abstraktní situaci.},
+$G = "6.67e-11 N.m^2.kg^{-2}"$~je gravitaèní konstanta,
+$M\_Z = "5.97e24 kg"$~hmotnost Zemì. Pokud bychom mohli zanedbat dobu, kterou by kyj
+mìl strávit v~rámci své obìné doby pod povrchem Zemì, tak opravdu mùeme
+pouít ve vztahu èas~$T$. Vyjádøeme si hlavní poloosu
+\eq{
+	a= \sqrt[3]{ \frac{G M\_Z}{4 \pi^2} T^2} \approx "1.4e9 m" \approx
+		200 R\_Z \approx "9e-3 AU" \, .
+}
+Vzhledem k~tomu, e je poloosa více jak dvousetnásobkem polomìru Zemì, tak
+opravdu mùeme relativnì dobøe pouít zanedbání èasu. Navíc v~èásti pod Zemí by
+se kyj mìl hıbat nejrychleji, a~tedy strávit tam jenom relativnì krátkı èas.
+Ovšem~--~mìli bychom se zamyslet, do jaké nejvìtší vzdálenosti od Zemì se kyj
+dostane.
+Od jejího jádra by to mìl bıt dvojnásobek~$a$, co je øádovì 400~polomìrù Zemì.
+Zamyslíme se nad tím, jestli opravdu v~celé oblasti bude mít hlavní roli
+gravitace Zemì, nebo i~dalších tìles. Proto se podívejme na soustavu
+Zemì~--~Slunce. V~této soustavì se nachází 5 bodù, ve kterıch se vyrovnávají
+gravitaèní a~odstøedivé síly. Jedná se o~takzvané Lagrangeovy èi libraèní
+body. Nás v~této chvíli zajímá zejména poloha bodu L$_1$, kterı je Zemi
+nejblíe. Proè? Protoe pokud se mùe nìjaká druice dostat od Zemì za bod
+L$_1$, tak se mùe stát obìnicí Slunce nebo støídavì obíhat Zemi a~Slunce
+(pokud nemá energii tak velkou, e dokonce ze soustavy unikne). Dá se vypoèítat
+èi najít\footnote{\url{http://de.wikipedia.org/wiki/Lagrange-Punkte}}, e
+se nalézá zhruba~$"1.5e9 m"$ od Zemì. Vzhledem k~tomu, e se kyj má dostat
+a do vzdálenosti~$"2.7e9 m"$, pak není opìt splnìna vstupní podmínka vıpoètu.
+Správnì bychom mìli uvaovat i~gravitaèní vliv Slunce a~tím by se úloha znaènì
+zkomplikovala. Proto nadále budeme pracovat s~tímto odhadem, ale budeme si
+uvìdomovat, e by musel bıt ještì opraven.
+
+Zkusme se zamìøit na vıpoèet rychlosti, kterou by musel Ivan kyje hodit. Jako
+první nástøel mùeme odhadnout, e musí jít o~rychlost nìkde mezi 1. kosmickou
+rychlostí\footnote{Dùvodem, proè je jasné, e by rychlost kyje mìla bıt vyšší
+	ne tato, je u to, e velká poloosa dráhy kyje je vìtší, navíc ho vypouštíme
+	pøímo vzhùru.}, co je obìná rychlost po kruhové dráze na úrovni povrchu
+	Zemì~$v_1 \doteq "7.9 km.s^{-1}"$, a~2. kosmickou rychlostí, co je úniková
+rychlost z~povrchu Zemì, tj.~kyje by se vùbec nevrátily $v_2 \doteq "11.2
+km.s^{-1}"$. U tím bychom mìli docela pìknı øádovı odhad. Pokud bychom chtìli
+dostat nìjakou pøesnìjší hodnotu, tak mùeme vyuít nìjakého programu èi
+programovacího jazyka a~prùbìh vrhu si numericky nasimulovat. V~tom pøípadì,
+pøi pouití trochu pøesnìji zadanıch hodnot, ne je uvedeno zde, dostáváme
+hodnotu rychlosti hodu\footnote{K vıpoètu byl pouit program Wolfram
+	Mathematica. Kód je k~nalezení na \url{http://fykos.cz/rocnik26/4-p.nb}
+a~\url{http://fykos.cz/rocnik26/4-p.cdf}. Ve formátu .nb si mùete kód
+	i~upravovat, pokud vlastníte Wolfram Mathematicu, kdeto v~.cdf se na nìj
+	mùete alespoò podívat a~pøehrávaè .cdf mùete stáhnout zdarma na
+	\url{http://www.wolfram.com/cdf/}. } jako~$v\_{kyj} \doteq "11\,168 m.s^{-1}"$
+a~hodnotu druhé kosmické rychlosti jako~$v_2 \doteq "11\,181 m.s^{-1}"$. Hodnoty
+se liší pouze o~nìco málo víc ne jedno promile, co ukazuje další
+problematickou èást pohádky a~to, e by Ivan musel do urychlení kyje vloit
+pøesnì definovanou sílu, protoe jinak by kyje dopadly v~úplnì jinou dobu, nebo
+by rovnou úplnì uletìly.
+
+Nadále budeme pracovat s~rychlostí~$v\_{kyj}$, která je vlastnì kvùli odporovım
+silám spodním odhadem toho, na jakou rychlost by Ivan kyje musel urychlit.
+Zamysleme se nad tím, jakou kinetickou energii by musel Ivan do kyjù vloit.
+Uvaujme jeden~$m \doteq "20 kg"$ kyj.
+\eq{
+E\_k = \frac{1}{2} m v\_{kyj}^2 \approx "1.2 GJ" \,
+}
+Ivan by tedy do jednoho kyje musel dát pøes gigajoule své energie.
+
+S~jakım zrychlením musel Ivan kyje urychlovat? Uvaujme, e je urychloval
+rovnomìrnì a~e je velmi vysokı, a~tak je urychloval~$h_i = "2 m"$.
+\eq{
+	h_i = \frac{1}{2} a\tau^2 \, , \quad v\_{kyj} = a\tau \ztoho
+		a= \frac{v\_{kyj}^2}{2h_i} \approx "3e7 m.s^{-2}" \, ,
+}
+kde jsme oznaèili jako~$\tau$~èas urychlování kyje. Ivan by tedy musel
+pohybovat svou paí s~takto nemonì velkım zrychlením, pøièem celé
+urychlování by trvalo~$\tau \approx "3e-4 s"$. Pøi takto agresivním
+urychlování by se nejspíš kyj sám rozbil svou setrvaèností.
+
+Zamìøme se teï na odpor vzduchu, kterı jsme dosud pøecházeli, by jsme
+si uvìdomovali, e bude hrát znaènou roli. Pouijeme Newtonùv vztah pro odpor
+vzduchu
+\eq{
+	F = \frac{1}{2} C\rho Sv^2 \, ,
+}
+kde $C$~je souèinitel odporu danı tvarem tìlesa, kterı bıvá vìtšinou
+mezi $"0.1"$ a~$"1.2"$ a~v~našem pøípadì ho budeme povaovat\footnote{
+	Ve skuteènosti se mìní v~prùbìhu letu, jak se kyj otáèí, ale stejnì
+	nám jde pouze o~øádovı odhad.} za~$"0.5"$,
+$\rho = "1.29 kg.m^{-3}"$~je hustota vzduchu, $S$~je plocha prùøezu
+tìlesa ve smìru pohybu, která mùe bıt u~kyje øádovì $S \approx "0.1 m^2"$.
+Zkusme dosadit, jaká by pak mìla bıt odporová síla na poèátku pohybu
+v~pøípadì, e by byl kyj urychlen \uv{pouze} na rychlost~$v\_{kyj}$.
+Síla je pak~$F \doteq "4e6 N"$, co by pro~$"20 kg"$ kyj znamenalo zrychlení
+zhruba~$"2e5 m.s^{-2}"$, co by kyj teoreticky zabrzdilo v~první sekundì\footnote{
+	První vteøina je zde zmínìná èistì úèelovì. Atmosféru bychom mohli hodnì hrubì
+	povaovat za vysokou~$"10 km"$ s~hustotou vzduchu jako je u~hladiny moøe.
+	Je to hodnì hrubé pøiblíení, ale pro odhad nám to staèí. Vzhledem k~rychlosti,
+	s~jakou by kyje mìly opustit Ivanovu ruku, tedy skrz atmosféru projde za právì
+	jednu sekundu.
+	}, resp.~ještì døíve, take konstantnost odporu si v~úvahách dovolit nemùeme
+a~kyje by musely vyletìt nejspíše s~øádovì vyšší rychlostí.
+Ovšem musíme si uvìdomit, e hustota vzduchu s~vıškou klesá, a~zejména, e kdy
+je rychlost niší, tak klesá i~odporová síla. Navíc s~takto vysokımi rychlostmi
+v~atmosféøe naráíme na limity pouité rovnice, protoe jsme v~rychlostech
+øádovì nad rychlostí zvuku ve vzduchu. Newtonova rovnice se tudí ani nedá spolehlivì
+pouít.
+
+Laskavá ètenáøka si pak u sama dopoète, e by energie dodaná na poèátku kyji
+staèila na jeho zahøání o~více jak nìkolik tisíc stupòù Celsia a~s~ohledem
+na odpor vzduchu by se tedy kyj po cestì nejspíš uhoøel (stejnì jako se to
+èasto stává malım meteoritùm).
+
+Závìrem mùeme øíci, e Mrazík by se mìl z~hlediska vıuky fyziky zakázat,
+nebo pouívat pouze jako odstrašující pøípad.
+
+\subsubsection{Komentáø k~došlım øešením}
+Èastım nedostatkem v~øešení bylo nedostateèné zdùvodnìní, proè je vlastnì
+všechno, co poèítáte, nesmysl, a~hlavnì nevypoètení nìjakıch hodnot, které by vaši
+domnìnku podpoøily. Pøípadnì, kdy u se objevilo nìjaké èíslo s~nìjakou
+jednotkou, tak kde vlastnì? Je potøeba uvést vıpoèet nebo zdroj, odkud
+údaj pochází.
+
+Bylo mnoho zajímavıch a~sem tam i~originálních myšlenek, jak aféru \uv{Ivanovy
+kyje} shodit ze stolu. Málokdo se ale asi na Mrazíka podíval poøádnì, protoe
+pøipomínka k~tomu, e kyjù dopadl znaènì vyšší poèet, ne vyletìl do vesmíru,
+byla zaznamenaná pouze jednou. Chtìl bych ale vyzdvihnout zpracování
+Samuela Koèišèáka, kterı neváhal a~na video pouil videoanalızu v~programu Tracker,
+take k~rùznım faktickım pøipomínkám pøidal i~tu, e by let kyjù s~namìøenou
+poèáteèní rychlostí trval pouze asi 5 sekund.
+
+Velká èást øešitelù si uvìdomila, e kyje by pravdìpodobnì v~prùbìhu letu
+atmosférou shoøely, ale bohuel znaèná èást psala o~tom, e by uhoøely a
+v~prùbìhu dopadu. To zní velice nepravdìpodobnì, vzhledem k~tomu, e pokud
+uváíme odpor vzduchu, tak pøi stoupání by musely mít kyje daleko vyšší rychlost
+a~tím pádem i~vyšší odpor. Je pravdou, e by proletìly rychleji, ale pokud by mìly
+uhoøet, tak by spíše uhoøely u pøi vıstupu.
+
+Èást øešitelù se zamìøila na to, jak dostat kyje zpátky v~rámci Sluneèní soustavy.
+Zajímavı byl nápad vyhodit kyje kolmo na rovinu obìhu Zemì kolem Slunce tak, aby
+obìná rychlost kyjù kolem Slunce byla totoná s~obìnou rychlostí Zemì (po
+jejich vzdálení od Zemì). To by bylo ještì \uv{realistické} teoretické øešení.
+Horší byly nápady úplnì zanedbat gravitaci Zemì a~Slunce a~hodit je skrz Slunce
+bez ohledu na to, e by, pokud ji neshoøely pøedtím, kyje urèitì shoøely.
+Nemluvì o~tom, e pøi vzdalování od Zemì by jejich rychlost klesala, pak zase
+stoupala pøi pøibliování Slunci, pak zase klesala pøi vzdalování a~pak se kyje zase
+urychlily u~Zemì. Take pøedpoklad rovnomìrného pohybu by byl opravdu znaènì
+pøestøelenı.
+
+Dalším pøístupem, kterı se pro odhad rychlosti pohybu kyje objevil, byl
+vıpoèet mezní rychlosti v~atmosféøe. Ten má nìkolik vad. Nejdøív by toti
+Ivan musel hodit øádovì vyšší rychlostí, ne je mezní, aby
+kyje získaly nìjakou dostateènou vıšku, ale tím zase naráíme na pøiblíení,
+které bylo uèinìno, a~to, e hustota atmosféry je pøiblinì konstantní, co
+opìt nemùe platit vzhledem k~tomu, jak dlouho se kyje mají pohybovat.
+Ale je to jinak zajímavı odhad, kterı vychází øádovì blíe ne aproximace
+homogenním gravitaèním polem ve vakuu.
+
+Závìrem bychom ještì uvedli velké upozornìní~--~pokud máme pohyb hmotného bodu ve
+vzduchoprázdnu a~pokud tam nemáme ádné další síly, tak se tento hmotnı bod musí
+nutnì pohybovat po kueloseèce, co bıvá nejèastìji elipsa èi hyperbola.
+Mùe to bıt teoreticky úseèka èi parabola. Ale rozhodnì se nemùe stát to,
+e vyšleme druici \uv{kopnutím} nahoru a~ona nám sama zaène obíhat po kruhové
+trajektorii v~nìjaké vıšce nad Zemí. K~tomu musí mít druice motory, aby upravily
+její kurz po vynesení do poadované vıšky. Také si jen tak samy od sebe neøeknou,
+e spadnou. Jedinì pokud se srazí nebo pokud klesají z~dùvodu tøení o~atmosféru.
+Nemluvì o~tom, jak je obèas zvelièována geostacionární dráha\dots Ano, je to
+vıznaèná dráha, ale jen protoe druice na ní obìhne Zemi jednou za den. Jinak
+mùe druice obíhat v~úplnì libovolné vıšce, která je dostateènì velká, aby
+nedrhla o~atmosféru a~která je dostateènì nízká, aby byla ve sféøe gravitaèního
+vlivu Zemì.
+
+P.S.: Není to jenom Mrazík, co má vadnou fyziku. Jen si poslechnìte
+ty souboje ve vesmíru se zvukovımi efekty ve Star Wars nebo se podívejte,
+co provádìjí Tom a~Jerry\dots
+
