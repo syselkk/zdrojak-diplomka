@@ -1,7 +1,7 @@
-%%% Hlavní soubor. Zde se definují základní parametry a odkazuje se na ostatní èásti. %%%
+%%% Hlavní soubor. Zde se definují základní parametry a~odkazuje se na ostatní èásti. %%%
 
 %% Verze pro jednostranný tisk:
-% Okraje: levý 40mm, pravý 25mm, horní a dolní 25mm
+% Okraje: levý 40mm, pravý 25mm, horní a~dolní 25mm
 % (ale pozor, LaTeX si sám pøidává 1in)
 \documentclass[12pt,a4paper]{report}
 \setlength\textwidth{145mm}
@@ -34,6 +34,10 @@
 %% Použité kódování znakù: obvykle latin2, cp1250 nebo utf8:
 \usepackage[cp1250]{inputenc}
 
+
+%dìlení slov
+%\hyphenation{FYKOS FYKOSí úèast-ní-ci}
+
 %% Ostatní balíèky
 \usepackage{graphicx}   % obrázky
 %\usepackage[nointegrals]{wasysym}   % obrázky
@@ -47,17 +51,25 @@
 \usepackage{multirow}   % tabulky
 \usepackage{array}
 
+\usepackage{caption}    % dává možnost hvìzdièkou u caption vypnout èíslování jednoho obrázku
+\usepackage{chngcntr}   % tyhle dva øádky pod sebou dávají dohromady to, že se obrázky èíslují ne dle 
+\counterwithout{figure}{chapter}% kapitol, ale kontinuálnì od zaèátku
+\counterwithout{table}{chapter}
+
 \usepackage{titlesec}
 
-\usepackage{xcolor}
-\usepackage{hanging}
+\usepackage{xcolor}   % barvièky, možná už nejsou potøeba, byly tu kvùli mezerám podvodnì udìlaným bílými znaky
+\usepackage{hanging}  % zarovnání - kvùli literatuøe
 
-\usepackage{epstopdf}
+\usepackage{epstopdf} % aby tu mohlo být jak pdf, tak eps
+
+\usepackage{footnote} % aby nìjak fungovaly footnoty v table environment - pøes environment savenotes
 
 \usepackage{placeins} % FloadBarrier
 \usepackage{paralist}
 \usepackage{bm}
-\usepackage{wrapfig}
+\usepackage{wrapfig}  % obrázky
+
 
 %blbé zalamování - snaha opravit
 \tolerance 1000
@@ -67,13 +79,13 @@
 
 %% Balíèek hyperref, kterým jdou vyrábìt klikací odkazy v PDF,
 %% ale hlavnì ho používáme k uložení metadat do PDF (vèetnì obsahu).
-%% POZOR, nezapomeòte vyplnit jméno práce a autora.
+%% POZOR, nezapomeòte vyplnit jméno práce a~autora.
 \usepackage{hyperref}
 
 %\input{fksfigpahyl}
 
 %\usepackage[ps2pdf,unicode]{hyperref}   % Musí být za všemi ostatními balíèky
-\hypersetup{pdftitle=Fyzikální korespondenèní semináø na MFF UK – reflexe a rozvoj}
+\hypersetup{pdftitle=Fyzikální korespondenèní semináø na MFF~UK – reflexe a~rozvoj}
 \hypersetup{pdfauthor=Bc. Karel Koláø}
 
 %%% Nìjaká další makra
@@ -92,7 +104,7 @@
 %%% Drobné úpravy stylu
 
 % Tato makra pøesvìdèují mírnì ošklivým trikem LaTeX, aby hlavièky kapitol
-% sázel pøíèetnìji a nevynechával nad nimi spoustu místa. Smìle ignorujte.
+% sázel pøíèetnìji a~nevynechával nad nimi spoustu místa. Smìle ignorujte.
 \makeatletter
 \def\@makechapterhead#1{
   {\parindent \z@ \raggedright \normalfont
@@ -114,11 +126,22 @@
 \addcontentsline{toc}{chapter}{#1}
 }
 
+\def\secwithtoc#1{
+\section*{#1}
+\addcontentsline{toc}{section}{#1}
+}
+
+\def\subsecwithtoc#1{
+\subsection*{#1}
+\addcontentsline{toc}{subsection}{#1}
+}
+
+
 \begin{document}
 
 % Trochu volnìjší nastavení dìlení slov, než je default.
-\lefthyphenmin=2
-\righthyphenmin=2
+%\lefthyphenmin=2
+%\righthyphenmin=2
 
 %%% Titulní strana práce
 
@@ -127,7 +150,7 @@
 
 \large
 
-Univerzita Karlova v Praze
+Univerzita Karlova v~Praze
 
 \medskip
 
@@ -149,19 +172,19 @@ Matematicko-fyzikální fakulta
 \vspace{15mm}
 
 % Název práce pøesnì podle zadání
-{\LARGE\bfseries Fyzikální korespondenèní semináø na MFF UK – reflexe a rozvoj}
+{\LARGE\bfseries Fyzikální korespondenèní semináø na MFF~UK – reflexe a~rozvoj}
 
 \vfill
 
 % Název katedry nebo ústavu, kde byla práce oficiálnì zadána
-% (dle Organizaèní struktury MFF UK)
+% (dle Organizaèní struktury MFF~UK)
 Katedra didaktiky fyziky
 
 \vfill
 
 \begin{tabular}{rl}
 
-Vedoucí diplomové práce: & RNDr. Vojtìch Žák, Ph.D. \\
+Vedoucí diplomové práce: & RNDr. Mgr. Vojtìch Žák, Ph.D. \\
 \noalign{\vspace{2mm}}
 Studijní program: & Fyzika \\
 \noalign{\vspace{2mm}}
@@ -183,9 +206,41 @@ Praha 2014
 %%% Na tomto místì mohou být napsána pøípadná podìkování (vedoucímu práce,
 %%% konzultantovi, tomu, kdo zapùjèil software, literaturu apod.)
 
-%Dìkuji firmì GoodData v~zastoupení Mgr. Tomáše Jirotky, která poskytla
-%nìkteré analytické nástroje pro zpracování dat a~statistik o øešitelích a jemu
-%osobnì za pomoc se sestavením nìkterých výstupù.
+\vglue 0pt plus 1fill
+
+\section*{Podìkování}
+
+V~první øadì bych chtìl podìkovat obecnì všem organizátorùm Fyzikálního ko\-res\-pon\-den\-èního
+semináøe (dále FYKOSu), kteøí se v~posledních 27 letech podíleli na jeho organizaci 
+a~rozvoji. Bez jejich úsilí, díky které FYKOS vznikl, fungoval a rozvíjel se,
+by toto téma nikdy neexistovalo. \\
+V souvislosti s tím bych chtìl podìkovat Matematicko-fyzikální fakultì
+Univerzity Karlovy v Praze, která FYKOS financuje a~umožòuje tak jeho chod.
+
+\vspace{1.5mm}
+
+Dìkuji všem, kteøí se zapojili do tvorby diplomové práce tím, že byli ochotni
+poskytnou interview, vyplnit pilotáž dotazníku, elektronický dotazník 
+èi mi odpovìdìli na email s~dotazem na jejich studijní a profesní vývoj.
+
+\vspace{1.5mm}
+
+Dìkuji svému vedoucímu dr. Vojtìchu Žákovi za to, že pøijal toto téma 
+a~pomohl mi ve formulaci konkrétních cílù této práce. Dále mu dìkuji
+za konzultace v~prùbìhu její tvorby, dále za velké množství námìtù, upozornìní 
+a~spoustu podnìtných pøipomínek.
+
+\vspace{1.5mm}
+
+Dìkuji Mgr. Tomáši Jirotkovi, který umožnil zpracování statistických 
+dat o~øešitelích FYKOSu v~analytických nástrojích firmy GoodData. 
+Dìkuji mu též za pomoc pøi tvorbì nìkterých výstupù tìchto nástrojù.
+
+\vspace{1.5mm}
+
+Za to, že si prošly èást mojí práce a~mìly námìty vylepšení práce, pøevážnì 
+k~vylepšení její jazykové stránky, dìkuji Bc.~Dominice Kalasové, dr.~Karolínì
+Houžvièkové Šolcové, Kristínì Nešporové a~dr.~Hance Šustkové.
 
 \openright
 
@@ -201,18 +256,18 @@ Praha 2014
 
 \noindent
 Prohlašuji, že jsem tuto diplomovou práci vypracoval samostatnì a~výhradnì
-s~použitím citovaných pramenù, literatury a~dalších odborných zdrojù.
+s~použitím vlastních zkušeností, citovaných pramenù, literatury a~dalších odborných zdrojù.
 
 \medskip\noindent
 Beru na~vìdomí, že se na moji práci vztahují práva a~povinnosti vyplývající
 ze zákona è. 121/2000 Sb., autorského zákona v~platném znìní, zejména skuteènost,
-že Univerzita Karlova v Praze má právo na~uzavøení licenèní smlouvy o~užití této
+že Univerzita Karlova v~Praze má právo na~uzavøení licenèní smlouvy o~užití této
 práce jako školního díla podle §60 odst. 1 autorského zákona.
 
 \vspace{10mm}
 
 \hbox{\hbox to 0.5\hsize{%
-V Praze dne % TODO 23.~5.~2012
+V~Praze dne 29. èervence 2014
 \hss}\hbox to 0.5\hsize{%
 Podpis autora
 \hss}}
@@ -227,32 +282,62 @@ Podpis autora
 \setlength\parskip{5mm}
 
 Název práce:
-Fyzikální korespondenèní semináø na MFF UK – reflexe a rozvoj
+Fyzikální korespondenèní semináø na MFF~UK – reflexe a~rozvoj
 % pøesnì dle zadání
 
 Autor:
 Bc. Karel Koláø
 
-Ústav:  % Pøípadnì Ústav:
+Katedra:  % Pøípadnì Ústav:
 Katedra didaktiky fyziky
-% dle Organizaèní struktury MFF UK
+% dle Organizaèní struktury MFF~UK
 
 Vedoucí diplomové práce:
-RNDr. Vojtìch Žák, Ph.D.
-% dle Organizaèní struktury MFF UK, pøípadnì plný název pracovištì mimo MFF UK
+RNDr. Mgr. Vojtìch Žák, Ph.D.
+% dle Organizaèní struktury MFF~UK, pøípadnì plný název pracovištì mimo MFF~UK
 
-Abstrakt: TODO
-% abstrakt v rozsahu 80-200 slov; nejedná se však o opis zadání diplomové práce
+Abstrakt: Fyzikální korespondenèní semináø 
+(FYKOS) je mimoškolní fyzikální vzdìlávací 
+aktivitou, kterou organizují vysokoškoláci pro støedoškoláky. \mbox{FYKOS} je 
+poøádán Matematicko-fyzikální fakultou Univerzity
+Karlovy v~Praze (MFF~UK). Jeho hlavními cíli jsou: popularizovat fyziku, vzdìlávat
+støedoškoláky, propagovat studium na MFF~UK 
+a~vytváøet sociální vazby mezi øešiteli (a~organizátory). 
+\\ 
+Tato práce je prvním uceleným textem o~fungování FYKOSu a~první
+systematickou zpìtnou vazbou úèastníkù a~organizátorù k~jeho pùsobení.
+V~první èásti práce jsou popsány jednotlivé aktivity 
+\mbox{FYKOSu} (korespondenèní èást,
+soustøedìní, \mbox{FYKOSí} Fyziklání a~další). Druhá kapitola je analýzou
+statistických dat o~øešitelích FYKOSu. 
+Další kapitoly jsou pak vìnovány sbìru a~vyhodnocení 
+zpìtné vazby od úèastníkù, která byla získána formou interview, elektronického 
+a~emailového dotazníku. Zvýšená pozornost byla vìnována studijnímu 
+a~profesnímu vývoji bývalých úèastníkù. 
+Získané poznatky pak vedly k návrhu možných vylepšení v organizaci FYKOSu,
+které jsou uvedeny v poslední èásti práce.
+%Závìreèná kapitola pak navrhuje vylepšení FYKOSu.
+\\ 
+Mezi respondenty prùzkumu byly zjištìno, že více než polovina bývalých
+øešitelù se rozhodla nastoupit ke studiu na MFF~UK. Z~respondentù, kteøí uvedli své
+zamìstnání, pracuje zhruba tøetina bývalých úèastníkù v~oblasti vìdy, 
+výzkumu a~vývoje a~ètvrtina z~nich pracuje v~oblasti~IT.
+% abstrakt v rozsahu 80-200 slov; nejedná se však o~opis zadání diplomové práce
 
-Klíèová slova: korespondenèní semináø, pedagogický výzkum, neformální vzdìlávání, fyzika
+Klíèová slova: korespondenèní semináø, pedagogický výzkum, 
+neformální vzdì\-lá\-vá\-ní, fyzika
 % 3 až 5 klíèových slov
 
-\vss}\nobreak\vbox to 0.49\vsize{
+%\vss}\nobreak\vbox to 0.49\vsize{
+%\setlength\parindent{0mm}
+%\setlength\parskip{5mm}
+
+\vss}\newpage\vbox to 0.5\vsize{
 \setlength\parindent{0mm}
 \setlength\parskip{5mm}
 
 Title:
-Correspondence physics competition of MFF UK – its feedback and development
+Correspondence physics competition of MFF~UK – its feedback and development
 % pøesný pøeklad názvu práce v angliètinì
 
 Author:
@@ -260,16 +345,41 @@ Bc. Karel Koláø
 
 Department:
 Department of Physics Education
-% dle Organizaèní struktury MFF UK v angliètinì
+% dle Organizaèní struktury MFF~UK v angliètinì
 
 Supervisor:
-RNDr. Vojtìch Žák, Ph.D.
-% dle Organizaèní struktury MFF UK, pøípadnì plný název pracovištì
-% mimo MFF UK v angliètinì
+RNDr. Mgr. Vojtìch Žák, Ph.D.
+% dle Organizaèní struktury MFF~UK, pøípadnì plný název pracovištì
+% mimo MFF~UK v angliètinì
 
-Abstract: 
-TODO
-% abstrakt v rozsahu 80-200 slov v angliètinì; nejedná se však o pøeklad
+Abstract: Correspondence physics competition of MFF~UK -- FYKOS -- is 
+extracurricular physical educational activity organized by university
+students for upper secondary school students. FYKOS is organized by  
+Faculty of Mathematics and Physics of Charles University in Prague (MFF~UK).
+FYKOS' main goals are: dissemination of physics, education of upper 
+secondary school students,
+establishing conditions for creation of social bindings between participants
+(and organizers) and propagation of possibility of studies at MFF~UK. 
+\\
+This work is the first complete text about running of FYKOS and it is also
+the first systematical feedback from FYKOS' participants and FYKOS' organizers.
+The first part is a description of all FYKOS' activities (correspondence part,
+camps, FYKOSí Fyziklání and others). The second chapter includes an
+analysis of statistical survey of FYKOS' participants. Other chapters are
+dedicated to the description of gathering feedback and its interpretation.
+The feedback was made in several ways -- interviews, web questionnaire and
+email questionnaire. Special attention was turned to study and
+professional development of former participants. 
+Acquired knowledge lead up to formulation of possible improvements of FYKOS
+which are introduced in the last part of this theses.
+\\
+It was discovered that among respondents of survey more than half of them
+decided to start study on MFF UK. Among respondents who gave an information
+about their job more than third works in the field of science, research and
+inovations and around one fourth work in the field of IT.
+
+
+% abstrakt v rozsahu 80-200 slov v angliètinì; nejedná se však o~pøeklad
 % zadání diplomové práce
 
 Keywords: correspondence competition, pedagogical research, informal education, physics
@@ -280,7 +390,7 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 \newpage
 
 %%% Strana s automaticky generovaným obsahem diplomové práce. U matematických
-%%% prací je pøípustné, aby seznam tabulek a zkratek, existují-li, byl umístìn
+%%% prací je pøípustné, aby seznam tabulek a~zkratek, existují-li, byl umístìn
 %%% na zaèátku práce, místo na jejím konci.
 
 \openright
@@ -292,42 +402,42 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 \include{predmluva}
 \include{uvod}
 
-\chapter{O Fyzikálním korespondenèním semináøi}
-\input{kap01} % Úvod - o FYKOSu
-\pagebreak
-\input{kap02} % Cíle FYKOSu a základní fakta o FYKOSu
-\pagebreak
+\chapter{O~Fyzikálním korespondenèním semináøi}
+\input{kap01} % Úvod - o~FYKOSu
+%\pagebreak
+\input{kap02} % Cíle FYKOSu a~základní fakta o~FYKOSu
+%\pagebreak
 \input{kap03} % Korespondenèní èást
-\pagebreak
+%\pagebreak
 \input{kap04} % Soustøedìní
-\pagebreak
+%\pagebreak
 \input{kap05} % Exkurze, poznávací zájezdy
-\pagebreak
-\input{kap11} % Soutìže FYKOSí Fyziklání a Fol
-\pagebreak
+%\pagebreak
+\input{kap11} % Soutìže FYKOSí Fyziklání a~Fol
+%\pagebreak
 \input{kap18} % Pøednášky pro støedoškoláky
-\pagebreak
+%\pagebreak
 \input{kap06} % Výfuk
-\pagebreak
+%\pagebreak
 \input{kap07} % Historie FYKOSu
 
-\chapter{Statistická data o FYKOSu a~jejich interpretace}
+\chapter{Statistická data o~FYKOSu a~jejich interpretace}
 \input{kap17} % Statistická øešitelù sérií - Úvod, Historické poèty øešitelù roèníku
 \input{kap19} % Statistická øešitelù sérií - Poèty úspìšných øešitelù, Poèty opravených úloh v~roènících, Celkový poèet získaných bodù øešiteli v roèníku
 \input{kap20} % Statistická øešitelù sérií - Poèty øešitelù dle sérií roèníku, Genderové statistiky øešitelù, Vìrnost øešitelù
 \input{kap25} % Statistická øešitelù sérií - shrnutí
 
-\chapter{Cíle a metody zpìtné vazby úèastníkù}
+\chapter{Cíle a~metody zpìtné vazby úèastníkù}
 \input{kap12} % Cíle
 \input{kap13} % Metody
 
-\chapter{Interview s øešiteli}
+\chapter{Interview}
 \input{kap14} % Interview - Rozhovory
 
 \chapter{Dotazníkové šetøení}
 \input{kap15} % Úvod k dotazníkovému šetøení, pilotáž
 \input{kap22} % Elektronický dotazník
-\input{kap23} % Srovnání odpovìdí v pilotáži a v elektronickém dotazníku
+\input{kap23} % Srovnání odpovìdí v pilotáži a~v elektronickém dotazníku
 \input{kap26} % Emailový dotazník
 
 \chapter{Studijní vývoj úèastníkù FYKOSu}
@@ -336,20 +446,18 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 \chapter{Profesní vývoj úèastníkù FYKOSu}
 \input{kap24} % Profesní vývoj
 
-%\chapter{Další soutìže a akce mimo FYKOS v ÈR a SR}
+%\chapter{Další soutìže a~akce mimo FYKOS v ÈR a~SR}
 %\input{kap08} % Úvod - další soutìže
-%\input{kap09} % Soutìže a akce organizované MFF UK
+%\input{kap09} % Soutìže a~akce organizované MFF~UK
 %\input{kap10} % Další soutìže
 
-\chapter{Navržená a realizovaná vylepšení FYKOSu}
-\input{kap27} % Celkové zmìny semináøe
+\chapter{Navržená a~realizovaná vylepšení FYKOSu}
+\input{kap27} % pseudoÚvod, Celkové zmìny semináøe
 \input{kap28} % Korespondenèní èást
 \input{kap16} % Vylepšení stránek
 \input{kap29} % Vylepšení akcí
 
-
 \include{zaver}
-
 
 %%% Seznam použité literatury
 \include{literatura}
@@ -357,7 +465,7 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 %%% Teoreticky by bylo lepší dìlat seznam literatury pøes BibTeX, kdyby 
 %%% se mi ho podaøilo zprovoznit tak, že by fungoval podle normy ISO, což
 %%% ale vypadá docela nerealisticky, protože žádný z anglických stylù na to 
-%%% nesedí a i existující èeská verze na internetu se tváøí nedokonale a mírnì
+%%% nesedí a~i existující èeská verze na internetu se tváøí nedokonale a~mírnì
 %%% common-Windows-user-unfriendly
 %\bibliographystyle{plain}  % srovnáno abecednì
 %\bibliographystyle{unsrt}  % srovnáno podle poøadí citace
@@ -366,8 +474,18 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 %\bibliography{prace}
 %\addcontentsline{toc}{chapter}{\bibname} % tohle by se pøípadnì mìlo spíš vrazit dovnitø prace.bbl
 
-%%% Tabulky v diplomové práci, existují-li.
+%%%% Tabulky v diplomové práci, existují-li.
+%\pagebreak
 %\chapwithtoc{Seznam tabulek}
+%
+%\listoftables
+%\pagebreak
+%
+%%%% Seznam obrázkù
+%\chapwithtoc{Seznam obrázkù}
+%
+%\listoffigures
+%\pagebreak
 
 %%% Použité zkratky v diplomové práci, existují-li, vèetnì jejich vysvìtlení.
 
@@ -377,8 +495,8 @@ Keywords: correspondence competition, pedagogical research, informal education, 
 %%% Pøílohy k diplomové práci, existují-li (rùzné dodatky jako výpisy programù,
 %%% diagramy apod.). Každá pøíloha musí být alespoò jednou odkazována z vlastního
 %%% textu práce. Pøílohy se èíslují.
-% \chapwithtoc{Pøílohy}
 
+\appendix
 \include{prilohy}
 
 %\include{odpad}
