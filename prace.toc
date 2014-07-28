@@ -107,9 +107,12 @@
 \contentsline {subsection}{\numberline {3.2.2}Interview}{56}{subsection.3.2.2}
 \contentsline {subsubsection}{Formy interview}{57}{subsubsection*.76}
 \contentsline {subsubsection}{Z\'aznam interview}{57}{subsubsection*.77}
-\contentsline {subsubsection}{Typy ot\'azek}{58}{subsubsection*.78}
+\contentsline {subsubsection}{Typy ot\'azek}{57}{subsubsection*.78}
 \contentsline {subsection}{\numberline {3.2.3}Dotazn\IeC {\'\i }k}{58}{subsection.3.2.3}
-\contentsline {subsubsection}{Typy ot\'azek}{58}{subsubsection*.79}
+\contentsline {subsubsection}{Formy dotazn\IeC {\'\i }ku}{58}{subsubsection*.79}
+\contentsline {subsubsection}{D\'elka dotazn\IeC {\'\i }ku}{58}{subsubsection*.80}
+\contentsline {subsubsection}{Validita a reliabilita}{59}{subsubsection*.81}
+\contentsline {subsubsection}{Typy ot\'azek}{59}{subsubsection*.82}
 \contentsline {chapter}{\numberline {4}Interview}{60}{chapter.4}
 \contentsline {section}{\numberline {4.1}\'Uvod}{60}{section.4.1}
 \contentsline {section}{\numberline {4.2}Ot\'azky a~pr\r ub\v eh interview}{61}{section.4.2}
@@ -117,18 +120,18 @@
 \contentsline {subsection}{\numberline {4.3.1}Vztah respondent\r u k fyzice}{62}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Zdroje informace o existenci FYKOSu}{62}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Motivace k~\v re\v sen\IeC {\'\i } FYKOSu}{62}{subsection.4.3.3}
-\contentsline {subsubsection}{Motivace za\v c\IeC {\'\i }t}{62}{subsubsection*.80}
-\contentsline {subsubsection}{Motivace pokra\v covat}{63}{subsubsection*.81}
-\contentsline {subsubsection}{Zdroje demotivace}{63}{subsubsection*.82}
+\contentsline {subsubsection}{Motivace za\v c\IeC {\'\i }t}{62}{subsubsection*.83}
+\contentsline {subsubsection}{Motivace pokra\v covat}{63}{subsubsection*.84}
+\contentsline {subsubsection}{Zdroje demotivace}{63}{subsubsection*.85}
 \contentsline {subsection}{\numberline {4.3.4}Vztah FYKOSu a~dal\v s\IeC {\'\i }ho studia po st\v redn\IeC {\'\i } \v skole}{64}{subsection.4.3.4}
-\contentsline {subsubsection}{\'U\v castn\IeC {\'\i }ci}{64}{subsubsection*.83}
-\contentsline {subsubsection}{Organiz\'ato\v ri}{64}{subsubsection*.84}
+\contentsline {subsubsection}{\'U\v castn\IeC {\'\i }ci}{64}{subsubsection*.86}
+\contentsline {subsubsection}{Organiz\'ato\v ri}{64}{subsubsection*.87}
 \contentsline {subsection}{\numberline {4.3.5}Podpora \v skoly}{65}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}V\'yznam p\v redn\'a\v sek na soust\v red\v en\IeC {\'\i }ch}{65}{subsection.4.3.6}
 \contentsline {subsection}{\numberline {4.3.7}Siln\'y z\'a\v zitek spjat\'y s~FYKOSem}{66}{subsection.4.3.7}
 \contentsline {subsection}{\numberline {4.3.8}Co \unhbox \voidb@x \hbox {FYKOS} dal a~vzal?}{66}{subsection.4.3.8}
-\contentsline {subsubsection}{Co \unhbox \voidb@x \hbox {FYKOS} dal?}{67}{subsubsection*.85}
-\contentsline {subsubsection}{Co \unhbox \voidb@x \hbox {FYKOS} vzal?}{67}{subsubsection*.86}
+\contentsline {subsubsection}{Co \unhbox \voidb@x \hbox {FYKOS} dal?}{67}{subsubsection*.88}
+\contentsline {subsubsection}{Co \unhbox \voidb@x \hbox {FYKOS} vzal?}{67}{subsubsection*.89}
 \contentsline {subsection}{\numberline {4.3.9}Shrnut\IeC {\'\i } interview}{67}{subsection.4.3.9}
 \contentsline {chapter}{\numberline {5}Dotazn\IeC {\'\i }kov\'e \v set\v ren\IeC {\'\i }}{69}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pilot\'a\v z dotazn\IeC {\'\i }ku}{69}{section.5.1}
@@ -138,30 +141,30 @@
 \contentsline {subsection}{\numberline {5.2.1}Z\'akladn\IeC {\'\i } \'udaje o~dotazn\IeC {\'\i }ku}{70}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Struktura dotazn\IeC {\'\i }ku pro \v re\v sitele}{71}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Pl\'any na studium respondent\r u, ovlivn\v en\IeC {\'\i } FYKOSem}{73}{subsection.5.2.3}
-\contentsline {subsubsection}{Pl\'any na studium z\'aklado\v skol\'ak\r u}{73}{subsubsection*.87}
-\contentsline {subsubsection}{Pl\'any na studium st\v redo\v skol\'ak\r u}{73}{subsubsection*.88}
-\contentsline {subsubsection}{Z\'av\v er}{74}{subsubsection*.89}
+\contentsline {subsubsection}{Pl\'any na studium z\'aklado\v skol\'ak\r u}{73}{subsubsection*.90}
+\contentsline {subsubsection}{Pl\'any na studium st\v redo\v skol\'ak\r u}{73}{subsubsection*.91}
+\contentsline {subsubsection}{Z\'av\v er}{74}{subsubsection*.92}
 \contentsline {subsection}{\numberline {5.2.4}Zdroje informovanosti o~FYKOSu}{75}{subsection.5.2.4}
 \contentsline {subsection}{\numberline {5.2.5}Motivace k~\v re\v sen\IeC {\'\i } semin\'a\v re}{76}{subsection.5.2.5}
-\contentsline {subsubsection}{Motivace za\v c\IeC {\'\i }t \v re\v sit FYKOS}{77}{subsubsection*.91}
-\contentsline {subsubsection}{Motivace pokra\v covat v~\v re\v sen\IeC {\'\i } FYKOSu}{78}{subsubsection*.92}
+\contentsline {subsubsection}{Motivace za\v c\IeC {\'\i }t \v re\v sit FYKOS}{77}{subsubsection*.94}
+\contentsline {subsubsection}{Motivace pokra\v covat v~\v re\v sen\IeC {\'\i } FYKOSu}{78}{subsubsection*.95}
 \contentsline {subsection}{\numberline {5.2.6}Z\'azem\IeC {\'\i } a~podpora od u\v citel\r u a~\v skoly}{79}{subsection.5.2.6}
-\contentsline {subsubsection}{Podpora od u\v citel\r u}{79}{subsubsection*.93}
-\contentsline {subsubsection}{Podpora od \v skoly}{79}{subsubsection*.94}
-\contentsline {subsubsection}{Z\'av\v er}{80}{subsubsection*.95}
+\contentsline {subsubsection}{Podpora od u\v citel\r u}{79}{subsubsection*.96}
+\contentsline {subsubsection}{Podpora od \v skoly}{79}{subsubsection*.97}
+\contentsline {subsubsection}{Z\'av\v er}{80}{subsubsection*.98}
 \contentsline {subsection}{\numberline {5.2.7}Odpov\v edi k~pr\r ub\v ehu s\'eri\IeC {\'\i }}{80}{subsection.5.2.7}
 \contentsline {subsection}{\numberline {5.2.8}Dal\v s\IeC {\'\i } odpov\v edi \v re\v sitel\r u k~FYKOSu}{81}{subsection.5.2.8}
 \contentsline {subsection}{\numberline {5.2.9}Odpov\v edi ne\v re\v sitel\r u semin\'a\v re}{81}{subsection.5.2.9}
-\contentsline {subsubsection}{Struktura polo\v zek pro ne\v re\v sitele}{81}{subsubsection*.96}
-\contentsline {subsubsection}{D\r uvody ne\v re\v sitelstv\IeC {\'\i } FYKOSu}{82}{subsubsection*.97}
-\contentsline {subsubsection}{N\'azor na propagaci semin\'a\v re}{83}{subsubsection*.98}
-\contentsline {subsubsection}{Potenci\'aln\IeC {\'\i } motiva\v cn\IeC {\'\i } faktory pro zapo\v cet\IeC {\'\i } \v re\v sen\IeC {\'\i } FYKOSu}{83}{subsubsection*.99}
+\contentsline {subsubsection}{Struktura polo\v zek pro ne\v re\v sitele}{81}{subsubsection*.99}
+\contentsline {subsubsection}{D\r uvody ne\v re\v sitelstv\IeC {\'\i } FYKOSu}{82}{subsubsection*.100}
+\contentsline {subsubsection}{N\'azor na propagaci semin\'a\v re}{83}{subsubsection*.101}
+\contentsline {subsubsection}{Potenci\'aln\IeC {\'\i } motiva\v cn\IeC {\'\i } faktory pro zapo\v cet\IeC {\'\i } \v re\v sen\IeC {\'\i } FYKOSu}{83}{subsubsection*.102}
 \contentsline {section}{\numberline {5.3}Srovn\'an\IeC {\'\i } odpov\v ed\IeC {\'\i } \'u\v castn\IeC {\'\i }k\r u mezi pilot\'a\v z\IeC {\'\i } a~elektronick\'eho\\ dotazn\IeC {\'\i }ku}{84}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Pl\'any na studium na vysok\'e \v skole}{85}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Zdroje informovanosti o~FYKOSu}{85}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Motivace k~\v re\v sen\IeC {\'\i } FYKOSu}{85}{subsection.5.3.3}
-\contentsline {subsubsection}{Motivace za\v c\IeC {\'\i }t \v re\v sit FYKOS}{85}{subsubsection*.100}
-\contentsline {subsubsection}{Motivace pokra\v covat v~\v re\v sen\IeC {\'\i } FYKOSu}{85}{subsubsection*.101}
+\contentsline {subsubsection}{Motivace za\v c\IeC {\'\i }t \v re\v sit FYKOS}{85}{subsubsection*.103}
+\contentsline {subsubsection}{Motivace pokra\v covat v~\v re\v sen\IeC {\'\i } FYKOSu}{85}{subsubsection*.104}
 \contentsline {subsection}{\numberline {5.3.4}Z\'av\v er}{86}{subsection.5.3.4}
 \contentsline {section}{\numberline {5.4}Stru\v cn\'y emailov\'y dotazn\IeC {\'\i }k}{86}{section.5.4}
 \contentsline {chapter}{\numberline {6}Studijn\IeC {\'\i } v\'yvoj \'u\v castn\IeC {\'\i }k\r u FYKOSu}{87}{chapter.6}
@@ -171,8 +174,8 @@
 \contentsline {subsection}{\numberline {6.2.2}Vysok\'e \v skoly, kter\'e si vybrali b\'yval\IeC {\'\i } \v re\v sitel\'e FYKOSu \unhbox \voidb@x \hbox {ke~studiu}}{88}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Sm\v ery studia b\'yval\'ych \v re\v sitel\r u}{89}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}Hlavn\IeC {\'\i } d\r uvody \v re\v sitel\r u vedouc\IeC {\'\i } k~v\'yb\v eru vysok\'e \v skoly}{90}{subsection.6.2.4}
-\contentsline {subsubsection}{Pro\v c se rozhodli studovat MFF~UK}{90}{subsubsection*.102}
-\contentsline {subsubsection}{Pro\v c se nerozhodli studovat MFF~UK}{90}{subsubsection*.103}
+\contentsline {subsubsection}{Pro\v c se rozhodli studovat MFF~UK}{90}{subsubsection*.105}
+\contentsline {subsubsection}{Pro\v c se nerozhodli studovat MFF~UK}{90}{subsubsection*.106}
 \contentsline {section}{\numberline {6.3}Z\'av\v ere\v cn\'a pozn\'amka}{93}{section.6.3}
 \contentsline {chapter}{\numberline {7}Profesn\IeC {\'\i } v\'yvoj \'u\v castn\IeC {\'\i }k\r u FYKOSu}{94}{chapter.7}
 \contentsline {section}{\numberline {7.1}D\r ule\v zitost zkoum\'an\IeC {\'\i } profesn\IeC {\'\i }ho v\'yvoje \'u\v castn\IeC {\'\i }k\r u}{94}{section.7.1}
@@ -180,10 +183,10 @@
 \contentsline {subsection}{\numberline {7.2.1}Vysok\'e \v skoly}{94}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}D\r uvody v\'yb\v eru \v skoly pro Ph.D. studium}{95}{subsection.7.2.2}
 \contentsline {section}{\numberline {7.3}Profese zast\'avan\'e b\'yval\'ymi \'u\v castn\IeC {\'\i }ky FYKOSu}{95}{section.7.3}
-\contentsline {subsubsection}{V\v eda, v\'yzkum a~v\'yvoj}{96}{subsubsection*.104}
-\contentsline {subsubsection}{Informa\v cn\IeC {\'\i } technologie}{96}{subsubsection*.105}
-\contentsline {subsubsection}{Ostatn\IeC {\'\i } profese}{96}{subsubsection*.106}
-\contentsline {subsubsection}{Pl\'any respondent\r u do budoucna}{97}{subsubsection*.107}
+\contentsline {subsubsection}{V\v eda, v\'yzkum a~v\'yvoj}{96}{subsubsection*.107}
+\contentsline {subsubsection}{Informa\v cn\IeC {\'\i } technologie}{96}{subsubsection*.108}
+\contentsline {subsubsection}{Ostatn\IeC {\'\i } profese}{96}{subsubsection*.109}
+\contentsline {subsubsection}{Pl\'any respondent\r u do budoucna}{97}{subsubsection*.110}
 \contentsline {section}{\numberline {7.4}Z\'av\v ere\v cn\'a pozn\'amka}{97}{section.7.4}
 \contentsline {chapter}{\numberline {8}Navr\v zen\'a a~realizovan\'a vylep\v sen\IeC {\'\i } FYKOSu}{98}{chapter.8}
 \contentsline {section}{\numberline {8.1}Vylep\v sen\IeC {\'\i } FYKOSu jako celku}{98}{section.8.1}
@@ -193,109 +196,109 @@
 \contentsline {section}{\numberline {8.2}Vylep\v sen\IeC {\'\i } koresponden\v cn\IeC {\'\i } \v c\'asti FYKOSu}{100}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Po\v cet s\'eri\IeC {\'\i } a~\'uloh v~nich}{100}{subsection.8.2.1}
 \contentsline {subsection}{\numberline {8.2.2}Syst\'em odm\v en}{101}{subsection.8.2.2}
-\contentsline {subsubsection}{Hodnotn\'e ceny}{101}{subsubsection*.108}
-\contentsline {subsubsection}{\v C\'aste\v cn\'a zm\v ena st\'avaj\IeC {\'\i }c\IeC {\'\i }ho syst\'emu}{101}{subsubsection*.109}
-\contentsline {subsubsection}{N\'avrh na zm\v enu koncepce odm\v e\v nov\'an\IeC {\'\i }}{101}{subsubsection*.110}
+\contentsline {subsubsection}{Hodnotn\'e ceny}{101}{subsubsection*.111}
+\contentsline {subsubsection}{\v C\'aste\v cn\'a zm\v ena st\'avaj\IeC {\'\i }c\IeC {\'\i }ho syst\'emu}{101}{subsubsection*.112}
+\contentsline {subsubsection}{N\'avrh na zm\v enu koncepce odm\v e\v nov\'an\IeC {\'\i }}{101}{subsubsection*.113}
 \contentsline {subsection}{\numberline {8.2.3}Syst\'em bodov\'an\IeC {\'\i }}{102}{subsection.8.2.3}
-\contentsline {subsubsection}{Zv\'y\v sen\IeC {\'\i } bodov\'eho maxima u~\'uloh}{102}{subsubsection*.111}
-\contentsline {subsubsection}{Bodov\'e zv\'yhodn\v en\IeC {\'\i } mlad\v s\IeC {\'\i }ch ro\v cn\IeC {\'\i }k\r u}{102}{subsubsection*.112}
+\contentsline {subsubsection}{Zv\'y\v sen\IeC {\'\i } bodov\'eho maxima u~\'uloh}{102}{subsubsection*.114}
+\contentsline {subsubsection}{Bodov\'e zv\'yhodn\v en\IeC {\'\i } mlad\v s\IeC {\'\i }ch ro\v cn\IeC {\'\i }k\r u}{102}{subsubsection*.115}
 \contentsline {subsection}{\numberline {8.2.4}Sout\v e\v z \v skol}{103}{subsection.8.2.4}
 \contentsline {subsection}{\numberline {8.2.5}Zp\r usob odevzd\'av\'an\IeC {\'\i } \'uloh}{103}{subsection.8.2.5}
 \contentsline {section}{\numberline {8.3}Vylep\v sen\IeC {\'\i } webov\'ych str\'anek FYKOSu}{104}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}Design a~funk\v cnost}{104}{subsection.8.3.1}
-\contentsline {subsubsection}{Vzhled}{104}{subsubsection*.113}
-\contentsline {subsubsection}{Funk\v cnost}{104}{subsubsection*.114}
-\contentsline {subsubsection}{Barvy}{104}{subsubsection*.115}
-\contentsline {subsubsection}{Rychl\'e odkazy}{104}{subsubsection*.116}
-\contentsline {subsubsection}{Z\'av\v er k~designu a~funk\v cnosti}{105}{subsubsection*.117}
+\contentsline {subsubsection}{Vzhled}{104}{subsubsection*.116}
+\contentsline {subsubsection}{Funk\v cnost}{104}{subsubsection*.117}
+\contentsline {subsubsection}{Barvy}{104}{subsubsection*.118}
+\contentsline {subsubsection}{Rychl\'e odkazy}{104}{subsubsection*.119}
+\contentsline {subsubsection}{Z\'av\v er k~designu a~funk\v cnosti}{105}{subsubsection*.120}
 \contentsline {subsection}{\numberline {8.3.2}Obsah}{105}{subsection.8.3.2}
-\contentsline {subsubsection}{Str\'anka s~n\'am\v ety ke studiu}{105}{subsubsection*.118}
-\contentsline {subsubsection}{Zv\'yrazn\v en\IeC {\'\i } vybran\'ych informac\IeC {\'\i }}{105}{subsubsection*.119}
+\contentsline {subsubsection}{Str\'anka s~n\'am\v ety ke studiu}{105}{subsubsection*.121}
+\contentsline {subsubsection}{Zv\'yrazn\v en\IeC {\'\i } vybran\'ych informac\IeC {\'\i }}{105}{subsubsection*.122}
 \contentsline {subsection}{\numberline {8.3.3}Zm\v ena syst\'emu -- p\v rechod na dokuwiki}{106}{subsection.8.3.3}
 \contentsline {section}{\numberline {8.4}Vylep\v sen\IeC {\'\i } jednotliv\'ych akc\IeC {\'\i } FYKOSu}{106}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}FYKOS\IeC {\'\i } Fyzikl\'an\IeC {\'\i }}{106}{subsection.8.4.1}
-\contentsline {subsubsection}{Term\IeC {\'\i }n sout\v e\v ze}{106}{subsubsection*.120}
+\contentsline {subsubsection}{Term\IeC {\'\i }n sout\v e\v ze}{106}{subsubsection*.123}
 \contentsline {subsection}{\numberline {8.4.2}Fyzikl\'an\IeC {\'\i } online}{106}{subsection.8.4.2}
-\contentsline {subsubsection}{Term\IeC {\'\i }n sout\v e\v ze}{106}{subsubsection*.121}
+\contentsline {subsubsection}{Term\IeC {\'\i }n sout\v e\v ze}{106}{subsubsection*.124}
 \contentsline {subsection}{\numberline {8.4.3}T\'yden s~aplikovanou fyzikou}{107}{subsection.8.4.3}
-\contentsline {subsubsection}{Opakov\'an\IeC {\'\i } zahrani\v cn\IeC {\'\i } formy TSAFu}{107}{subsubsection*.122}
+\contentsline {subsubsection}{Opakov\'an\IeC {\'\i } zahrani\v cn\IeC {\'\i } formy TSAFu}{107}{subsubsection*.125}
 \contentsline {subsection}{\numberline {8.4.4}P\v redn\'a\v sky FYKOSu pro st\v redo\v skol\'aky}{107}{subsection.8.4.4}
-\contentsline {subsubsection}{V\v et\v s\IeC {\'\i } prov\'azanost s~\'ulohami s\'eri\IeC {\'\i }}{107}{subsubsection*.123}
-\contentsline {subsubsection}{Zvan\'e p\v redn\'a\v sky pro \v skoly/krou\v zky}{107}{subsubsection*.124}
-\contentsline {chapter}{Z\'av\v er}{109}{chapter*.125}
-\contentsline {chapter}{Seznam pou\v zit\'e literatury}{113}{chapter*.126}
-\contentsline {chapter}{Seznam zkratek}{116}{chapter*.127}
-\contentsline {chapter}{P\v r\IeC {\'\i }lohy}{118}{appendix*.128}
-\contentsline {section}{P\v r\IeC {\'\i }loha I: P\r uvod loga FYKOSu}{118}{section*.129}
-\contentsline {section}{P\v r\IeC {\'\i }loha II: Statut koresponden\v cn\IeC {\'\i }ch semin\'a\v r\r u MFF~UK}{119}{figure.caption.130}
+\contentsline {subsubsection}{V\v et\v s\IeC {\'\i } prov\'azanost s~\'ulohami s\'eri\IeC {\'\i }}{107}{subsubsection*.126}
+\contentsline {subsubsection}{Zvan\'e p\v redn\'a\v sky pro \v skoly/krou\v zky}{107}{subsubsection*.127}
+\contentsline {chapter}{Z\'av\v er}{109}{chapter*.128}
+\contentsline {chapter}{Seznam pou\v zit\'e literatury}{113}{chapter*.129}
+\contentsline {chapter}{Seznam zkratek}{116}{chapter*.130}
+\contentsline {chapter}{P\v r\IeC {\'\i }lohy}{118}{appendix*.131}
+\contentsline {section}{P\v r\IeC {\'\i }loha I: P\r uvod loga FYKOSu}{118}{section*.132}
+\contentsline {section}{P\v r\IeC {\'\i }loha II: Statut koresponden\v cn\IeC {\'\i }ch semin\'a\v r\r u MFF~UK}{119}{figure.caption.133}
 \contentsline {section}{P\v r\IeC {\'\i }loha III: Uk\'azky \'uloh ze s\'eri\IeC {\'\i } FYKOSu}{120}{Item.39}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- A: Jednoduch\'a \'uloha -- 24-IV-1 a) -- napnut\'a struna}{120}{section*.131}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{120}{subsubsection*.132}
-\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{120}{subsubsection*.133}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- B: Jednoduch\'a \'uloha -- 27-I-1 -- zlat\'a p\v rehrada}{121}{AMS.134}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{121}{subsubsection*.135}
-\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{121}{subsubsection*.136}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- C: Jednoduch\'a \'uloha -- 27-VI-1 -- antij\'adro}{122}{subsubsection*.136}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{122}{subsubsection*.137}
-\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{122}{subsubsection*.138}
-\contentsline {subsubsection}{Pozn\'amky k~do\v sl\'ym \v re\v sen\IeC {\'\i }m}{123}{subsubsection*.139}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- D: Norm\'aln\IeC {\'\i } \'uloha -- 24-VI-4 -- kone\v cn\'e \v re\v sen\IeC {\'\i } ot\'azky glo\discretionary {-}{}{}b\'al\discretionary {-}{}{}n\IeC {\'\i }\discretionary {-}{}{}ho oteplov\'an\IeC {\'\i }}{123}{subsubsection*.139}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{123}{subsubsection*.140}
-\contentsline {subsubsection}{Teorie}{123}{subsubsection*.141}
-\contentsline {subsubsection}{N\v eco nav\IeC {\'\i }c}{125}{subsubsection*.142}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- E: Norm\'aln\IeC {\'\i } \'uloha -- 25-VI-5 -- b\v eh na p\v redn\'a\v sku z~eugeniky}{126}{subsubsection*.142}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{126}{subsubsection*.143}
-\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{126}{subsubsection*.144}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- F: Norm\'aln\IeC {\'\i } \'uloha -- 27-II-3 -- t\'yr\'an\IeC {\'\i } p\IeC {\'\i }stu}{128}{figure.caption.148}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{128}{subsubsection*.149}
-\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{128}{subsubsection*.150}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- G: Probl\'emov\'a \'uloha -- 25-V-P -- sv\v eteln\'y me\v c}{130}{figure.caption.153}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{130}{subsubsection*.154}
-\contentsline {subsubsection}{\'Uvod ke sv\v eteln\'ym me\v c\r um}{130}{subsubsection*.155}
-\contentsline {subsubsection}{Energetick\'y zdroj}{131}{subsubsection*.156}
-\contentsline {subsubsection}{Laserov\'y me\v c}{132}{subsubsection*.157}
-\contentsline {subsubsection}{Plazmov\'y me\v c}{132}{subsubsection*.158}
-\contentsline {subsubsection}{Chlazen\IeC {\'\i }}{133}{subsubsection*.159}
-\contentsline {subsubsection}{Z\'av\v er}{133}{subsubsection*.160}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- H: Probl\'emov\'a \'uloha -- 26-IV-P -- Mraz\IeC {\'\i }k}{134}{subsubsection*.160}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{134}{subsubsection*.161}
-\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{134}{subsubsection*.162}
-\contentsline {subsubsection}{Koment\'a\v r k~do\v sl\'ym \v re\v sen\IeC {\'\i }m}{137}{subsubsection*.167}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- I: Experiment\'aln\IeC {\'\i } -- 24-V-E -- strunatci}{138}{subsubsection*.167}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{138}{subsubsection*.168}
-\contentsline {subsubsection}{Teorie}{138}{subsubsection*.169}
-\contentsline {subsubsection}{Postup m\v e\v ren\IeC {\'\i }}{139}{subsubsection*.170}
-\contentsline {subsubsection}{V\'ysledky}{140}{subsubsection*.172}
-\contentsline {subsubsection}{Diskuze}{142}{subsubsection*.175}
-\contentsline {subsubsection}{Z\'av\v er}{142}{subsubsection*.176}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- J: Experiment\'aln\IeC {\'\i } -- 25-I-E -- brumlovo \unhbox \voidb@x \hbox {tajemstv\IeC {\'\i }}}{142}{subsubsection*.176}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{142}{subsubsection*.177}
-\contentsline {subsubsection}{\'Uvod}{142}{subsubsection*.178}
-\contentsline {subsubsection}{Zm\v ena objemu}{143}{subsubsection*.179}
-\contentsline {subsubsection}{Index lomu}{144}{subsubsection*.182}
-\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } m\v ern\'eho elektrick\'eho odporu}{144}{subsubsection*.183}
-\contentsline {subsubsection}{Pevnost}{145}{subsubsection*.184}
-\contentsline {subsubsection}{Koment\'a\v r k~\v re\v sen\IeC {\'\i }}{145}{subsubsection*.185}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- K: Experiment\'aln\IeC {\'\i } -- 25-II-E -- \v co\v ckov\'an\IeC {\'\i }}{146}{subsubsection*.185}
-\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{146}{subsubsection*.186}
-\contentsline {subsubsection}{\'Uvod}{146}{subsubsection*.187}
-\contentsline {subsubsection}{Druhy \v co\v cek}{146}{subsubsection*.188}
-\contentsline {subsubsection}{V\'ypo\v cet ohniskov\'e vzd\'alenosti z~polom\v er\r u k\v rivosti}{147}{subsubsection*.190}
-\contentsline {subsubsection}{Teorie}{147}{subsubsection*.192}
-\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti spojky -- teorie}{148}{subsubsection*.193}
-\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti spojky -- experiment}{150}{subsubsection*.196}
-\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti rozptylky -- teorie}{150}{subsubsection*.198}
-\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti rozptylky -- experiment}{150}{subsubsection*.200}
-\contentsline {subsubsection}{Diskuse a~chyby m\v e\v ren\IeC {\'\i }}{152}{subsubsection*.202}
-\contentsline {section}{P\v r\IeC {\'\i }loha IV: Organiza\v cn\IeC {\'\i } \v r\'ad FYKOS\IeC {\'\i }ho Fyzikl\'an\IeC {\'\i }}{153}{subsubsection*.202}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- A: Jednoduch\'a \'uloha -- 24-IV-1 a) -- napnut\'a struna}{120}{section*.134}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{120}{subsubsection*.135}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{120}{subsubsection*.136}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- B: Jednoduch\'a \'uloha -- 27-I-1 -- zlat\'a p\v rehrada}{121}{AMS.137}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{121}{subsubsection*.138}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{121}{subsubsection*.139}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- C: Jednoduch\'a \'uloha -- 27-VI-1 -- antij\'adro}{122}{subsubsection*.139}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{122}{subsubsection*.140}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{122}{subsubsection*.141}
+\contentsline {subsubsection}{Pozn\'amky k~do\v sl\'ym \v re\v sen\IeC {\'\i }m}{123}{subsubsection*.142}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- D: Norm\'aln\IeC {\'\i } \'uloha -- 24-VI-4 -- kone\v cn\'e \v re\v sen\IeC {\'\i } ot\'azky glo\discretionary {-}{}{}b\'al\discretionary {-}{}{}n\IeC {\'\i }\discretionary {-}{}{}ho oteplov\'an\IeC {\'\i }}{123}{subsubsection*.142}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{123}{subsubsection*.143}
+\contentsline {subsubsection}{Teorie}{123}{subsubsection*.144}
+\contentsline {subsubsection}{N\v eco nav\IeC {\'\i }c}{125}{subsubsection*.145}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- E: Norm\'aln\IeC {\'\i } \'uloha -- 25-VI-5 -- b\v eh na p\v redn\'a\v sku z~eugeniky}{126}{subsubsection*.145}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{126}{subsubsection*.146}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{126}{subsubsection*.147}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- F: Norm\'aln\IeC {\'\i } \'uloha -- 27-II-3 -- t\'yr\'an\IeC {\'\i } p\IeC {\'\i }stu}{128}{figure.caption.151}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{128}{subsubsection*.152}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{128}{subsubsection*.153}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- G: Probl\'emov\'a \'uloha -- 25-V-P -- sv\v eteln\'y me\v c}{130}{figure.caption.156}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{130}{subsubsection*.157}
+\contentsline {subsubsection}{\'Uvod ke sv\v eteln\'ym me\v c\r um}{130}{subsubsection*.158}
+\contentsline {subsubsection}{Energetick\'y zdroj}{131}{subsubsection*.159}
+\contentsline {subsubsection}{Laserov\'y me\v c}{132}{subsubsection*.160}
+\contentsline {subsubsection}{Plazmov\'y me\v c}{132}{subsubsection*.161}
+\contentsline {subsubsection}{Chlazen\IeC {\'\i }}{133}{subsubsection*.162}
+\contentsline {subsubsection}{Z\'av\v er}{133}{subsubsection*.163}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- H: Probl\'emov\'a \'uloha -- 26-IV-P -- Mraz\IeC {\'\i }k}{134}{subsubsection*.163}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{134}{subsubsection*.164}
+\contentsline {subsubsection}{\v Re\v sen\IeC {\'\i }}{134}{subsubsection*.165}
+\contentsline {subsubsection}{Koment\'a\v r k~do\v sl\'ym \v re\v sen\IeC {\'\i }m}{137}{subsubsection*.170}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- I: Experiment\'aln\IeC {\'\i } -- 24-V-E -- strunatci}{138}{subsubsection*.170}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{138}{subsubsection*.171}
+\contentsline {subsubsection}{Teorie}{138}{subsubsection*.172}
+\contentsline {subsubsection}{Postup m\v e\v ren\IeC {\'\i }}{139}{subsubsection*.173}
+\contentsline {subsubsection}{V\'ysledky}{140}{subsubsection*.175}
+\contentsline {subsubsection}{Diskuze}{142}{subsubsection*.178}
+\contentsline {subsubsection}{Z\'av\v er}{142}{subsubsection*.179}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- J: Experiment\'aln\IeC {\'\i } -- 25-I-E -- brumlovo \unhbox \voidb@x \hbox {tajemstv\IeC {\'\i }}}{142}{subsubsection*.179}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{142}{subsubsection*.180}
+\contentsline {subsubsection}{\'Uvod}{142}{subsubsection*.181}
+\contentsline {subsubsection}{Zm\v ena objemu}{143}{subsubsection*.182}
+\contentsline {subsubsection}{Index lomu}{144}{subsubsection*.185}
+\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } m\v ern\'eho elektrick\'eho odporu}{144}{subsubsection*.186}
+\contentsline {subsubsection}{Pevnost}{145}{subsubsection*.187}
+\contentsline {subsubsection}{Koment\'a\v r k~\v re\v sen\IeC {\'\i }}{145}{subsubsection*.188}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha III -- K: Experiment\'aln\IeC {\'\i } -- 25-II-E -- \v co\v ckov\'an\IeC {\'\i }}{146}{subsubsection*.188}
+\contentsline {subsubsection}{Zad\'an\IeC {\'\i }}{146}{subsubsection*.189}
+\contentsline {subsubsection}{\'Uvod}{146}{subsubsection*.190}
+\contentsline {subsubsection}{Druhy \v co\v cek}{146}{subsubsection*.191}
+\contentsline {subsubsection}{V\'ypo\v cet ohniskov\'e vzd\'alenosti z~polom\v er\r u k\v rivosti}{147}{subsubsection*.193}
+\contentsline {subsubsection}{Teorie}{147}{subsubsection*.195}
+\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti spojky -- teorie}{148}{subsubsection*.196}
+\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti spojky -- experiment}{150}{subsubsection*.199}
+\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti rozptylky -- teorie}{150}{subsubsection*.201}
+\contentsline {subsubsection}{M\v e\v ren\IeC {\'\i } ohniskov\'e vzd\'alenosti rozptylky -- experiment}{150}{subsubsection*.203}
+\contentsline {subsubsection}{Diskuse a~chyby m\v e\v ren\IeC {\'\i }}{152}{subsubsection*.205}
+\contentsline {section}{P\v r\IeC {\'\i }loha IV: Organiza\v cn\IeC {\'\i } \v r\'ad FYKOS\IeC {\'\i }ho Fyzikl\'an\IeC {\'\i }}{153}{subsubsection*.205}
 \contentsline {section}{P\v r\IeC {\'\i }loha V: Pravidla 8. ro\v cn\IeC {\'\i }ku FYKOS\IeC {\'\i }ho \unhbox \voidb@x \hbox {Fyzikl\'an\IeC {\'\i }}}{157}{Item.82}
 \contentsline {section}{P\v r\IeC {\'\i }loha VI: Organiza\v cn\IeC {\'\i } \v r\'ad Fyzikl\'an\IeC {\'\i } online}{160}{Item.82}
 \contentsline {section}{P\v r\IeC {\'\i }loha VII: Pravidla 3. ro\v cn\IeC {\'\i }ku Fyzikl\'an\IeC {\'\i } online}{164}{Item.119}
-\contentsline {subsubsection}{Hurry-up}{165}{subsubsection*.203}
-\contentsline {section}{P\v r\IeC {\'\i }loha VIII: Zn\v en\IeC {\'\i } ot\'azek dotazn\IeC {\'\i }ku z~pilot\'a\v ze}{166}{subsubsection*.203}
-\contentsline {section}{P\v r\IeC {\'\i }loha IX: Elektronick\'y dotazn\IeC {\'\i }k}{172}{subsubsection*.203}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- A: Popis p\v rilo\v zen\'eho dotazn\IeC {\'\i }ku}{172}{section*.204}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- B: Uk\'azka v\'ystupu dotazn\IeC {\'\i }ku jednoho vypln\v en\IeC {\'\i }}{173}{section*.204}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- C: K\'ody odpov\v ed\IeC {\'\i }}{176}{figure.caption.207}
-\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- D: Pr\r uchody dotazn\IeC {\'\i }kem}{189}{figure.caption.220}
-\contentsline {section}{P\v r\IeC {\'\i }loha X: Stru\v cn\'y mailov\'y dotazn\IeC {\'\i }k}{200}{figure.caption.232}
+\contentsline {subsubsection}{Hurry-up}{165}{subsubsection*.206}
+\contentsline {section}{P\v r\IeC {\'\i }loha VIII: Zn\v en\IeC {\'\i } ot\'azek dotazn\IeC {\'\i }ku z~pilot\'a\v ze}{166}{subsubsection*.206}
+\contentsline {section}{P\v r\IeC {\'\i }loha IX: Elektronick\'y dotazn\IeC {\'\i }k}{172}{subsubsection*.206}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- A: Popis p\v rilo\v zen\'eho dotazn\IeC {\'\i }ku}{172}{section*.207}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- B: Uk\'azka v\'ystupu dotazn\IeC {\'\i }ku jednoho vypln\v en\IeC {\'\i }}{173}{section*.207}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- C: K\'ody odpov\v ed\IeC {\'\i }}{176}{figure.caption.210}
+\contentsline {subsection}{P\v r\IeC {\'\i }loha IX -- D: Pr\r uchody dotazn\IeC {\'\i }kem}{189}{figure.caption.223}
+\contentsline {section}{P\v r\IeC {\'\i }loha X: Stru\v cn\'y mailov\'y dotazn\IeC {\'\i }k}{200}{figure.caption.235}
